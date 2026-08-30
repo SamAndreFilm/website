@@ -11,7 +11,7 @@ Abbreviations used in this project:
 
 | Page | File | Notes |
 |---|---|---|
-| Films (home) | `index.html` | 2-column grid, hover reveals role + title, click opens a film page |
+| Films (home) | `index.html` | 2-column grid of 22 films, hover reveals role + title, click opens a film page |
 | Film detail | `film.html?slug=...` | One template, reads content from `assets/js/data.js` |
 | Photography | `photography.html` | Same grid architecture as Films |
 | Photo-set detail | `photo-set.html?slug=...` | Same template pattern as film detail |
@@ -54,7 +54,7 @@ launch.
 ### Images
 
 All imagery is already in place, sourced from the WordPress export of the
-previous samandre.com site. **399 images** across 18 films and 8 photo sets,
+previous samandre.com site. **479 images** across 22 films and 8 photo sets,
 plus the About portrait.
 
 Naming convention (chosen for search visibility and for finding a file later):
@@ -77,9 +77,14 @@ Samantha André, Cinematographer / Field Producer."*
 
 Images were resized to a 2000px long edge and re-encoded as progressive JPEG
 (quality 82); animated GIFs were reduced to a 720px long edge. That took the
-set from 1.15 GB of originals down to **116 MB**, which matters because
+set from 1.24 GB of originals down to **137 MB**, which matters because
 GitHub Pages caps a published site at 1 GB. Originals are untouched in
 `old_website_content/`.
+
+A cover is used twice — scaled and colour-filtered in the grid, and as the
+full-bleed hero on the detail page — so where the old site's featured image
+was an animated GIF, the build picks the first still frame in that project's
+gallery instead.
 
 If a file is ever missing at a referenced path, the site renders a labeled
 placeholder panel rather than a broken-image icon (see `attachImageFallback`
@@ -97,16 +102,27 @@ most of it stock demo content ("Cafe Bar", "Romance Films", "Thriller
 Movies"). The real site was the handful of items the home page explicitly
 listed. Concretely:
 
-- The **home page** (`page` id 6200, slug `films`) lists exactly 18
+- The **home page** (`page` id 6200, slug `films`) listed exactly 18
   portfolio items by ID in its `edgtf_portfolio_list` shortcodes. Those 18
-  are the `FILMS` array, in that order.
+  are the backbone of the `FILMS` array, in that order.
+- Four more films existed in the export tagged `films` but were not in that
+  list — **Mary's Way**, **No Refuge**, **Sikh Lens**, and **Agua Leva, Agua
+  Da**. That looked like drift in the old site rather than a decision (Mary's
+  Way is the feature her own bio is about, and No Refuge was even tagged
+  `home-page`), so they were added. Mary's Way sits directly after *Here:
+  Maasai Land*, which its own page calls it a continuation of. To reorder the
+  grid, reorder the `FILMS` array — nothing else reads position.
 - The **Photos page** (id 5216) pulls the `photos` portfolio category
   ordered by slug. Those 8 are the `PHOTO_SETS` array, in that order.
 - Everything unreachable from the home page was left out.
 - Per-project images came from the `edgtf-portfolio-image-gallery` postmeta
   (the ordered gallery), with `_thumbnail_id` as the cover.
-- Duplicates were removed by MD5: 8 exact duplicates dropped, and 5 images
-  that legitimately appear in more than one project were kept in each.
+- Duplicates were removed by MD5; images that legitimately appear in more
+  than one project were kept in each.
+- Every `synopsis` and `year` is the old site's own text, extracted from the
+  page-builder markup rather than rewritten. A few of her originals contain
+  typos ("indegenous", "Daugthers", "heatbreaks"); these were left as written
+  rather than silently edited.
 
 ### CV
 
