@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Samantha André — Photography</title>
-<meta name="description" content="Photography by Samantha André: artist portraits, fashion, festival, and travel work." />
+<title>Samantha André — Films</title>
+<meta name="description" content="Samantha André is a director, DP (Director of Photography), and editor working in documentary film. Selected films." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Archivo:wght@500;600;700&family=Work+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -16,13 +16,13 @@
 
 <main>
   <section class="page-hero">
-    <p class="eyebrow">SELECTED WORK &middot; STILL PHOTOGRAPHY</p>
-    <h1>Photography</h1>
-    <p>Portraits, fashion, and travel photography by Samantha André. Hover a still for the set title, click through for the full series.</p>
+    <p class="eyebrow" id="reel-count"></p>
+    <h1>Films</h1>
+    <p>Documentary features, branded films, and shorts directed, shot, or edited by Samantha André. Hover a still for role and title, click through for the film, her note, and stills.</p>
   </section>
 
   <div class="grid-pad">
-    <div class="reel-grid" id="photo-grid"></div>
+    <div class="reel-grid" id="films-grid"></div>
   </div>
 </main>
 
@@ -33,10 +33,13 @@
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     renderReelGrid(
-      document.getElementById("photo-grid"),
-      PHOTO_SETS,
-      (item) => `photo-set.html?slug=${item.slug}`
+      document.getElementById("films-grid"),
+      FILMS,
+      (item) => `film.html?slug=${item.slug}`
     );
+    // derived from the data so it cannot drift when a film is added
+    document.getElementById("reel-count").textContent =
+      `SELECTED WORK \u00B7 01\u2013${String(FILMS.length).padStart(2, "0")}`;
   });
 </script>
 </body>

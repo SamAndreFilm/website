@@ -24,7 +24,7 @@ const FILMS = [
     brand: "Patagonia Films — Feature Documentary",
     role: "Cinematographer / Field Producer",
     year: "2021",
-    synopsis: "The Yup'ik village of Newtok, Alaska is crumbling into the water. Climate change has flooded the local homes and eroded the way of life for this small community, where the once nomadic indegenous people were forced to settle in 1949 by the Bureau of Indian Affairs. For more than two decades, the residents of Newtok have fought to secure federal funding needed to move their village to a safer location 10 miles away. With footage from four years living in the town, directors Andrew Burton and Michael Kirby Smith offer a window into this tight-knit community, and the challenges of a climate disaster. With long shots of melting ice, and intimate portraits of the people facing the threat of global warming every day, Newtok makes clear the impact climate change has on this country right now.",
+    synopsis: "The Yup'ik village of Newtok, Alaska is crumbling into the water. Climate change has flooded the local homes and eroded the way of life for this small community, where the once nomadic indigenous people were forced to settle in 1949 by the Bureau of Indian Affairs. For more than two decades, the residents of Newtok have fought to secure federal funding needed to move their village to a safer location 10 miles away. With footage from four years living in the town, directors Andrew Burton and Michael Kirby Smith offer a window into this tight-knit community, and the challenges of a climate disaster. With long shots of melting ice, and intimate portraits of the people facing the threat of global warming every day, Newtok makes clear the impact climate change has on this country right now.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/newtok/samantha-andre-newtok-cover.jpg",
     gallery: [
@@ -124,7 +124,7 @@ const FILMS = [
     brand: "EF / Wahoo — Branded Documentary",
     role: "Director / Editor",
     year: "2023",
-    synopsis: "\"A family that plays together, stays together.” That was Neilson Powless’ dad’s motto when he was growing up. Every weekend, Neilson’s mom and dad would take him and his older sister Shayna to swim, bike, and run in races around California. Their mom was an Olympic marathoner and their dad was a competitive triathlete in the Air Force, but together they always made sure that sports were fun first. All that play made Neilson and Shayna fast. Now, they are both professional cyclists. Neilson is about to become a father himself; his wife, Frances, is pregnant. Frances is a ballerina. She is his lead. With Frances, Neilson can dance over the ups and downs of life as a professional sportsman. Far away from home, Neilson and Frances are still learning how to keep doing the things that they love. Frances has learned about cycling, as Neilson has learned about ballet. Becoming parents is about to change their lives. What they know is that they will always keep playing together, because they are going to stay together.",
+    synopsis: "“A family that plays together, stays together.” That was Neilson Powless’ dad’s motto when he was growing up. Every weekend, Neilson’s mom and dad would take him and his older sister Shayna to swim, bike, and run in races around California. Their mom was an Olympic marathoner and their dad was a competitive triathlete in the Air Force, but together they always made sure that sports were fun first. All that play made Neilson and Shayna fast. Now, they are both professional cyclists. Neilson is about to become a father himself; his wife, Frances, is pregnant. Frances is a ballerina. She is his lead. With Frances, Neilson can dance over the ups and downs of life as a professional sportsman. Far away from home, Neilson and Frances are still learning how to keep doing the things that they love. Frances has learned about cycling, as Neilson has learned about ballet. Becoming parents is about to change their lives. What they know is that they will always keep playing together, because they are going to stay together.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/my-family-is-my-tribe/samantha-andre-my-family-is-my-tribe-cover.png",
     gallery: [
@@ -155,7 +155,7 @@ const FILMS = [
     brand: "Short Documentary",
     role: "Co-Director",
     year: "2013",
-    synopsis: "Daugthers of Emmonak is a documentary film about a Yup’ik Eskimo woman, Lenora “Lynn” Hootch, working to bring an end to domestic abuse in her rural village of Emmonak, Alaska. In 1982, Lynn opened the Emmonak Women’s Shelter to provide a safe place for women and children from surrounding villages. Lynn has dedicated her life to reclaiming her people’s culture and traditional values as alcohol, drugs, and violence have torn through her community. Daughters of Emmonak brings these powerful stories to the fore, highlighting Lynn’s dream of a future where her grandchildren will walk the streets without fear.",
+    synopsis: "Daughters of Emmonak is a documentary film about a Yup’ik Eskimo woman, Lenora “Lynn” Hootch, working to bring an end to domestic abuse in her rural village of Emmonak, Alaska. In 1982, Lynn opened the Emmonak Women’s Shelter to provide a safe place for women and children from surrounding villages. Lynn has dedicated her life to reclaiming her people’s culture and traditional values as alcohol, drugs, and violence have torn through her community. Daughters of Emmonak brings these powerful stories to the fore, highlighting Lynn’s dream of a future where her grandchildren will walk the streets without fear.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-cover.jpg",
     gallery: [
@@ -197,7 +197,7 @@ const FILMS = [
     brand: "Peacock — Documentary Feature",
     role: "DP",
     year: "2023",
-    synopsis: "With their superstar \"Rigo\" Urán coming back from a catastrophic injury, the U.S.A's oldest professional cycling team have their eyes on cycling most's coveted prize: a win at the 2020 Tour de France. Through victories and heatbreaks, these young men must come together as they face the sport's biggest and most challenging contest.",
+    synopsis: "With their superstar \"Rigo\" Urán coming back from a catastrophic injury, the U.S.A's oldest professional cycling team have their eyes on cycling's most coveted prize: a win at the 2020 Tour de France. Through victories and heartbreaks, these young men must come together as they face the sport's biggest and most challenging contest.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-cover.jpg",
     gallery: [
@@ -298,7 +298,7 @@ const FILMS = [
   },
   {
     slug: "dear",
-    title: "\\\\u201CDear\\\\u2026\\\\u201D",
+    title: "“Dear…”",
     brand: "Apple TV — Documentary Series",
     role: "Associate Producer",
     year: "2020",
@@ -360,7 +360,7 @@ const FILMS = [
     brand: "Documentary Short",
     role: "Co-Director",
     year: "2013",
-    synopsis: "Water Gives, Water Takes Away. In the fishing village of Vilanculos, Mozambique, the ocean is both a lifeline and a torment. Samuel works day in an day out in the shallow waters of Vilanculos, Mozambique to feed his family. Rui was one of a few fortunate fisherman to receive aid from the government to support his fishing business. Dauto, the son of a fisherman, has watched his loved ones struggle to survive in the ever-changing fishing industry of Vilanculos. Agua Da Agua Leva tells the story of these three men and the struggles they must face as they combat the harsh realities of overfishing.",
+    synopsis: "Water Gives, Water Takes Away. In the fishing village of Vilanculos, Mozambique, the ocean is both a lifeline and a torment. Samuel works day in and day out in the shallow waters of Vilanculos, Mozambique to feed his family. Rui was one of a few fortunate fishermen to receive aid from the government to support his fishing business. Dauto, the son of a fisherman, has watched his loved ones struggle to survive in the ever-changing fishing industry of Vilanculos. Agua Da Agua Leva tells the story of these three men and the struggles they must face as they combat the harsh realities of overfishing.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-cover.jpg",
     gallery: [

@@ -4,7 +4,7 @@
 */
 
 const NAV_LINKS = [
-  { href: "index.html", label: "Films" },
+  { href: "films.html", label: "Films" },
   { href: "photography.html", label: "Photography" },
   { href: "about.html", label: "About" },
   { href: "cv.html", label: "CV" }
@@ -28,7 +28,10 @@ function paletteFor(seed) {
 
 function currentFile() {
   const path = window.location.pathname.split("/").pop();
-  return path === "" ? "index.html" : path;
+  // The site root serves index.html, which only redirects to films.html —
+  // treat both as the Films page so the nav highlights correctly.
+  if (path === "" || path === "index.html") return "films.html";
+  return path;
 }
 
 function renderHeader() {
@@ -37,14 +40,17 @@ function renderHeader() {
   const here = currentFile();
 
   const links = NAV_LINKS.map(link => {
-    const isCurrent = link.href === here || (here === "" && link.href === "index.html");
+    const isCurrent = link.href === here;
     return `<a href="${link.href}"${isCurrent ? ' aria-current="page"' : ""}>${link.label}</a>`;
   }).join("");
 
   mount.innerHTML = `
-    <a class="wordmark" href="index.html">
-      SAMANTHA ANDRÉ
-      <small>Director &middot; DP &middot; Editor</small>
+    <a class="wordmark" href="films.html">
+      <img class="brand-mark" src="assets/img/brand/free-spirit-cinema-logo.png" alt="Free Spirit Cinema" />
+      <span class="wordmark-text">
+        SAMANTHA ANDRÉ
+        <small>Director &middot; DP &middot; Editor</small>
+      </span>
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
     <nav class="main-nav" id="main-nav" aria-label="Primary">${links}</nav>

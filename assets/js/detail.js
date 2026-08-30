@@ -7,7 +7,7 @@ function getSlugFromURL() {
   return new URLSearchParams(window.location.search).get("slug");
 }
 
-function renderDetailPage({ collection, listPage, childPage, mountId, kicker }) {
+function renderDetailPage({ collection, listPage, childPage, mountId, kicker, adjacentNav = true }) {
   const slug = getSlugFromURL();
   const index = collection.findIndex(item => item.slug === slug);
   const mount = document.getElementById(mountId);
@@ -24,8 +24,6 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker }) 
   }
 
   const item = collection[index];
-  const prev = collection[(index - 1 + collection.length) % collection.length];
-  const next = collection[(index + 1) % collection.length];
 
   document.title = `Samantha André — ${item.title}`;
   const docTitleEl = document.getElementById("doc-title");
@@ -59,11 +57,7 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker }) 
       <div class="filmstrip" id="filmstrip"></div>
     </div>
 
-    <div class="detail-nav">
-      <a href="${childPage}?slug=${prev.slug}">&larr; ${prev.title}</a>
-      <a href="${listPage}">All ${kicker === "FILM" ? "Films" : "Sets"}</a>
-      <a href="${childPage}?slug=${next.slug}">${next.title} &rarr;</a>
-    </div>
+    ${detailNav({ collection, index, listPage, childPage, kicker, adjacentNav })}
   `;
 
   attachImageFallback(document.getElementById("hero-img"), item.title, item.slug + "-hero");
@@ -79,4 +73,24 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker }) 
   strip.querySelectorAll("img").forEach(img => {
     attachImageFallback(img, `${item.title} — ${img.dataset.idx}`, item.slug + "-still-" + img.dataset.idx);
   });
+}
+
+/**
+ * Bottom-of-page navigation. With `adjacentNav` off the page offers only a
+ * way back to the list — no stepping sideways from one project to the next.
+ */
+function detailNav({ collection, index, listPage, childPage, kicker, adjacentNav }) {
+  const backLabel = `All ${kicker === "FILM" ? "Films" : "Sets"}`;
+  if (!adjacentNav) {
+    return `<div class="detail-nav is-back-only"><a href="${listPage}">&larr; ${backLabel}</a></div>`;
+  }
+  const prev = collection[(index - 1 + collection.length) % collection.length];
+  const next = collection[(index + 1) % collection.length];
+  return `
+    <div class="detail-nav">
+      <a href="${childPage}?slug=${prev.slug}">&larr; ${prev.title}</a>
+      <a href="${listPage}">${backLabel}</a>
+      <a href="${childPage}?slug=${next.slug}">${next.title} &rarr;</a>
+    </div>
+  `;
 }

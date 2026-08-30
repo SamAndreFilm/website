@@ -11,10 +11,11 @@ Abbreviations used in this project:
 
 | Page | File | Notes |
 |---|---|---|
-| Films (home) | `index.html` | 2-column grid of 22 films, hover reveals role + title, click opens a film page |
-| Film detail | `film.html?slug=...` | One template, reads content from `assets/js/data.js` |
+| Films (home) | `films.html` | 2-column grid of 22 films, hover reveals role + title, click opens a film page |
+| Site root | `index.html` | Redirects to `films.html` — GitHub Pages serves `index.html` for `/`, so the root URL has to keep working |
+| Film detail | `film.html?slug=...` | One template, reads content from `assets/js/data.js`. No prev/next links — the only way out is back to the grid |
 | Photography | `photography.html` | Same grid architecture as Films |
-| Photo-set detail | `photo-set.html?slug=...` | Same template pattern as film detail |
+| Photo-set detail | `photo-set.html?slug=...` | Same template as film detail, but does still offer prev/next |
 | About | `about.html` | Bio + portrait |
 | CV | `cv.html` | On-page resume (auto-built from film data) + PDF download button |
 
@@ -90,6 +91,12 @@ If a file is ever missing at a referenced path, the site renders a labeled
 placeholder panel rather than a broken-image icon (see `attachImageFallback`
 in `main.js`), so the layout never breaks.
 
+### Which images need a better source
+
+`IMAGE-UPGRADES.md` lists every cover and gallery still that is below the
+resolution its slot wants, split into the ones that can be fixed from files
+already in the project and the ones that need a genuinely new export.
+
 ### Where the content came from
 
 `old_website_content/` holds the WordPress export (`.xml`) and the full media
@@ -127,7 +134,8 @@ listed. Concretely:
 ### CV
 
 `cv.html` builds its "Selected Filmography" list straight from `FILMS`, so it
-always matches the Films page. The **Download PDF** button points at
+always matches the Films page. The count in the Films page eyebrow
+(`SELECTED WORK · 01–22`) is derived from `FILMS.length` for the same reason. The **Download PDF** button points at
 `assets/documents/samantha-andre-cv.pdf` — a placeholder PDF matching the
 current on-page content is included; replace that file with her actual CV
 PDF (keep the same filename, or update the `href` in `cv.html`).
@@ -141,6 +149,9 @@ python3 -m http.server 8000
 ```
 
 Then open `http://localhost:8000`.
+
+Browsers cache `data.js` and `style.css` aggressively on a plain static
+server; hard-reload if an edit does not appear.
 
 ## Deploying to GitHub Pages
 
@@ -170,7 +181,13 @@ The `.nojekyll` file at the root tells GitHub Pages to serve files as-is
 - **Type**: Fraunces (serif, titles/name), Archivo (tracked uppercase,
   nav/labels), Work Sans (body copy), IBM Plex Mono (the timecode numbers).
 - **Signature element**: the "Reel Log" hover state on each grid tile — a
-  hairline frame and a mono timecode counter (e.g. `03 / 18`), treating each
+  hairline frame and a mono timecode counter (e.g. `03 / 22`), treating each
   project like a logged clip in an editor's bin.
+- **Header**: the Free Spirit Cinema mark sits to the left of the name
+  (`assets/img/brand/free-spirit-cinema-logo.png`, white with transparency,
+  taken from the old site's media library).
+- **Layout**: the Films and Photography overviews are inset 10% of the page
+  width on both sides (5% below 720px). The hero copy uses the same inset so
+  its left edge lines up with the grid.
 
 All tokens are declared at the top of `assets/css/style.css`.

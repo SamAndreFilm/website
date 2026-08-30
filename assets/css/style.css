@@ -99,6 +99,16 @@ a { color: inherit; text-decoration: none; }
   font-size: 19px;
   letter-spacing: 0.06em;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Free Spirit Cinema mark, sitting to the left of the name */
+.brand-mark {
+  height: 34px;
+  width: auto;
+  flex: 0 0 auto;
 }
 
 .wordmark small {
@@ -177,10 +187,15 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- Hero (top of Films / Photography pages) ---------- */
 
+/* The Films and Photography overviews are inset ~10% of the page width on
+   both sides; the hero uses the same inset so its left edge lines up with
+   the grid below it. */
 .page-hero {
-  padding: calc(var(--header-h) + 64px) clamp(20px, 4vw, 56px) 40px;
-  max-width: 900px;
+  padding: calc(var(--header-h) + 64px) 10% 40px;
+  max-width: 1100px;
 }
+
+.grid-pad { padding: 0 10%; }
 
 .page-hero .eyebrow {
   font-family: var(--font-mono);
@@ -335,6 +350,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 @media (max-width: 720px) {
+  .grid-pad { padding: 0 5%; }
+  .page-hero { padding-left: 5%; padding-right: 5%; }
   .reel-grid { grid-template-columns: 1fr; }
   .reel-cell .cell-caption { opacity: 1; transform: none; }
   .reel-cell::after { opacity: 0.9; }
@@ -481,6 +498,8 @@ a { color: inherit; text-decoration: none; }
   justify-content: space-between;
   padding: 0 clamp(20px, 4vw, 56px) 70px;
 }
+
+.detail-nav.is-back-only { justify-content: flex-start; }
 
 .detail-nav a {
   font-family: var(--font-label);
@@ -642,6 +661,8 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 640px) {
   .nav-toggle { display: block; }
+  .wordmark { gap: 10px; }
+  .brand-mark { height: 26px; }
   .main-nav {
     position: fixed;
     top: var(--header-h); left: 0; right: 0;
