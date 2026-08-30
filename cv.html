@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Samantha André — CV</title>
+<meta name="description" content="CV (Curriculum Vitae) for Samantha André, director, DP (Director of Photography), and editor." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Archivo:wght@500;600;700&family=Work+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<main class="cv-layout">
+  <div class="cv-top">
+    <div>
+      <h1>CV</h1>
+      <p>Director &middot; DP (Director of Photography) &middot; Editor</p>
+    </div>
+    <a class="download-btn" href="assets/documents/samantha-andre-cv.pdf" download>&darr; Download PDF</a>
+  </div>
+
+  <section class="cv-section">
+    <h2>Profile</h2>
+    <p style="max-width:65ch;">Independent director, DP, and editor focused on women's rights and social-issue documentary work, with credits for VICE, Twitter, Apple TV, PBS, and The Front. Currently completing the feature documentary <em>Mary's Way</em>.</p>
+  </section>
+
+  <section class="cv-section">
+    <h2>Selected Filmography</h2>
+    <div id="cv-filmography"></div>
+  </section>
+
+  <section class="cv-section">
+    <h2>Skills &amp; Credits</h2>
+    <ul class="skills-list">
+      <li>Directing</li>
+      <li>DP &middot; Cinematography</li>
+      <li>Editing</li>
+      <li>Field Production</li>
+      <li>Documentary Storytelling</li>
+    </ul>
+  </section>
+
+  <section class="cv-section">
+    <h2>Contact</h2>
+    <p class="cv-detail">Email: <a href="mailto:sam@samandre.com" style="color:var(--teal)">sam@samandre.com</a></p>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const mount = document.getElementById("cv-filmography");
+    mount.innerHTML = FILMS.map(f => `
+      <div class="cv-entry">
+        <span class="cv-year">${f.year || "&mdash;"}</span>
+        <div>
+          <p class="cv-role">${f.role}</p>
+          <p class="cv-detail"><strong>${f.title}</strong> <span>&mdash; ${f.brand}</span></p>
+        </div>
+      </div>
+    `).join("");
+  });
+</script>
+</body>
+</html>

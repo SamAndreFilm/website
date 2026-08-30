@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Samantha André — About</title>
+<meta name="description" content="About Samantha André, director, DP (Director of Photography), and editor." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Archivo:wght@500;600;700&family=Work+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<main class="about-layout">
+  <div class="about-portrait">
+    <img id="portrait-img" src="assets/img/about/portrait.jpg" alt="Portrait of Samantha André" />
+  </div>
+
+  <div class="about-copy">
+    <p class="eyebrow">ABOUT</p>
+    <h1>Samantha André</h1>
+
+    <p>Samantha André is an independent director, DP (Director of Photography), and editor whose work centers on women's rights and social issues worldwide. She has directed, shot, produced, or edited projects for VICE, Twitter, Apple TV, PBS, and The Front.</p>
+
+    <p>She is currently finishing her first feature documentary, <em>Mary's Way</em> — filmed over five years, following one girl's work to help end female genital mutilation and child marriage in her Kenyan community. A short version screened in New York in partnership with the United Nations to raise awareness of FGM. Her work has also covered LGBT refugees in Europe, police brutality for the ACLU, climate change in an Indigenous Alaskan village, and disability activism in the United States.</p>
+
+    <p class="muted">Away from a documentary, she can usually be found hiking, biking, or playing soccer. She builds her films around a real connection with the people in front of her camera.</p>
+
+    <p class="contact-line">Email: <a href="mailto:sam@samandre.com">sam@samandre.com</a></p>
+  </div>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    attachImageFallback(document.getElementById("portrait-img"), "SAMANTHA ANDRÉ", "about-portrait");
+  });
+</script>
+</body>
+</html>

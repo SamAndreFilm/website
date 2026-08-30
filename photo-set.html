@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title id="doc-title">Samantha André — Photography</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Archivo:wght@500;600;700&family=Work+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<main id="photo-main">
+  <!-- filled by detail.js -->
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/detail.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    renderDetailPage({
+      collection: PHOTO_SETS,
+      listPage: "photography.html",
+      childPage: "photo-set.html",
+      mountId: "photo-main",
+      kicker: "PHOTO SET"
+    });
+  });
+</script>
+</body>
+</html>
