@@ -175,15 +175,23 @@ a { color: inherit; text-decoration: none; }
   color: var(--muted);
 }
 
-.foot-links { display: flex; gap: 22px; }
-.foot-links a {
-  font-family: var(--font-label);
-  font-size: 11px;
-  letter-spacing: .14em;
-  text-transform: uppercase;
+.foot-links { display: flex; gap: 4px; align-items: center; margin-right: -10px; }
+
+/* Brand glyphs. The 40px box is a comfortable tap target around a 20px
+   icon; the glyph itself inherits the link colour via fill="currentColor". */
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
   color: var(--muted);
+  transition: color .25s ease, transform .25s ease;
 }
-.foot-links a:hover { color: var(--teal); }
+
+.social-link svg { width: 20px; height: 20px; display: block; }
+
+.social-link:hover { color: var(--teal); transform: translateY(-2px); }
 
 /* ---------- Hero (top of Films / Photography pages) ---------- */
 

@@ -21,6 +21,11 @@ Abbreviations used in this project:
 
 ## Editing content
 
+There is a plain-English walkthrough for non-developers in
+`EDITING-GUIDE.md` (gitignored — it is for whoever maintains the site, not
+part of the published site). It covers changing a film's text, swapping an
+image, previewing locally, and publishing via GitHub Desktop.
+
 Everything editorial lives in **`assets/js/data.js`** — two arrays,
 `FILMS` and `PHOTO_SETS`. To add a project, copy an existing object in the
 array and change the fields. No other file needs to change:
@@ -183,6 +188,10 @@ The `.nojekyll` file at the root tells GitHub Pages to serve files as-is
 - **Signature element**: the "Reel Log" hover state on each grid tile — a
   hairline frame and a mono timecode counter (e.g. `03 / 22`), treating each
   project like a logged clip in an editor's bin.
+- **Footer**: contact and social links are inline SVG brand glyphs
+  (Instagram, LinkedIn, WhatsApp, X, email) defined in `SOCIAL_LINKS` in
+  `main.js`. They use `fill="currentColor"` so they inherit the link colour
+  and hover transition — no icon font, no extra requests.
 - **Header**: the Free Spirit Cinema mark sits to the left of the name
   (`assets/img/brand/free-spirit-cinema-logo.png`, white with transparency,
   taken from the old site's media library).
