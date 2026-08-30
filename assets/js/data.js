@@ -19,21 +19,6 @@
 
 const FILMS = [
   {
-    slug: "being-emily",
-    title: "Being Emily",
-    brand: "Twitter Studios x VICE",
-    role: "Director",
-    year: "",
-    synopsis: "A branded documentary produced for Twitter Studios in partnership with VICE.",
-    note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/being-emily/cover.jpg",
-    gallery: [
-      "assets/img/films/being-emily/01.jpg",
-      "assets/img/films/being-emily/02.jpg",
-      "assets/img/films/being-emily/03.jpg"
-    ]
-  },
-  {
     slug: "newtok",
     title: "Newtok",
     brand: "Patagonia Films — Feature Documentary",
@@ -41,12 +26,35 @@ const FILMS = [
     year: "2021",
     synopsis: "A feature documentary following the Yup'ik village of Newtok, Alaska, as residents work to relocate their community in the face of coastal erosion driven by climate change.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/newtok/cover.jpg",
+    cover: "assets/img/films/newtok/samantha-andre-newtok-cover.jpg",
     gallery: [
-      "assets/img/films/newtok/01.jpg",
-      "assets/img/films/newtok/02.jpg",
-      "assets/img/films/newtok/03.jpg",
-      "assets/img/films/newtok/04.jpg"
+      "assets/img/films/newtok/samantha-andre-newtok-still-01.jpg",
+      "assets/img/films/newtok/samantha-andre-newtok-still-02.jpg",
+      "assets/img/films/newtok/samantha-andre-newtok-still-03.jpg",
+      "assets/img/films/newtok/samantha-andre-newtok-still-04.jpg",
+      "assets/img/films/newtok/samantha-andre-newtok-still-05.jpg",
+      "assets/img/films/newtok/samantha-andre-newtok-still-06.jpg"
+    ]
+  },
+  {
+    slug: "being-emily",
+    title: "Being Emily",
+    brand: "Twitter Studios x VICE",
+    role: "Director",
+    year: "",
+    synopsis: "A branded documentary produced for Twitter Studios in partnership with VICE.",
+    note: "— Add Samantha's first-person note on this project here. —",
+    cover: "assets/img/films/being-emily/samantha-andre-being-emily-cover.jpg",
+    gallery: [
+      "assets/img/films/being-emily/samantha-andre-being-emily-still-01.jpg",
+      "assets/img/films/being-emily/samantha-andre-being-emily-still-02.jpg",
+      "assets/img/films/being-emily/samantha-andre-being-emily-still-03.jpg",
+      "assets/img/films/being-emily/samantha-andre-being-emily-still-04.jpg",
+      "assets/img/films/being-emily/samantha-andre-being-emily-still-05.jpg",
+      "assets/img/films/being-emily/samantha-andre-being-emily-still-06.jpg",
+      "assets/img/films/being-emily/samantha-andre-being-emily-still-07.jpg",
+      "assets/img/films/being-emily/samantha-andre-being-emily-still-08.jpg",
+      "assets/img/films/being-emily/samantha-andre-being-emily-still-09.jpg"
     ]
   },
   {
@@ -57,11 +65,8 @@ const FILMS = [
     year: "",
     synopsis: "A branded documentary short produced for EF and Wahoo.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/faire-rever/cover.jpg",
-    gallery: [
-      "assets/img/films/faire-rever/01.jpg",
-      "assets/img/films/faire-rever/02.jpg"
-    ]
+    cover: "assets/img/films/faire-rever/samantha-andre-faire-rever-cover.jpg",
+    gallery: []
   },
   {
     slug: "here-maasai-land",
@@ -71,24 +76,22 @@ const FILMS = [
     year: "",
     synopsis: "A short documentary produced with The Front.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/here-maasai-land/cover.jpg",
+    cover: "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-cover.jpg",
     gallery: [
-      "assets/img/films/here-maasai-land/01.jpg",
-      "assets/img/films/here-maasai-land/02.jpg"
-    ]
-  },
-  {
-    slug: "my-body-at-its-best",
-    title: "My Body at its Best",
-    brand: "Canyon — Branded Documentary",
-    role: "Director / DP",
-    year: "",
-    synopsis: "A branded documentary produced for Canyon.",
-    note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/my-body-at-its-best/cover.jpg",
-    gallery: [
-      "assets/img/films/my-body-at-its-best/01.jpg",
-      "assets/img/films/my-body-at-its-best/02.jpg"
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-01.jpg",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-02.jpg",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-03.jpg",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-04.jpg",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-05.jpg",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-06.jpg",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-07.jpg",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-08.jpg",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-09.jpg",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-10.jpg",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-11.gif",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-12.gif",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-13.gif",
+      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-14.gif"
     ]
   },
   {
@@ -99,10 +102,27 @@ const FILMS = [
     year: "",
     synopsis: "A branded documentary produced for EF and Wahoo.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/my-family-is-my-tribe/cover.jpg",
+    cover: "assets/img/films/my-family-is-my-tribe/samantha-andre-my-family-is-my-tribe-cover.png",
     gallery: [
-      "assets/img/films/my-family-is-my-tribe/01.jpg",
-      "assets/img/films/my-family-is-my-tribe/02.jpg"
+      "assets/img/films/my-family-is-my-tribe/samantha-andre-my-family-is-my-tribe-still-01.jpg",
+      "assets/img/films/my-family-is-my-tribe/samantha-andre-my-family-is-my-tribe-still-02.jpg",
+      "assets/img/films/my-family-is-my-tribe/samantha-andre-my-family-is-my-tribe-still-03.jpg"
+    ]
+  },
+  {
+    slug: "my-body-at-its-best",
+    title: "My Body at its Best",
+    brand: "Canyon — Branded Documentary",
+    role: "Director / DP",
+    year: "",
+    synopsis: "A branded documentary produced for Canyon.",
+    note: "— Add Samantha's first-person note on this project here. —",
+    cover: "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-cover.jpg",
+    gallery: [
+      "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-still-01.jpg",
+      "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-still-02.jpg",
+      "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-still-03.jpg",
+      "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-still-04.jpg"
     ]
   },
   {
@@ -113,10 +133,20 @@ const FILMS = [
     year: "",
     synopsis: "A short documentary co-directed by Samantha André.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/daughters-of-emmonak/cover.jpg",
+    cover: "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-cover.jpg",
     gallery: [
-      "assets/img/films/daughters-of-emmonak/01.jpg",
-      "assets/img/films/daughters-of-emmonak/02.jpg"
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-01.jpg",
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-02.jpg",
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-03.jpg",
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-04.jpg",
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-05.jpg",
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-06.jpg",
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-07.jpg",
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-08.gif",
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-09.gif",
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-10.gif",
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-11.gif",
+      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-12.gif"
     ]
   },
   {
@@ -127,10 +157,14 @@ const FILMS = [
     year: "",
     synopsis: "A branded documentary produced for Rapha Films.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/keep-riding/cover.jpg",
+    cover: "assets/img/films/keep-riding/samantha-andre-keep-riding-cover.jpg",
     gallery: [
-      "assets/img/films/keep-riding/01.jpg",
-      "assets/img/films/keep-riding/02.jpg"
+      "assets/img/films/keep-riding/samantha-andre-keep-riding-still-01.jpg",
+      "assets/img/films/keep-riding/samantha-andre-keep-riding-still-02.jpg",
+      "assets/img/films/keep-riding/samantha-andre-keep-riding-still-03.jpg",
+      "assets/img/films/keep-riding/samantha-andre-keep-riding-still-04.jpg",
+      "assets/img/films/keep-riding/samantha-andre-keep-riding-still-05.jpg",
+      "assets/img/films/keep-riding/samantha-andre-keep-riding-still-06.jpg"
     ]
   },
   {
@@ -141,38 +175,43 @@ const FILMS = [
     year: "",
     synopsis: "A feature documentary released on Peacock.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/enter-the-slipstream/cover.jpg",
+    cover: "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-cover.jpg",
     gallery: [
-      "assets/img/films/enter-the-slipstream/01.jpg",
-      "assets/img/films/enter-the-slipstream/02.jpg"
-    ]
-  },
-  {
-    slug: "dear",
-    title: "\u201CDear\u2026\u201D",
-    brand: "Apple TV — Documentary Series",
-    role: "Associate Producer",
-    year: "",
-    synopsis: "A documentary series released on Apple TV.",
-    note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/dear/cover.jpg",
-    gallery: [
-      "assets/img/films/dear/01.jpg",
-      "assets/img/films/dear/02.jpg"
-    ]
-  },
-  {
-    slug: "nothing-beyond",
-    title: "Nothing Beyond",
-    brand: "Kyan — Music Video",
-    role: "Director / DP",
-    year: "",
-    synopsis: "A music video for the artist Kyan.",
-    note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/nothing-beyond/cover.jpg",
-    gallery: [
-      "assets/img/films/nothing-beyond/01.jpg",
-      "assets/img/films/nothing-beyond/02.jpg"
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-01.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-02.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-03.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-04.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-05.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-06.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-07.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-08.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-09.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-10.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-11.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-12.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-13.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-14.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-15.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-16.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-17.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-18.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-19.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-20.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-21.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-22.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-23.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-24.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-25.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-26.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-27.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-28.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-29.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-30.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-31.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-32.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-33.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-34.jpg",
+      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-35.jpg"
     ]
   },
   {
@@ -183,38 +222,54 @@ const FILMS = [
     year: "",
     synopsis: "A short documentary co-directed by Samantha André.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/finding-home/cover.jpg",
+    cover: "assets/img/films/finding-home/samantha-andre-finding-home-cover.jpg",
     gallery: [
-      "assets/img/films/finding-home/01.jpg",
-      "assets/img/films/finding-home/02.jpg"
+      "assets/img/films/finding-home/samantha-andre-finding-home-still-01.jpg",
+      "assets/img/films/finding-home/samantha-andre-finding-home-still-02.jpg",
+      "assets/img/films/finding-home/samantha-andre-finding-home-still-03.jpg",
+      "assets/img/films/finding-home/samantha-andre-finding-home-still-04.jpg",
+      "assets/img/films/finding-home/samantha-andre-finding-home-still-05.gif"
     ]
   },
   {
-    slug: "aclu",
-    title: "ACLU",
-    brand: "Mini Documentaries",
-    role: "Editor",
+    slug: "nothing-beyond",
+    title: "Nothing Beyond",
+    brand: "Kyan — Music Video",
+    role: "Director / DP",
     year: "",
-    synopsis: "A series of mini documentaries produced for the ACLU.",
+    synopsis: "A music video for the artist Kyan.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/aclu/cover.jpg",
+    cover: "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-cover.jpg",
     gallery: [
-      "assets/img/films/aclu/01.jpg",
-      "assets/img/films/aclu/02.jpg"
+      "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-still-01.jpg",
+      "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-still-02.jpg",
+      "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-still-03.jpg",
+      "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-still-04.gif",
+      "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-still-05.gif"
     ]
   },
   {
-    slug: "hillbilly",
-    title: "Hillbilly",
-    brand: "Feature Documentary",
-    role: "Finishing Editor",
+    slug: "dear",
+    title: "\u201CDear\u2026\u201D",
+    brand: "Apple TV — Documentary Series",
+    role: "Associate Producer",
     year: "",
-    synopsis: "A feature documentary.",
+    synopsis: "A documentary series released on Apple TV.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/hillbilly/cover.jpg",
+    cover: "assets/img/films/dear/samantha-andre-dear-cover.jpg",
     gallery: [
-      "assets/img/films/hillbilly/01.jpg",
-      "assets/img/films/hillbilly/02.jpg"
+      "assets/img/films/dear/samantha-andre-dear-still-01.jpg",
+      "assets/img/films/dear/samantha-andre-dear-still-02.jpg",
+      "assets/img/films/dear/samantha-andre-dear-still-03.jpg",
+      "assets/img/films/dear/samantha-andre-dear-still-04.jpg",
+      "assets/img/films/dear/samantha-andre-dear-still-05.jpg",
+      "assets/img/films/dear/samantha-andre-dear-still-06.gif",
+      "assets/img/films/dear/samantha-andre-dear-still-07.gif",
+      "assets/img/films/dear/samantha-andre-dear-still-08.gif",
+      "assets/img/films/dear/samantha-andre-dear-still-09.jpg",
+      "assets/img/films/dear/samantha-andre-dear-still-10.jpg",
+      "assets/img/films/dear/samantha-andre-dear-still-11.jpg",
+      "assets/img/films/dear/samantha-andre-dear-still-12.jpg"
     ]
   },
   {
@@ -225,10 +280,58 @@ const FILMS = [
     year: "",
     synopsis: "A feature documentary produced by Altimeter Films.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/scotty-and-the-secret-history-of-hollywood/cover.jpg",
+    cover: "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-cover.jpg",
     gallery: [
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/01.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/02.jpg"
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-01.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-02.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-03.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-04.png",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-05.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-06.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-07.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-08.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-09.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-10.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-11.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-12.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-13.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-14.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-15.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-16.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-17.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-18.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-19.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-20.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-21.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-22.jpg",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-23.gif",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-24.gif",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-25.gif",
+      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-26.gif"
+    ]
+  },
+  {
+    slug: "hillbilly",
+    title: "Hillbilly",
+    brand: "Feature Documentary",
+    role: "Finishing Editor",
+    year: "",
+    synopsis: "A feature documentary.",
+    note: "— Add Samantha's first-person note on this project here. —",
+    cover: "assets/img/films/hillbilly/samantha-andre-hillbilly-cover.jpg",
+    gallery: [
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-01.jpg",
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-02.jpg",
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-03.jpg",
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-04.jpg",
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-05.jpg",
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-06.jpg",
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-07.jpg",
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-08.jpg",
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-09.jpg",
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-10.jpg",
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-11.jpg",
+      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-12.gif"
     ]
   },
   {
@@ -239,24 +342,85 @@ const FILMS = [
     year: "",
     synopsis: "A documentary series.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/vice-world-of-sports-rivals/cover.jpg",
+    cover: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-cover.jpg",
     gallery: [
-      "assets/img/films/vice-world-of-sports-rivals/01.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/02.jpg"
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-01.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-02.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-03.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-04.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-05.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-06.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-07.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-08.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-09.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-10.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-11.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-12.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-13.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-14.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-15.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-16.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-17.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-18.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-19.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-20.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-21.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-22.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-23.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-24.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-25.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-26.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-27.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-28.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-29.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-30.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-31.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-32.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-33.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-34.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-35.gif",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-36.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-37.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-38.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-39.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-40.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-41.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-42.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-43.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-44.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-45.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-46.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-47.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-48.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-49.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-50.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-51.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-52.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-53.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-54.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-55.jpg",
+      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-56.gif"
     ]
   },
   {
-    slug: "vice-x-live-nation",
-    title: "Vice x Live Nation",
-    brand: "Documentary Series",
-    role: "Trailer Editor",
+    slug: "aclu",
+    title: "ACLU",
+    brand: "Mini Documentaries",
+    role: "Editor",
     year: "",
-    synopsis: "A documentary series produced in partnership with Live Nation.",
+    synopsis: "A series of mini documentaries produced for the ACLU.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/vice-x-live-nation/cover.jpg",
+    cover: "assets/img/films/aclu/samantha-andre-aclu-cover.jpg",
     gallery: [
-      "assets/img/films/vice-x-live-nation/01.jpg",
-      "assets/img/films/vice-x-live-nation/02.jpg"
+      "assets/img/films/aclu/samantha-andre-aclu-still-01.jpg",
+      "assets/img/films/aclu/samantha-andre-aclu-still-02.jpg",
+      "assets/img/films/aclu/samantha-andre-aclu-still-03.jpg",
+      "assets/img/films/aclu/samantha-andre-aclu-still-04.jpg",
+      "assets/img/films/aclu/samantha-andre-aclu-still-05.jpg",
+      "assets/img/films/aclu/samantha-andre-aclu-still-06.jpg",
+      "assets/img/films/aclu/samantha-andre-aclu-still-07.png",
+      "assets/img/films/aclu/samantha-andre-aclu-still-08.jpg",
+      "assets/img/films/aclu/samantha-andre-aclu-still-09.gif"
     ]
   },
   {
@@ -267,10 +431,27 @@ const FILMS = [
     year: "",
     synopsis: "A feature documentary.",
     note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/taking-the-reins/cover.jpg",
+    cover: "assets/img/films/taking-the-reins/samantha-andre-taking-the-reins-cover.jpg",
+    gallery: []
+  },
+  {
+    slug: "vice-x-live-nation",
+    title: "Vice x Live Nation",
+    brand: "Documentary Series",
+    role: "Trailer Editor",
+    year: "",
+    synopsis: "A documentary series produced in partnership with Live Nation.",
+    note: "— Add Samantha's first-person note on this project here. —",
+    cover: "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-cover.jpg",
     gallery: [
-      "assets/img/films/taking-the-reins/01.jpg",
-      "assets/img/films/taking-the-reins/02.jpg"
+      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-01.jpg",
+      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-02.jpg",
+      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-03.jpg",
+      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-04.jpg",
+      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-05.jpg",
+      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-06.gif",
+      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-07.gif",
+      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-08.gif"
     ]
   }
 ];
@@ -282,11 +463,18 @@ const PHOTO_SETS = [
     brand: "Artist Portraits",
     role: "Photographer",
     note: "— Add Samantha's first-person note on this shoot here. —",
-    cover: "assets/img/photography/adrienne-artist-portraits/cover.jpg",
+    cover: "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-cover.jpg",
     gallery: [
-      "assets/img/photography/adrienne-artist-portraits/01.jpg",
-      "assets/img/photography/adrienne-artist-portraits/02.jpg",
-      "assets/img/photography/adrienne-artist-portraits/03.jpg"
+      "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-photo-01.jpg",
+      "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-photo-02.jpg",
+      "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-photo-03.jpg",
+      "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-photo-04.jpg",
+      "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-photo-05.jpg",
+      "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-photo-06.jpg",
+      "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-photo-07.jpg",
+      "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-photo-08.jpg",
+      "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-photo-09.jpg",
+      "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-photo-10.jpg"
     ]
   },
   {
@@ -295,10 +483,41 @@ const PHOTO_SETS = [
     brand: "Fashion",
     role: "Photographer",
     note: "— Add Samantha's first-person note on this shoot here. —",
-    cover: "assets/img/photography/earthling-fashion/cover.jpg",
+    cover: "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-cover.jpg",
     gallery: [
-      "assets/img/photography/earthling-fashion/01.jpg",
-      "assets/img/photography/earthling-fashion/02.jpg"
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-01.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-02.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-03.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-04.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-05.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-06.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-07.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-08.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-09.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-10.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-11.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-12.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-13.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-14.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-15.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-16.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-17.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-18.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-19.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-20.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-21.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-22.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-23.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-24.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-25.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-26.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-27.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-28.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-29.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-30.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-31.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-32.jpg",
+      "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-33.jpg"
     ]
   },
   {
@@ -307,10 +526,34 @@ const PHOTO_SETS = [
     brand: "Festival Photographs",
     role: "Photographer",
     note: "— Add Samantha's first-person note on this shoot here. —",
-    cover: "assets/img/photography/levitation-festival/cover.jpg",
+    cover: "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-cover.jpg",
     gallery: [
-      "assets/img/photography/levitation-festival/01.jpg",
-      "assets/img/photography/levitation-festival/02.jpg"
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-01.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-02.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-03.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-04.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-05.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-06.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-07.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-08.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-09.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-10.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-11.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-12.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-13.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-14.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-15.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-16.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-17.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-18.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-19.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-20.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-21.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-22.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-23.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-24.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-25.jpg",
+      "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-26.jpg"
     ]
   },
   {
@@ -319,10 +562,20 @@ const PHOTO_SETS = [
     brand: "Artist Portraits",
     role: "Photographer",
     note: "— Add Samantha's first-person note on this shoot here. —",
-    cover: "assets/img/photography/gray-artist-portraits/cover.jpg",
+    cover: "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-cover.jpg",
     gallery: [
-      "assets/img/photography/gray-artist-portraits/01.jpg",
-      "assets/img/photography/gray-artist-portraits/02.jpg"
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-01.jpg",
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-02.jpg",
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-03.jpg",
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-04.jpg",
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-05.jpg",
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-06.jpg",
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-07.jpg",
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-08.jpg",
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-09.jpg",
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-10.jpg",
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-11.jpg",
+      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-12.jpg"
     ]
   },
   {
@@ -331,10 +584,23 @@ const PHOTO_SETS = [
     brand: "Artist Portraits",
     role: "Photographer",
     note: "— Add Samantha's first-person note on this shoot here. —",
-    cover: "assets/img/photography/kyan-artist-portraits/cover.jpg",
+    cover: "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-cover.jpg",
     gallery: [
-      "assets/img/photography/kyan-artist-portraits/01.jpg",
-      "assets/img/photography/kyan-artist-portraits/02.jpg"
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-01.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-02.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-03.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-04.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-05.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-06.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-07.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-08.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-09.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-10.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-11.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-12.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-13.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-14.jpg",
+      "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-15.jpg"
     ]
   },
   {
@@ -343,10 +609,26 @@ const PHOTO_SETS = [
     brand: "Artist Portraits",
     role: "Photographer",
     note: "— Add Samantha's first-person note on this shoot here. —",
-    cover: "assets/img/photography/rachel-artist-portraits/cover.jpg",
+    cover: "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-cover.jpg",
     gallery: [
-      "assets/img/photography/rachel-artist-portraits/01.jpg",
-      "assets/img/photography/rachel-artist-portraits/02.jpg"
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-01.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-02.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-03.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-04.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-05.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-06.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-07.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-08.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-09.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-10.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-11.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-12.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-13.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-14.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-15.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-16.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-17.jpg",
+      "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-18.jpg"
     ]
   },
   {
@@ -355,10 +637,17 @@ const PHOTO_SETS = [
     brand: "Artist Portraits",
     role: "Photographer",
     note: "— Add Samantha's first-person note on this shoot here. —",
-    cover: "assets/img/photography/taylor-andrew-portraits/cover.jpg",
+    cover: "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-cover.jpg",
     gallery: [
-      "assets/img/photography/taylor-andrew-portraits/01.jpg",
-      "assets/img/photography/taylor-andrew-portraits/02.jpg"
+      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-01.jpg",
+      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-02.jpg",
+      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-03.jpg",
+      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-04.jpg",
+      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-05.jpg",
+      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-06.jpg",
+      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-07.jpg",
+      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-08.jpg",
+      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-09.jpg"
     ]
   },
   {
@@ -367,10 +656,36 @@ const PHOTO_SETS = [
     brand: "120mm",
     role: "Photographer",
     note: "— Add Samantha's first-person note on this shoot here. —",
-    cover: "assets/img/photography/travel-120mm/cover.jpg",
+    cover: "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-cover.jpg",
     gallery: [
-      "assets/img/photography/travel-120mm/01.jpg",
-      "assets/img/photography/travel-120mm/02.jpg"
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-01.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-02.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-03.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-04.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-05.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-06.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-07.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-08.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-09.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-10.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-11.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-12.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-13.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-14.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-15.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-16.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-17.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-18.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-19.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-20.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-21.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-22.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-23.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-24.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-25.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-26.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-27.jpg",
+      "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-28.jpg"
     ]
   }
 ];

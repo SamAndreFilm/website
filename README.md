@@ -53,15 +53,60 @@ launch.
 
 ### Images
 
-Drop real photos at the paths already referenced in `data.js`
-(`assets/img/films/<slug>/...`, `assets/img/photography/<slug>/...`,
-`assets/img/about/portrait.jpg`). Until a file exists at that path, the
-image automatically falls back to a labeled placeholder panel — the layout
-never shows a broken-image icon, so you can wire up content before you have
-final photography.
+All imagery is already in place, sourced from the WordPress export of the
+previous samandre.com site. **399 images** across 18 films and 8 photo sets,
+plus the About portrait.
 
-Recommended cover image ratio: 4:3. Gallery/filmstrip stills: any ratio,
-they're shown at 3:2.
+Naming convention (chosen for search visibility and for finding a file later):
+
+```
+assets/img/films/<film-slug>/samantha-andre-<film-slug>-cover.jpg
+assets/img/films/<film-slug>/samantha-andre-<film-slug>-still-01.jpg
+assets/img/photography/<set-slug>/samantha-andre-<set-slug>-cover.jpg
+assets/img/photography/<set-slug>/samantha-andre-<set-slug>-photo-01.jpg
+assets/img/about/samantha-andre-director-dp-portrait.jpg
+```
+
+The `-cover` image is the one the grid shows and the one the detail page
+uses as its hero; the numbered files are the scrollable gallery, in the same
+order the old site used.
+
+`alt` text is generated in `main.js` / `detail.js` from the data, so it stays
+correct automatically: *"Newtok — Patagonia Films — Feature Documentary.
+Samantha André, Cinematographer / Field Producer."*
+
+Images were resized to a 2000px long edge and re-encoded as progressive JPEG
+(quality 82); animated GIFs were reduced to a 720px long edge. That took the
+set from 1.15 GB of originals down to **116 MB**, which matters because
+GitHub Pages caps a published site at 1 GB. Originals are untouched in
+`old_website_content/`.
+
+If a file is ever missing at a referenced path, the site renders a labeled
+placeholder panel rather than a broken-image icon (see `attachImageFallback`
+in `main.js`), so the layout never breaks.
+
+### Where the content came from
+
+`old_website_content/` holds the WordPress export (`.xml`) and the full media
+library from the previous site. **It is gitignored on purpose** — it is 1.5 GB
+and is a source archive, not part of the published site.
+
+The XML was the source of truth for what actually belongs here. The old
+install was a Cinerama theme demo carrying ~84 pages and 66 portfolio items,
+most of it stock demo content ("Cafe Bar", "Romance Films", "Thriller
+Movies"). The real site was the handful of items the home page explicitly
+listed. Concretely:
+
+- The **home page** (`page` id 6200, slug `films`) lists exactly 18
+  portfolio items by ID in its `edgtf_portfolio_list` shortcodes. Those 18
+  are the `FILMS` array, in that order.
+- The **Photos page** (id 5216) pulls the `photos` portfolio category
+  ordered by slug. Those 8 are the `PHOTO_SETS` array, in that order.
+- Everything unreachable from the home page was left out.
+- Per-project images came from the `edgtf-portfolio-image-gallery` postmeta
+  (the ordered gallery), with `_thumbnail_id` as the cover.
+- Duplicates were removed by MD5: 8 exact duplicates dropped, and 5 images
+  that legitimately appear in more than one project were kept in each.
 
 ### CV
 

@@ -108,7 +108,7 @@ function renderReelGrid(mountEl, items, hrefBuilder) {
       <a class="reel-cell" href="${hrefBuilder(item)}" data-slug="${item.slug}">
         <span class="frame-index">${index} / ${total}</span>
         <div class="cell-media">
-          <img src="${item.cover}" alt="" loading="lazy" />
+          <img src="${item.cover}" alt="${item.title} — ${item.brand}. Samantha André, ${item.role}." loading="lazy" />
         </div>
         <span class="cell-caption">
           <span class="role">${item.role}</span>

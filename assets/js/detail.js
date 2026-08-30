@@ -37,7 +37,7 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker }) 
 
   mount.innerHTML = `
     <div class="detail-hero">
-      <img id="hero-img" src="${item.cover}" alt="" />
+      <img id="hero-img" src="${item.cover}" alt="${item.title} — ${item.brand}. Samantha André, ${item.role}." />
     </div>
 
     <div class="detail-header">
@@ -71,7 +71,7 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker }) 
   const strip = document.getElementById("filmstrip");
   strip.innerHTML = item.gallery.map((src, i) => `
     <div class="strip-frame">
-      <img data-idx="${i}" src="${src}" alt="Still ${i + 1} from ${item.title}" loading="lazy" />
+      <img data-idx="${i}" src="${src}" alt="${item.title} — ${item.brand}, still ${i + 1}. Samantha André, ${item.role}." loading="lazy" />
       <span class="frame-num">${String(i + 1).padStart(2, "0")}</span>
     </div>
   `).join("");
