@@ -16,7 +16,7 @@ Abbreviations used in this project:
 | Film detail | `film.html?slug=...` | One template, reads content from `assets/js/data.js`. No prev/next links — the only way out is back to the grid |
 | Photography | `photography.html` | Same grid architecture as Films |
 | Photo-set detail | `photo-set.html?slug=...` | Same template as film detail, but does still offer prev/next |
-| About | `about.html` | Bio + portrait |
+| About | `about.html` | Bio + portrait. The portrait is a 16:9 frame with Samantha on its right-hand side, so the tall column anchors its crop at `object-position: 90%` — centring it crops her out |
 | CV | `cv.html` | On-page resume (auto-built from film data) + PDF download button |
 
 ## Editing content
@@ -189,5 +189,7 @@ The `.nojekyll` file at the root tells GitHub Pages to serve files as-is
 - **Layout**: the Films and Photography overviews are inset 10% of the page
   width on both sides (5% below 720px). The hero copy uses the same inset so
   its left edge lines up with the grid.
+- **About**: the portrait takes 55% of the width (46% below 980px, stacked
+  below 780px) with the bio in a narrower column on the right.
 
 All tokens are declared at the top of `assets/css/style.css`.
