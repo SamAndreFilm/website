@@ -13,18 +13,24 @@ Abbreviations used in this project:
 |---|---|---|
 | Films (home) | `films.html` | 2-column grid of 22 films, hover reveals role + title, click opens a film page |
 | Site root | `index.html` | Redirects to `films.html` — GitHub Pages serves `index.html` for `/`, so the root URL has to keep working |
-| Film detail | `film.html?slug=...` | One template, reads content from `assets/js/data.js`. No prev/next links — the only way out is back to the grid |
+| Film detail | `film.html?slug=...` | One template, reads content from `assets/js/data.js`. No prev/next links — back to the grid only |
 | Photography | `photography.html` | Same grid architecture as Films |
-| Photo-set detail | `photo-set.html?slug=...` | Same template as film detail, but does still offer prev/next |
+| Photo-set detail | `photo-set.html?slug=...` | Same template as film detail. Also no prev/next — back to the grid only |
 | About | `about.html` | Bio + portrait. The portrait is a 16:9 frame with Samantha on its right-hand side, so the tall column anchors its crop at `object-position: 90%` — centring it crops her out |
 | CV | `cv.html` | On-page resume (auto-built from film data) + PDF download button |
 
 ## Editing content
 
 There is a plain-English walkthrough for non-developers in
-`EDITING-GUIDE.md` (gitignored — it is for whoever maintains the site, not
-part of the published site). It covers changing a film's text, swapping an
-image, previewing locally, and publishing via GitHub Desktop.
+`EDITING-GUIDE.md`, and a Word version of the same document beside it. Both
+are gitignored — they are for whoever maintains the site, not part of the
+published site. The guide starts from cloning the repository with GitHub
+Desktop and covers changing a film's text, swapping an image, previewing
+locally, and publishing.
+
+`renderDetailPage` in `detail.js` takes an `adjacentNav` option. Both film and
+photo-set pages pass `false`, so neither offers prev/next; the option is kept
+so that behaviour can be turned back on without rewriting the template.
 
 Everything editorial lives in **`assets/js/data.js`** — two arrays,
 `FILMS` and `PHOTO_SETS`. To add a project, copy an existing object in the

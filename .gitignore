@@ -2,3 +2,5 @@
 .DS_Store
 old_website_content/
 EDITING-GUIDE.md
+*.docx
+*.pdf
