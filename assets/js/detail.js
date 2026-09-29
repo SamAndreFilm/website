@@ -63,7 +63,6 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker, ad
     ${moreVideosBlock(item)}
 
     <div class="filmstrip-wrap">
-      <h2>Stills</h2>
       <div class="filmstrip" id="filmstrip"></div>
     </div>
 
@@ -161,7 +160,6 @@ function creditsBlock(credits) {
   if (!credits || !credits.length) return "";
   return `
     <section class="credits-wrap">
-      <h2>Credits</h2>
       <dl class="credits">
         ${credits.map(([label, value]) => `<dt>${label}</dt><dd>${highlightHer(value)}</dd>`).join("")}
       </dl>
@@ -179,7 +177,6 @@ function moreVideosBlock(item) {
   if (!item.moreVideos || !item.moreVideos.length) return "";
   return `
     <section class="more-videos">
-      <h2>More to watch</h2>
       <div class="video-grid">
         ${item.moreVideos.map((v, i) => `
           <div class="video-tile" data-video="${v.url}" role="button" tabindex="0" aria-label="Play ${item.title}, video ${i + 2}">
