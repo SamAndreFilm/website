@@ -43,6 +43,15 @@ array and change the fields. No other file needs to change:
   brand: "Studio / Client",
   role: "Director",
   year: "2026",
+  video: "https://vimeo.com/123456789",   // or a youtube.com/watch?v= link; adds the play button
+  moreVideos: [                            // optional: extra films on the same page
+    { url: "https://vimeo.com/987654321", poster: "assets/img/films/your-new-film/video-01.jpg" }
+  ],
+  credits: [                               // shown as a table, in this order
+    ["YEAR", "2026"],
+    ["DIRECTOR", "Samantha Andre"],
+    ["EDITOR", "<a href=\"https://example.com\">Someone Else</a>"]
+  ],
   synopsis: "One or two factual sentences about the project.",
   note: "Samantha's own first-person paragraph about making it.",
   cover: "assets/img/films/your-new-film/cover.jpg",
@@ -53,7 +62,31 @@ array and change the fields. No other file needs to change:
 }
 ```
 
-`PHOTO_SETS` uses the same shape, without `synopsis`/`year`.
+`PHOTO_SETS` uses the same shape, without `synopsis`/`year`/`video`/`credits`.
+
+### Video and credits
+
+`video` is the page URL of the film on YouTube or Vimeo, exactly as copied
+from the address bar (unlisted Vimeo links with the `/hash` suffix and
+YouTube `t=` / `list=` parameters are handled). The detail page puts a play
+button over the hero still; pressing it swaps the still for the embedded
+player (`embedURLFor` / `playVideoIn` in `detail.js`), so the film plays on
+the page instead of sending the visitor off-site. Players are only loaded on
+click — no third-party requests until someone actually presses play. YouTube
+goes through `youtube-nocookie.com` and Vimeo gets `dnt=1`.
+
+Where the old site had several films on one page (ACLU, Sikh Lens, Scotty,
+Vice World of Sports) the first one plays in the hero and the rest sit in a
+"More to watch" grid from `moreVideos`. Their posters are the old site's own
+play-button images, saved as `samantha-andre-<slug>-video-NN.jpg`.
+
+`credits` is the old site's credit table, one `[label, value]` pair per row,
+in the order she had them. Values may contain `<a>` links (the old site
+linked most collaborators). Every film's `video` and `credits` came straight
+out of the WordPress export; the only edits were dropping links that pointed
+back at samandre.com itself, trimming a tracking-laden Rapha URL, and fixing
+the label typo "MUISC". *Taking the Reins* has no video and its year is the
+old site's "In production".
 
 ### The `note` field
 

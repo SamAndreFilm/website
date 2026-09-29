@@ -10,6 +10,12 @@
   photography, photo-set detail) reads from here. No other file needs to
   change for routine content updates.
 
+  VIDEO: "video" is the film's YouTube or Vimeo page URL (copied from the
+  address bar). It adds a play button over the hero still; pressing it plays
+  the film on the page. "moreVideos" (optional) lists further films for the
+  same page as { url, poster }. "credits" is the credit table shown under the
+  synopsis: [label, value] pairs in display order; values may contain links.
+
   IMAGE PATHS: point "cover" and each "gallery" entry at real files you add
   under assets/img/films/<slug>/ or assets/img/photography/<slug>/.
   Until a real file exists at that path, the site automatically renders a
@@ -24,6 +30,15 @@ const FILMS = [
     brand: "Patagonia Films — Feature Documentary",
     role: "Cinematographer / Field Producer",
     year: "2021",
+    video: "https://www.youtube.com/watch?v=BohwgBqAwJc&t=3s",
+    credits: [
+      ["YEAR", "2021"],
+      ["CO CINEMATOGRAPHY/ FIELD PRODUCER", "Samantha Andre"],
+      ["DIRECTORS", "<a href=\"https://www.andrewburtonphoto.com/\">Andrew Burton</a> and <a href=\"https://michaelkirbysmith.com/\">Michael Kirby Smith</a>"],
+      ["PRODUCER", "<a href=\"https://www.alaskawomenshalloffame.org/alumnae/marie-meade/\">Marie Meade</a>"],
+      ["EDITORS", "<a href=\"https://www.imdb.com/name/nm2420356/\">Davis Coombe</a> and <a href=\"https://www.imdb.com/name/nm5740594/\">Tessa Malsam</a>"],
+      ["CINEMATOGRAPHY", "<a href=\"https://keenan.film/\">Keenan Newman</a>, <a href=\"https://cargocollective.com/colinarchdeacon/9629274\">Colin Archdeacon</a>, and <a href=\"https://www.noraballard.com/\">Nora Ballard</a>"]
+    ],
     synopsis: "The Yup'ik village of Newtok, Alaska is crumbling into the water. Climate change has flooded the local homes and eroded the way of life for this small community, where the once nomadic indigenous people were forced to settle in 1949 by the Bureau of Indian Affairs. For more than two decades, the residents of Newtok have fought to secure federal funding needed to move their village to a safer location 10 miles away. With footage from four years living in the town, directors Andrew Burton and Michael Kirby Smith offer a window into this tight-knit community, and the challenges of a climate disaster. With long shots of melting ice, and intimate portraits of the people facing the threat of global warming every day, Newtok makes clear the impact climate change has on this country right now.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/newtok/samantha-andre-newtok-cover.jpg",
@@ -42,6 +57,17 @@ const FILMS = [
     brand: "Twitter Studios x VICE",
     role: "Director",
     year: "2019",
+    video: "https://vimeo.com/465477429/9b4a9c98f0",
+    credits: [
+      ["YEAR", "2019"],
+      ["DIRECTOR", "Samantha Andre"],
+      ["EXECUTIVE PRODUCERS", "Biz Stone, Donna Lamar"],
+      ["PRODUCERS", "Tieneke Pavesic, Matt Lundberg, Madeline Askwith"],
+      ["DP", "Taylor Mcintosh"],
+      ["EDITOR", "Dan Duran"],
+      ["CREATIVE DIRECTOR", "Jason Yaitanes"],
+      ["CREATIVE", "Tyler Haruta"]
+    ],
     synopsis: "Being Emily is about the remarkable story of a Gen-Z teen who runs and operates a popular digital zine made by and for disabled youth. VICE created this short film in partnership with Twitter as a pilot for a new studio initiative, with each short film focusing on the communities that use Twitter. Emily created her zine with other disabled teens she met on #DisabilityTwitter. In the film, we spend time with her as she prepares to graduate high school early and experience her first entry into independence at college. She also meets with her zine contributors from across the world to brainstorm new projects and gets to interview her #DisabilityTwitter idol.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/being-emily/samantha-andre-being-emily-cover.jpg",
@@ -63,6 +89,15 @@ const FILMS = [
     brand: "EF / Wahoo — Branded Documentary",
     role: "Director",
     year: "2025",
+    video: "https://www.youtube.com/watch?v=_EOtzGoc9c4",
+    credits: [
+      ["YEAR", "2025"],
+      ["DIRECTOR", "Samantha Andre"],
+      ["CINEMATOGRAPHER", "Ivo Maes"],
+      ["EDITOR", "Taylor Kruse and Samantha Andre"],
+      ["PRODUCER", "Johannes Mansson and Angus Morton"],
+      ["CREATIVE DIRECTION", "Angus Morton"]
+    ],
     synopsis: "Cédrine Kerbaol’s glittering palmarès do not define her. What makes the French time trial champion and Tour de France stage winner truly special is the way she can win without ever losing her sense of self—and lose without ever being defeated. Cédrine was disappointed with this summer’s Tour de France Femmes. She finished the final stage of the Tour in tears after a crash at the base of the Col du Joux Plane wrecked her plan to attack in the Alps. I watched Cédrine through the camera as Cédrine met with her family and teammates and was soon smiling again through her tears. We followed Cédrine on her camping trip after the race and got to know her—her story, her family, and where she comes from. Cédrine discovered cycling as a teenager when she was bullied at school for refusing to fit in. The sport gave her a way to cope with disappointment and pain and allowed her to spend time in the natural world that she has always loved. On the bike, Cédrine’s free spirit soars. That is why she inspires us. That is why she continues to make us dream.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/faire-rever/samantha-andre-faire-rever-cover.jpg",
@@ -74,6 +109,15 @@ const FILMS = [
     brand: "The Front — Short Documentary",
     role: "Director",
     year: "2019",
+    video: "https://vimeo.com/1217457081?share=copy&fl=sv&fe=ci",
+    credits: [
+      ["YEAR Released", "2019"],
+      ["DIRECTOR, DP", "Samantha André"],
+      ["Series Executive Producers", "<a href=\"https://www.thaliamavros.com\">Thalia Mavros and Muriel Soenens</a>"],
+      ["Editor", "<a href=\"http://www.martinadealba.com\">Martina De Alba</a>"],
+      ["Color", "<a href=\"https://chrisramey.com\">Chris Ramey</a>"],
+      ["Sound Mix/Design", "<a href=\"https://m.imdb.com/name/nm0250593/filmotype/sound_department?ref_=m_nmfm_1\">Tom Effinger</a>"]
+    ],
     synopsis: "Here : Maasai Land provides an intimate look into a new generation of Maasai girls caught in between traditions and their fight for education and freedom.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-cover.jpg",
@@ -100,6 +144,11 @@ const FILMS = [
     brand: "Feature Documentary — In Production",
     role: "Director / DP / Producer",
     year: "2015–2020",
+    video: "https://vimeo.com/257232247",
+    credits: [
+      ["YEARS WORKED ON", "2015-2020"],
+      ["DIRECTOR/ DP/ PRODUCER", "Samantha Andre"]
+    ],
     synopsis: "At the crossroads of tradition and change, what will one Maasai girl risk to pursue her education? A film five years in the making, Mary’s Way provides an intimate glimpse into the world of a Maasai girl and her teacher who risk their lives to challenge their culture and empower a new generation.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/marys-way/samantha-andre-marys-way-cover.jpg",
@@ -124,6 +173,15 @@ const FILMS = [
     brand: "EF / Wahoo — Branded Documentary",
     role: "Director / Editor",
     year: "2023",
+    video: "https://www.youtube.com/watch?v=UCRfvKcJSQM",
+    credits: [
+      ["YEAR", "2023"],
+      ["DIRECTOR", "Samantha Andre and Johannes Mansson"],
+      ["CINEMATOGRAPHER", "Samantha Andre and Taylor Kruse"],
+      ["EDITOR", "Samantha Andre"],
+      ["PRODUCER", "Johannes Mansson, Matthew Beaudin, and Angus Morton"],
+      ["CREATIVE DIRECTION", "Angus Morton"]
+    ],
     synopsis: "“A family that plays together, stays together.” That was Neilson Powless’ dad’s motto when he was growing up. Every weekend, Neilson’s mom and dad would take him and his older sister Shayna to swim, bike, and run in races around California. Their mom was an Olympic marathoner and their dad was a competitive triathlete in the Air Force, but together they always made sure that sports were fun first. All that play made Neilson and Shayna fast. Now, they are both professional cyclists. Neilson is about to become a father himself; his wife, Frances, is pregnant. Frances is a ballerina. She is his lead. With Frances, Neilson can dance over the ups and downs of life as a professional sportsman. Far away from home, Neilson and Frances are still learning how to keep doing the things that they love. Frances has learned about cycling, as Neilson has learned about ballet. Becoming parents is about to change their lives. What they know is that they will always keep playing together, because they are going to stay together.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/my-family-is-my-tribe/samantha-andre-my-family-is-my-tribe-cover.png",
@@ -139,6 +197,16 @@ const FILMS = [
     brand: "Canyon — Branded Documentary",
     role: "Director / DP",
     year: "2022",
+    video: "https://www.youtube.com/watch?v=6gDnuyNpqK8",
+    credits: [
+      ["YEAR", "2022"],
+      ["DIRECTOR", "Samantha Andre"],
+      ["PRODUCER", "Florencia Ojeda"],
+      ["DP", "Samantha André"],
+      ["DRONE & ADDITIONAL CINEMATOGRAPHY", "<a href=\"https://www.saskiadugon.com/\">Saskia Dugon</a>"],
+      ["EDITOR", "<a href=\"https://www.lucylelievre.com/\">Lucy Le Lievre</a>"],
+      ["CLIENT", "<a href=\"https://www.canyon.com/en-ca/blog-content/gravel-bike-news/my-body-at-its-best-emily-chappell-jenny-tough/b25082022.html\">Canyon Bicycles</a>"]
+    ],
     synopsis: "Despite their objective success on the bike and careers as athletes, Emily Chappell and Jenny Tough bonded over their deep and lifelong struggles with their body images. Even while reaching the highest levels of physical health and performance, neither can shake the concern that their body types do not feature frequently in the sports industry. ‘Fixing’ their bodies have led both women through unhealthy paths in eating behaviors, self-esteem, and affected most aspects of their lives. Through their friendship, the two commit to encouraging each other to stay on the path of health, and understand that they already know that their bodies are at their best - the mileage they each clock up in a year in the saddle and respective race wins should speak for themselves.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-cover.jpg",
@@ -155,6 +223,13 @@ const FILMS = [
     brand: "Short Documentary",
     role: "Co-Director",
     year: "2013",
+    video: "https://vimeo.com/82467170",
+    credits: [
+      ["YEAR", "2013"],
+      ["DIRECTOR", "Samantha Andre"],
+      ["CO-DIRECTORS", "<a href=\"https://www.graemeaegerter.com/\">Graeme Agerter</a> and <a href=\"http://www.bobby-moser.com/\">Bobby Mosier</a>"],
+      ["FESTIVALS", "<a href=\"http://www.bigskyfilmfest.org/archives/archived_films-2015/daugthers_of_emmonak/2015\">Big Sky Film Festival</a>, <a href=\"http://anchorage.festivalgenius.com/2014/films/daughtersofemmonak_samanthaandre_anchorage2014\">Anchorage Film Festival</a>, <a href=\"https://durangoherald.com/articles/873074\">Durango Film Festival</a>"]
+    ],
     synopsis: "Daughters of Emmonak is a documentary film about a Yup’ik Eskimo woman, Lenora “Lynn” Hootch, working to bring an end to domestic abuse in her rural village of Emmonak, Alaska. In 1982, Lynn opened the Emmonak Women’s Shelter to provide a safe place for women and children from surrounding villages. Lynn has dedicated her life to reclaiming her people’s culture and traditional values as alcohol, drugs, and violence have torn through her community. Daughters of Emmonak brings these powerful stories to the fore, highlighting Lynn’s dream of a future where her grandchildren will walk the streets without fear.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-cover.jpg",
@@ -179,6 +254,15 @@ const FILMS = [
     brand: "Rapha Films — Branded Documentary",
     role: "Director",
     year: "2021",
+    video: "https://www.youtube.com/watch?v=UlytSvGI7QU",
+    credits: [
+      ["YEAR", "2021"],
+      ["DIRECTOR", "Samantha Andre"],
+      ["PRODUCER", "<a href=\"https://www.kimberleyenglish.com/about\">Kimberley English</a>"],
+      ["DP", "<a href=\"https://www.ivomaes.com/about\">Ivo Maes</a>"],
+      ["EDITOR", "<a href=\"https://www.lucylelievre.com/\">Lucy Le Lievre</a>"],
+      ["CLIENT", "<a href=\"https://www.rapha.cc/\">RAPHA</a>"]
+    ],
     synopsis: "Opening up a crucial conversation usually held behind closed doors, Maghalie Rochette’s educational new ‘Menstrual Health Series’ is helping to shift perspectives on periods: from a setback to superpower. Part of her Fever Talk podcast, the series educates and encourages riders to harness the power of their period, and improve their performance in doing so. She’ll be sitting down with a different expert each episode to share stories and advice, tackling the stigma surrounding menstruation head-on. Discussing the whole spectrum of the cycle, from those who have periods to those that do not, the podcast breaks down any shame or uncertainty that usually surrounds the subject.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/keep-riding/samantha-andre-keep-riding-cover.jpg",
@@ -197,6 +281,14 @@ const FILMS = [
     brand: "Peacock — Documentary Feature",
     role: "DP",
     year: "2023",
+    video: "https://www.youtube.com/watch?v=y7UAJbeEzR8",
+    credits: [
+      ["YEAR", "2023"],
+      ["DIRECTOR OF PHOTOGRAPHY", "Samantha Andre"],
+      ["DIRECTOR", "Ted Youngs"],
+      ["PRODUCER", "Matt Rogers"],
+      ["EDITOR", "Daniel Palmer and Brian Gersten"]
+    ],
     synopsis: "With their superstar \"Rigo\" Urán coming back from a catastrophic injury, the U.S.A's oldest professional cycling team have their eyes on cycling's most coveted prize: a win at the 2020 Tour de France. Through victories and heartbreaks, these young men must come together as they face the sport's biggest and most challenging contest.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-cover.jpg",
@@ -244,6 +336,14 @@ const FILMS = [
     brand: "International Women's Media Foundation — Documentary",
     role: "Cinematographer",
     year: "2019",
+    video: "https://vimeo.com/426925697/2979be1703",
+    credits: [
+      ["YEAR", "2019"],
+      ["CINEMATOGRAPHER", "Samantha Andre"],
+      ["DIRECTOR", "Saher Shakir"],
+      ["EDITOR", "<a href=\"https://vimeo.com/tonychen\">Tony Chen</a>"],
+      ["HOST", "<a href=\"http://taniarashid.com/\">Tania Rashid</a>"]
+    ],
     synopsis: "A film about LGBT refugees and their opposition on the far right. We cover the first LGBT safe house for refugees seeking asylum in Germany as well as protests and anti immigration movements in Austria. The film was funded through a grant by International Women's Media Foundation.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/no-refuge/samantha-andre-no-refuge-cover.jpg",
@@ -268,6 +368,13 @@ const FILMS = [
     brand: "Short Documentary",
     role: "Co-Director",
     year: "2013",
+    video: "https://vimeo.com/66356967",
+    credits: [
+      ["YEAR", "2013"],
+      ["DIRECTOR/ DP/EDITOR", "Samantha Andre"],
+      ["CO DIRECTORS", "<a href=\"https://vimeo.com/carlyberryhill\">Mike Agnew</a> and <a href=\"https://www.margotanne.com/\">Margot Czeropski</a>"],
+      ["FESTIVALS", "<a href=\"http://www.bigskyfilmfest.org/archives/archived_films-2015/finding_home\">Big Sky Documentary Film Festival</a>, Sebastopol Documentary Film Festival, Africa World Documentary Festival"]
+    ],
     synopsis: "The Abdi family, refugees from Somalia, arrived in the United States only a few months ago. Follow the parents and five children as they struggle to find a new home in the USA, and discover that people, even when they are from disparate places, share quite a bit in common.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/finding-home/samantha-andre-finding-home-cover.jpg",
@@ -285,6 +392,12 @@ const FILMS = [
     brand: "Kyan — Music Video",
     role: "Director / DP",
     year: "2016",
+    video: "https://www.youtube.com/watch?v=q94KmfQuCk4&list=PLQuKgGVBJ6iBe1xPcw7hdxdN-oZ_j6nk2",
+    credits: [
+      ["YEAR", "2016"],
+      ["DIRECTOR/ DP", "Samantha Andre"],
+      ["MUSIC", "<a href=\"https://www.youtube.com/channel/UC9DAY2JD9zy9zKA5OtwpNtw\">Kyan</a>"]
+    ],
     synopsis: "Nothing Beyond by Kyan. Shot entirely on 8mm film on location in Death Valley, Salton Sea and Joshua Tree.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-cover.jpg",
@@ -302,6 +415,14 @@ const FILMS = [
     brand: "Apple TV — Documentary Series",
     role: "Associate Producer",
     year: "2020",
+    video: "https://www.youtube.com/watch?v=nhnHN2lv2ho",
+    credits: [
+      ["YEAR WORKED ON", "2018"],
+      ["YEAR RELEASED", "June 2020"],
+      ["ASSOCIATE PRODUCER", "Samantha Andre"],
+      ["EXECUTIVE PRODUCER", "<a href=\"https://www.imdb.com/name/nm0191712/\">RJ Cutler</a>"],
+      ["CO PRODUCERS", "<a href=\"http://matadorcontent.com/\">Matador Content</a> and Cutler Productions"]
+    ],
     synopsis: "Inspired by Apple’s groundbreaking “Dear Apple” spots, “Dear…” takes an inventive and cinematic approach to biographies of the most iconic figures in society today by using letters written by those whose lives have been changed through their work. The 10-episode series will profile internationally recognized leaders including Oprah Winfrey, Gloria Steinem, Spike Lee, Lin-Manuel Miranda, Yara Shahidi, Stevie Wonder, Aly Raisman, Misty Copeland, Jane Goodall and more.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/dear/samantha-andre-dear-cover.jpg",
@@ -326,6 +447,16 @@ const FILMS = [
     brand: "Sikh Lens Film Festival — Documentary Shorts",
     role: "Director / DP",
     year: "2013–2014",
+    video: "https://vimeo.com/80093704",
+    moreVideos: [
+      { url: "https://vimeo.com/134647216", poster: "assets/img/films/sikh-lens/samantha-andre-sikh-lens-video-01.jpg" },
+      { url: "https://vimeo.com/414726118", poster: "assets/img/films/sikh-lens/samantha-andre-sikh-lens-video-02.jpg" }
+    ],
+    credits: [
+      ["YEAR", "2013-2014"],
+      ["DIRECTOR/ DP", "Samantha Andre"],
+      ["CO DIRECTORS/ DP", "<a href=\"https://vimeo.com/carlyberryhill\">Carly Beryhill</a>, <a href=\"http://ryanwestra.com/\">Ryan Westra</a> and <a href=\"http://www.barthfilm.com/\">Michael Barth</a>"]
+    ],
     synopsis: "Films commissioned by the Sikh Lens Film Festival. Lions of London recounts the history of Sikh contributions to the World Wars. When a Tree Falls shares the history of the Sikh massacres of 1984. Through eyewitness accounts and historians it becomes clear that the killings of 1984 are not an isolated event but rather a devastating reoccurring trend in Indian politics. The Lone Guru is a portrait of the last Sikh Guru at Pasupathi Temple in Nepal. He claims to have predicted the earthquake in Nepal and be one of the last Sikh Gurus in Nepal.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/sikh-lens/samantha-andre-sikh-lens-cover.jpg",
@@ -360,6 +491,12 @@ const FILMS = [
     brand: "Documentary Short",
     role: "Co-Director",
     year: "2013",
+    video: "https://vimeo.com/414699999/ea29016188",
+    credits: [
+      ["YEAR", "2013"],
+      ["CO DIRECTOR", "Samantha Andre"],
+      ["CO DIRECTORS", "<a href=\"http://www.pasqualgutierrez.com/\">Pasqual Gutierrez</a>, <a href=\"http://www.barthfilm.com/\">Michael Barth</a> and <a href=\"http://www.spencercreigh.com/rapala\">Spencer Creigh</a>"]
+    ],
     synopsis: "Water Gives, Water Takes Away. In the fishing village of Vilanculos, Mozambique, the ocean is both a lifeline and a torment. Samuel works day in and day out in the shallow waters of Vilanculos, Mozambique to feed his family. Rui was one of a few fortunate fishermen to receive aid from the government to support his fishing business. Dauto, the son of a fisherman, has watched his loved ones struggle to survive in the ever-changing fishing industry of Vilanculos. Agua Da Agua Leva tells the story of these three men and the struggles they must face as they combat the harsh realities of overfishing.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-cover.jpg",
@@ -402,6 +539,19 @@ const FILMS = [
     brand: "Altimeter Films — Feature Documentary",
     role: "Assistant Editor",
     year: "2017",
+    video: "https://www.youtube.com/watch?v=1qn6HxTJp0k",
+    moreVideos: [
+      { url: "https://www.youtube.com/watch?v=hKjkjntspfA&feature=emb_logo", poster: "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-video-01.jpg" },
+      { url: "https://vimeo.com/168255464", poster: "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-video-02.jpg" }
+    ],
+    credits: [
+      ["YEAR WORKED ON", "2014"],
+      ["YEAR RELEASED", "2017"],
+      ["PRODUCTION COMPANY", "<a href=\"http://www.altimeterfilms.com/scotty\">Altimeter Films</a>"],
+      ["ASSISTANT EDITOR", "Samantha Andre"],
+      ["DIRECTOR", "<a href=\"https://www.imdb.com/name/nm2961289/\">Matt Tyrnauer</a>"],
+      ["FESTIVALS", "<a href=\"https://www.tiff.net/the-review/the-town-jane-jacobs-built\">Toronto International Film Festival</a>, <a href=\"https://www.docnyc.net/film/citizen-jane-battle-for-the-city/\">Doc NYC</a>, <a href=\"https://www.idfa.nl/en/film/c4f68ce7-5f3a-4d79-beb1-68eebc2a1ad1/citizen-jane-battle-for-the-city\">IDFA</a>, Rome Int’l Film Festival"]
+    ],
     synopsis: "Scotty and the Secret History of Hollywood is the deliciously scandalous story of Scotty Bowers, a handsome ex-Marine who landed in Hollywood after World War II and became confidante, aide-de-camp and lover to many of Hollywood’s greatest male—and female—stars. In the 1940s and ‘50s, Scotty ran a gas station in the shadow of the studio lots where he would connect his friends with actors and actresses who had to hide their true sexual identities for fear of police raids at gay bars, societal shunning and career suicide.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-cover.jpg",
@@ -440,6 +590,15 @@ const FILMS = [
     brand: "Feature Documentary",
     role: "Finishing Editor",
     year: "2019",
+    video: "https://www.youtube.com/watch?v=-OcuyGz5ehM",
+    credits: [
+      ["YEAR", "2019"],
+      ["FINISHING EDITOR", "Samantha Andre"],
+      ["EDITORS", "<a href=\"https://www.imdb.com/name/nm2047157/\">Stacy Goldate</a> and <a href=\"https://www.imdb.com/name/nm3574029/\">Melanie Levy</a>"],
+      ["CO DIRECTORS", "<a href=\"https://www.sallyrubinfilms.com/\">Sally Rubin</a> and <a href=\"https://www.imdb.com/name/nm1852285/\">Ashley York</a>"],
+      ["DP", "<a href=\"http://www.bryandonnell.com/\">Bryan Donnell</a>"],
+      ["COMPOSERS", "<a href=\"http://www.alulastudios.com/about\">Beth Caucci and John Fee</a>"]
+    ],
     synopsis: "Since the presidential election, the cultural divide in America has expanded. Stereotyping and slurs are rampant, finger-pointing and name-calling abound. hillbilly goes on a personal and political journey into the heart of the Appalachian coalfields, exploring the role of media representation in the creation of the iconic American \"hillbilly,\" and examining the social, cultural, and political underpinnings of this infamous stereotype. Featuring bell hooks, Ronny Cox, Billy Redden, Michael Apted, Frank X Walker, Crystal Good, Silas House, Sam Gleaves, Amythyst Kiah.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/hillbilly/samantha-andre-hillbilly-cover.jpg",
@@ -464,6 +623,24 @@ const FILMS = [
     brand: "Documentary Series",
     role: "Assistant Editor",
     year: "2016",
+    video: "https://www.youtube.com/watch?v=mTPWcLmWvD0",
+    moreVideos: [
+      { url: "https://www.youtube.com/watch?v=63kjNSkk1pw&t=38s", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-01.jpg" },
+      { url: "https://www.youtube.com/watch?v=NFBvlFqXkOA", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-02.jpg" },
+      { url: "https://www.youtube.com/watch?v=FPFWL1QFLdQ", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-03.jpg" },
+      { url: "https://www.youtube.com/watch?v=MzF3EsxqNac", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-04.jpg" },
+      { url: "https://www.youtube.com/watch?v=Wqv1bmHGijE", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-05.jpg" },
+      { url: "https://www.youtube.com/watch?v=Dth2Tm9apDw", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-06.jpg" },
+      { url: "https://www.youtube.com/watch?v=b24GVsz-4qE&list=PLyh2_4YA_K7kdRDKnYiuQHwsamzZNkWLD&index=7&t=0s", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-07.jpg" }
+    ],
+    credits: [
+      ["YEAR", "2016"],
+      ["ASSISTANT EDITOR", "Samantha Andre"],
+      ["PRODUCTION COMPANY", "<a href=\"https://www.vice.com/en_us/topic/vice-world-of-sports\">VICE</a>"],
+      ["SHOW RUNNER", "<a href=\"https://www.evanrosenfeld.com/vice-world-of-sports-1\">Evan Rosenfeld</a>"],
+      ["SERIES PRODUCER", "<a href=\"https://www.imdb.com/name/nm3750468/\">Jeremy David White</a>"],
+      ["EXECUTIVE PRODUCERS", "<a href=\"https://www.imdb.com/name/nm1811321/\">Evan Rosenfeld</a>, <a href=\"https://www.imdb.com/name/nm1679085/\">Selema Masekela</a>, <a href=\"https://www.imdb.com/name/nm1464662/\">Bernardo Loyola</a>, and Will Kiersky"]
+    ],
     synopsis: "RIVALS continues to get on the field and into the ring through a series of compelling stories at the fringe of culture and politics.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-cover.jpg",
@@ -532,6 +709,15 @@ const FILMS = [
     brand: "Mini Documentaries",
     role: "Editor",
     year: "2019",
+    video: "https://vimeo.com/342289369",
+    moreVideos: [
+      { url: "https://vimeo.com/342297839", poster: "assets/img/films/aclu/samantha-andre-aclu-video-01.jpg" }
+    ],
+    credits: [
+      ["YEAR", "2019"],
+      ["EDITOR", "Samantha Andre"],
+      ["DIRECTOR/ DP", "<a href=\"https://www.gorotoshima.com/\">Goro Toshima</a>"]
+    ],
     synopsis: "For the ACLU (American Civil Liberties Union). The first story features Robert Mitchell, who successfully sued the Bakersfield Police Dept. for unlawful arrest. The second video focuses on the ACLU's efforts to mobilize and organize pro-bono attorneys after the U.S. sent thousands of immigrant detainees to federal prison and deprived them of their basic human rights.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/aclu/samantha-andre-aclu-cover.jpg",
@@ -552,7 +738,13 @@ const FILMS = [
     title: "Taking the Reins",
     brand: "Documentary Feature — In Production",
     role: "Co-Producer",
-    year: "",
+    year: "In production",
+    credits: [
+      ["YEAR", "In production"],
+      ["DIRECTOR PRODUCERS", "Kristy Guevara-Flanagan and Sally Rubin"],
+      ["CO PRODUCER", "Samantha Andre"],
+      ["CINEMATOGRAPHY", "Bryan Donnell"]
+    ],
     synopsis: "TAKING THE REINS is a feature-length documentary set in the American West that explores how historically marginalized Americans – violently cast out of national narratives – are fighting back and reclaiming the iconic “cowboy” identity to demand inclusion in our country’s story.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/taking-the-reins/samantha-andre-taking-the-reins-cover.jpg",
@@ -564,6 +756,11 @@ const FILMS = [
     brand: "Documentary Series",
     role: "Trailer Editor",
     year: "2016",
+    video: "https://www.youtube.com/watch?v=oLuUE9QtJTo",
+    credits: [
+      ["YEAR", "2016"],
+      ["TRAILER EDITOR", "Samantha Andre"]
+    ],
     synopsis: "Live Nation TV delivers unprecedented access to touring artists producing an exclusive original documentary series. Featured artists include Garbage, Chris Cornell, Leon Bridges, Heart, and more.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-cover.jpg",

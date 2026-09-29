@@ -33,9 +33,16 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker, ad
     ? `<p class="synopsis">${item.synopsis}</p>`
     : "";
 
+  const playButton = item.video
+    ? `<button class="play-btn" type="button" id="hero-play" aria-label="Play ${item.title}">
+         ${PLAY_GLYPH}<span>Play film</span>
+       </button>`
+    : "";
+
   mount.innerHTML = `
-    <div class="detail-hero">
+    <div class="detail-hero${item.video ? " has-video" : ""}" id="detail-hero">
       <img id="hero-img" src="${item.cover}" alt="${item.title} — ${item.brand}. Samantha André, ${item.role}." />
+      ${playButton}
     </div>
 
     <div class="detail-header">
@@ -51,6 +58,9 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker, ad
         <cite>Samantha André &mdash; ${item.role}</cite>
       </blockquote>
     </div>
+
+    ${creditsBlock(item.credits)}
+    ${moreVideosBlock(item)}
 
     <div class="filmstrip-wrap">
       <h2>Stills</h2>
@@ -73,6 +83,108 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker, ad
   strip.querySelectorAll("img").forEach(img => {
     attachImageFallback(img, `${item.title} — ${img.dataset.idx}`, item.slug + "-still-" + img.dataset.idx);
   });
+
+  // The hero still doubles as the film's poster: pressing play swaps it for
+  // the embedded player, so the film is watched here rather than off-site.
+  const playBtn = document.getElementById("hero-play");
+  if (playBtn) {
+    playBtn.addEventListener("click", () => {
+      playVideoIn(document.getElementById("detail-hero"), item.video, item.title);
+    });
+  }
+
+  document.querySelectorAll(".video-tile").forEach((tile, i) => {
+    const play = () => playVideoIn(tile, tile.dataset.video, `${item.title} — video ${i + 2}`);
+    tile.addEventListener("click", play);
+    tile.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); play(); }
+    });
+    const poster = tile.querySelector("img");
+    if (poster) attachImageFallback(poster, `${item.title} — video ${i + 2}`, item.slug + "-video-" + i);
+  });
+}
+
+// An outlined triangle with no disc behind it — the old site's play mark.
+const PLAY_GLYPH = `<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M14 8 L56 32 L14 56 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>`;
+
+/**
+ * Turns a YouTube or Vimeo page URL (the kind you copy from the address bar)
+ * into an embeddable player URL. Returns null for anything else so the page
+ * can simply not offer a player rather than embed a broken frame.
+ */
+function embedURLFor(pageURL) {
+  let url;
+  try { url = new URL(pageURL); } catch (e) { return null; }
+  const host = url.hostname.replace(/^www\./, "");
+
+  if (host === "youtube.com" || host === "m.youtube.com" || host === "youtu.be") {
+    const id = host === "youtu.be" ? url.pathname.slice(1) : url.searchParams.get("v");
+    if (!id) return null;
+    const q = new URLSearchParams({ autoplay: "1", rel: "0" });
+    const list = url.searchParams.get("list");
+    if (list) q.set("list", list);
+    const t = url.searchParams.get("t");
+    if (t) {
+      // "3s", "1m20s" or plain seconds
+      const m = /^(?:(\d+)m)?(?:(\d+)s?)?$/.exec(t);
+      if (m) q.set("start", String((+m[1] || 0) * 60 + (+m[2] || 0)));
+    }
+    return `https://www.youtube-nocookie.com/embed/${id}?${q}`;
+  }
+
+  if (host === "vimeo.com" || host === "player.vimeo.com") {
+    // vimeo.com/123456  or an unlisted link  vimeo.com/123456/abcdef01
+    const m = /^\/(?:video\/)?(\d+)(?:\/([0-9a-f]+))?/.exec(url.pathname);
+    if (!m) return null;
+    const q = new URLSearchParams({ autoplay: "1", dnt: "1" });
+    if (m[2]) q.set("h", m[2]);
+    return `https://player.vimeo.com/video/${m[1]}?${q}`;
+  }
+
+  return null;
+}
+
+/** Replaces the poster in `frame` with the player (or falls back to a link). */
+function playVideoIn(frame, pageURL, label) {
+  const src = embedURLFor(pageURL);
+  if (!src) { window.open(pageURL, "_blank", "noopener"); return; }
+  frame.classList.add("is-playing");
+  frame.innerHTML = `
+    <iframe src="${src}" title="${label}" frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture; encrypted-media"
+      allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  `;
+}
+
+/** The old site's credit table: [label, value] pairs, in the order she wrote them. */
+function creditsBlock(credits) {
+  if (!credits || !credits.length) return "";
+  return `
+    <section class="credits-wrap">
+      <h2>Credits</h2>
+      <dl class="credits">
+        ${credits.map(([label, value]) => `<dt>${label}</dt><dd>${value}</dd>`).join("")}
+      </dl>
+    </section>
+  `;
+}
+
+/** Additional films on the same page (series episodes, companion pieces). */
+function moreVideosBlock(item) {
+  if (!item.moreVideos || !item.moreVideos.length) return "";
+  return `
+    <section class="more-videos">
+      <h2>More to watch</h2>
+      <div class="video-grid">
+        ${item.moreVideos.map((v, i) => `
+          <div class="video-tile" data-video="${v.url}" role="button" tabindex="0" aria-label="Play ${item.title}, video ${i + 2}">
+            <img src="${v.poster}" alt="${item.title}, video ${i + 2}. Samantha André, ${item.role}." loading="lazy" />
+            <span class="play-btn" aria-hidden="true">${PLAY_GLYPH}</span>
+          </div>
+        `).join("")}
+      </div>
+    </section>
+  `;
 }
 
 /**
