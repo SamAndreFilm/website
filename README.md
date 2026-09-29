@@ -235,8 +235,11 @@ The `.nojekyll` file at the root tells GitHub Pages to serve files as-is
   (`assets/img/brand/free-spirit-cinema-logo.png`, white with transparency,
   taken from the old site's media library).
 - **Layout**: the Films and Photography overviews are inset 10% of the page
-  width on both sides (5% below 720px). The hero copy uses the same inset so
-  its left edge lines up with the grid.
+  width on both sides (5% below 720px), via the `--inset` token. The hero
+  copy and every block on the film / photo-set detail pages (title, synopsis,
+  credits, videos, stills, back link) use the same inset, so their edges line
+  up with the grid tiles. There is no separate pixel cap on the reading
+  column.
 - **About**: the portrait takes 55% of the width (46% below 980px, stacked
   below 780px) with the bio in a narrower column on the right.
 
