@@ -17,7 +17,7 @@ Abbreviations used in this project:
 | Photography | `photography.html` | Same grid architecture as Films |
 | Photo-set detail | `photo-set.html?slug=...` | Same template as film detail. Also no prev/next — back to the grid only |
 | About | `about.html` | Bio + portrait. The portrait is a 16:9 frame with Samantha on its right-hand side, so the tall column anchors its crop at `object-position: 90%` — centring it crops her out |
-| CV | `cv.html` | On-page resume (auto-built from film data) + PDF download button |
+| CV | `cv.html` | On-page resume (auto-built from film data; each title links to its film page) + PDF download button |
 
 ## Editing content
 

@@ -62,7 +62,7 @@
         <span class="cv-year">${f.year || "&mdash;"}</span>
         <div>
           <p class="cv-role">${f.role}</p>
-          <p class="cv-detail"><strong>${f.title}</strong> <span>&mdash; ${f.brand}</span></p>
+          <p class="cv-detail"><a href="film.html?slug=${f.slug}"><strong>${f.title}</strong></a> <span>&mdash; ${f.brand}</span></p>
         </div>
       </div>
     `).join("");

@@ -677,12 +677,6 @@ a { color: inherit; text-decoration: none; }
   align-self: center;
 }
 
-.about-copy .eyebrow {
-  font-family: var(--font-mono);
-  font-size: 12px; letter-spacing: .12em; color: var(--brass);
-  margin: 0 0 14px;
-}
-
 .about-copy h1 {
   font-family: var(--font-display);
   font-size: clamp(30px, 4vw, 44px);
@@ -795,6 +789,9 @@ a { color: inherit; text-decoration: none; }
 
 .cv-entry .cv-detail { margin: 0; color: var(--paper); font-size: 15.5px; }
 .cv-entry .cv-detail span { color: var(--muted); }
+.cv-entry .cv-detail a { border-bottom: 1px solid transparent; transition: border-color .2s ease, color .2s ease; }
+.cv-entry .cv-detail a:hover,
+.cv-entry .cv-detail a:focus-visible { color: var(--teal); border-bottom-color: var(--teal); }
 
 .skills-list {
   display: flex;
