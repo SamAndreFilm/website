@@ -163,10 +163,15 @@ function creditsBlock(credits) {
     <section class="credits-wrap">
       <h2>Credits</h2>
       <dl class="credits">
-        ${credits.map(([label, value]) => `<dt>${label}</dt><dd>${value}</dd>`).join("")}
+        ${credits.map(([label, value]) => `<dt>${label}</dt><dd>${highlightHer(value)}</dd>`).join("")}
       </dl>
     </section>
   `;
+}
+
+/** Her own name reads in full white; everyone and everything else is dimmed. */
+function highlightHer(value) {
+  return value.replace(/Samantha Andr[eé]/g, '<span class="me">Samantha André</span>');
 }
 
 /** Additional films on the same page (series episodes, companion pieces). */

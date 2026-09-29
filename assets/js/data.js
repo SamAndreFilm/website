@@ -33,7 +33,7 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=BohwgBqAwJc&t=3s",
     credits: [
       ["YEAR", "2021"],
-      ["CO CINEMATOGRAPHY/ FIELD PRODUCER", "Samantha Andre"],
+      ["CO CINEMATOGRAPHY/ FIELD PRODUCER", "Samantha André"],
       ["DIRECTORS", "<a href=\"https://www.andrewburtonphoto.com/\">Andrew Burton</a> and <a href=\"https://michaelkirbysmith.com/\">Michael Kirby Smith</a>"],
       ["PRODUCER", "<a href=\"https://www.alaskawomenshalloffame.org/alumnae/marie-meade/\">Marie Meade</a>"],
       ["EDITORS", "<a href=\"https://www.imdb.com/name/nm2420356/\">Davis Coombe</a> and <a href=\"https://www.imdb.com/name/nm5740594/\">Tessa Malsam</a>"],
@@ -60,7 +60,7 @@ const FILMS = [
     video: "https://vimeo.com/465477429/9b4a9c98f0",
     credits: [
       ["YEAR", "2019"],
-      ["DIRECTOR", "Samantha Andre"],
+      ["DIRECTOR", "Samantha André"],
       ["EXECUTIVE PRODUCERS", "Biz Stone, Donna Lamar"],
       ["PRODUCERS", "Tieneke Pavesic, Matt Lundberg, Madeline Askwith"],
       ["DP", "Taylor Mcintosh"],
@@ -92,9 +92,9 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=_EOtzGoc9c4",
     credits: [
       ["YEAR", "2025"],
-      ["DIRECTOR", "Samantha Andre"],
+      ["DIRECTOR", "Samantha André"],
       ["CINEMATOGRAPHER", "Ivo Maes"],
-      ["EDITOR", "Taylor Kruse and Samantha Andre"],
+      ["EDITOR", "Taylor Kruse and Samantha André"],
       ["PRODUCER", "Johannes Mansson and Angus Morton"],
       ["CREATIVE DIRECTION", "Angus Morton"]
     ],
@@ -147,7 +147,7 @@ const FILMS = [
     video: "https://vimeo.com/257232247",
     credits: [
       ["YEARS WORKED ON", "2015-2020"],
-      ["DIRECTOR/ DP/ PRODUCER", "Samantha Andre"]
+      ["DIRECTOR/ DP/ PRODUCER", "Samantha André"]
     ],
     synopsis: "At the crossroads of tradition and change, what will one Maasai girl risk to pursue her education? A film five years in the making, Mary’s Way provides an intimate glimpse into the world of a Maasai girl and her teacher who risk their lives to challenge their culture and empower a new generation.",
     note: "— Add Samantha's first-person note on this project here. —",
@@ -176,9 +176,9 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=UCRfvKcJSQM",
     credits: [
       ["YEAR", "2023"],
-      ["DIRECTOR", "Samantha Andre and Johannes Mansson"],
-      ["CINEMATOGRAPHER", "Samantha Andre and Taylor Kruse"],
-      ["EDITOR", "Samantha Andre"],
+      ["DIRECTOR", "Samantha André and Johannes Mansson"],
+      ["CINEMATOGRAPHER", "Samantha André and Taylor Kruse"],
+      ["EDITOR", "Samantha André"],
       ["PRODUCER", "Johannes Mansson, Matthew Beaudin, and Angus Morton"],
       ["CREATIVE DIRECTION", "Angus Morton"]
     ],
@@ -200,7 +200,7 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=6gDnuyNpqK8",
     credits: [
       ["YEAR", "2022"],
-      ["DIRECTOR", "Samantha Andre"],
+      ["DIRECTOR", "Samantha André"],
       ["PRODUCER", "Florencia Ojeda"],
       ["DP", "Samantha André"],
       ["DRONE & ADDITIONAL CINEMATOGRAPHY", "<a href=\"https://www.saskiadugon.com/\">Saskia Dugon</a>"],
@@ -226,7 +226,7 @@ const FILMS = [
     video: "https://vimeo.com/82467170",
     credits: [
       ["YEAR", "2013"],
-      ["DIRECTOR", "Samantha Andre"],
+      ["DIRECTOR", "Samantha André"],
       ["CO-DIRECTORS", "<a href=\"https://www.graemeaegerter.com/\">Graeme Agerter</a> and <a href=\"http://www.bobby-moser.com/\">Bobby Mosier</a>"],
       ["FESTIVALS", "<a href=\"http://www.bigskyfilmfest.org/archives/archived_films-2015/daugthers_of_emmonak/2015\">Big Sky Film Festival</a>, <a href=\"http://anchorage.festivalgenius.com/2014/films/daughtersofemmonak_samanthaandre_anchorage2014\">Anchorage Film Festival</a>, <a href=\"https://durangoherald.com/articles/873074\">Durango Film Festival</a>"]
     ],
@@ -257,7 +257,7 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=UlytSvGI7QU",
     credits: [
       ["YEAR", "2021"],
-      ["DIRECTOR", "Samantha Andre"],
+      ["DIRECTOR", "Samantha André"],
       ["PRODUCER", "<a href=\"https://www.kimberleyenglish.com/about\">Kimberley English</a>"],
       ["DP", "<a href=\"https://www.ivomaes.com/about\">Ivo Maes</a>"],
       ["EDITOR", "<a href=\"https://www.lucylelievre.com/\">Lucy Le Lievre</a>"],
@@ -284,7 +284,7 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=y7UAJbeEzR8",
     credits: [
       ["YEAR", "2023"],
-      ["DIRECTOR OF PHOTOGRAPHY", "Samantha Andre"],
+      ["DIRECTOR OF PHOTOGRAPHY", "Samantha André"],
       ["DIRECTOR", "Ted Youngs"],
       ["PRODUCER", "Matt Rogers"],
       ["EDITOR", "Daniel Palmer and Brian Gersten"]
@@ -339,7 +339,7 @@ const FILMS = [
     video: "https://vimeo.com/426925697/2979be1703",
     credits: [
       ["YEAR", "2019"],
-      ["CINEMATOGRAPHER", "Samantha Andre"],
+      ["CINEMATOGRAPHER", "Samantha André"],
       ["DIRECTOR", "Saher Shakir"],
       ["EDITOR", "<a href=\"https://vimeo.com/tonychen\">Tony Chen</a>"],
       ["HOST", "<a href=\"http://taniarashid.com/\">Tania Rashid</a>"]
@@ -371,7 +371,7 @@ const FILMS = [
     video: "https://vimeo.com/66356967",
     credits: [
       ["YEAR", "2013"],
-      ["DIRECTOR/ DP/EDITOR", "Samantha Andre"],
+      ["DIRECTOR/ DP/EDITOR", "Samantha André"],
       ["CO DIRECTORS", "<a href=\"https://vimeo.com/carlyberryhill\">Mike Agnew</a> and <a href=\"https://www.margotanne.com/\">Margot Czeropski</a>"],
       ["FESTIVALS", "<a href=\"http://www.bigskyfilmfest.org/archives/archived_films-2015/finding_home\">Big Sky Documentary Film Festival</a>, Sebastopol Documentary Film Festival, Africa World Documentary Festival"]
     ],
@@ -395,7 +395,7 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=q94KmfQuCk4&list=PLQuKgGVBJ6iBe1xPcw7hdxdN-oZ_j6nk2",
     credits: [
       ["YEAR", "2016"],
-      ["DIRECTOR/ DP", "Samantha Andre"],
+      ["DIRECTOR/ DP", "Samantha André"],
       ["MUSIC", "<a href=\"https://www.youtube.com/channel/UC9DAY2JD9zy9zKA5OtwpNtw\">Kyan</a>"]
     ],
     synopsis: "Nothing Beyond by Kyan. Shot entirely on 8mm film on location in Death Valley, Salton Sea and Joshua Tree.",
@@ -419,7 +419,7 @@ const FILMS = [
     credits: [
       ["YEAR WORKED ON", "2018"],
       ["YEAR RELEASED", "June 2020"],
-      ["ASSOCIATE PRODUCER", "Samantha Andre"],
+      ["ASSOCIATE PRODUCER", "Samantha André"],
       ["EXECUTIVE PRODUCER", "<a href=\"https://www.imdb.com/name/nm0191712/\">RJ Cutler</a>"],
       ["CO PRODUCERS", "<a href=\"http://matadorcontent.com/\">Matador Content</a> and Cutler Productions"]
     ],
@@ -454,7 +454,7 @@ const FILMS = [
     ],
     credits: [
       ["YEAR", "2013-2014"],
-      ["DIRECTOR/ DP", "Samantha Andre"],
+      ["DIRECTOR/ DP", "Samantha André"],
       ["CO DIRECTORS/ DP", "<a href=\"https://vimeo.com/carlyberryhill\">Carly Beryhill</a>, <a href=\"http://ryanwestra.com/\">Ryan Westra</a> and <a href=\"http://www.barthfilm.com/\">Michael Barth</a>"]
     ],
     synopsis: "Films commissioned by the Sikh Lens Film Festival. Lions of London recounts the history of Sikh contributions to the World Wars. When a Tree Falls shares the history of the Sikh massacres of 1984. Through eyewitness accounts and historians it becomes clear that the killings of 1984 are not an isolated event but rather a devastating reoccurring trend in Indian politics. The Lone Guru is a portrait of the last Sikh Guru at Pasupathi Temple in Nepal. He claims to have predicted the earthquake in Nepal and be one of the last Sikh Gurus in Nepal.",
@@ -494,7 +494,7 @@ const FILMS = [
     video: "https://vimeo.com/414699999/ea29016188",
     credits: [
       ["YEAR", "2013"],
-      ["CO DIRECTOR", "Samantha Andre"],
+      ["CO DIRECTOR", "Samantha André"],
       ["CO DIRECTORS", "<a href=\"http://www.pasqualgutierrez.com/\">Pasqual Gutierrez</a>, <a href=\"http://www.barthfilm.com/\">Michael Barth</a> and <a href=\"http://www.spencercreigh.com/rapala\">Spencer Creigh</a>"]
     ],
     synopsis: "Water Gives, Water Takes Away. In the fishing village of Vilanculos, Mozambique, the ocean is both a lifeline and a torment. Samuel works day in and day out in the shallow waters of Vilanculos, Mozambique to feed his family. Rui was one of a few fortunate fishermen to receive aid from the government to support his fishing business. Dauto, the son of a fisherman, has watched his loved ones struggle to survive in the ever-changing fishing industry of Vilanculos. Agua Da Agua Leva tells the story of these three men and the struggles they must face as they combat the harsh realities of overfishing.",
@@ -548,7 +548,7 @@ const FILMS = [
       ["YEAR WORKED ON", "2014"],
       ["YEAR RELEASED", "2017"],
       ["PRODUCTION COMPANY", "<a href=\"http://www.altimeterfilms.com/scotty\">Altimeter Films</a>"],
-      ["ASSISTANT EDITOR", "Samantha Andre"],
+      ["ASSISTANT EDITOR", "Samantha André"],
       ["DIRECTOR", "<a href=\"https://www.imdb.com/name/nm2961289/\">Matt Tyrnauer</a>"],
       ["FESTIVALS", "<a href=\"https://www.tiff.net/the-review/the-town-jane-jacobs-built\">Toronto International Film Festival</a>, <a href=\"https://www.docnyc.net/film/citizen-jane-battle-for-the-city/\">Doc NYC</a>, <a href=\"https://www.idfa.nl/en/film/c4f68ce7-5f3a-4d79-beb1-68eebc2a1ad1/citizen-jane-battle-for-the-city\">IDFA</a>, Rome Int’l Film Festival"]
     ],
@@ -593,7 +593,7 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=-OcuyGz5ehM",
     credits: [
       ["YEAR", "2019"],
-      ["FINISHING EDITOR", "Samantha Andre"],
+      ["FINISHING EDITOR", "Samantha André"],
       ["EDITORS", "<a href=\"https://www.imdb.com/name/nm2047157/\">Stacy Goldate</a> and <a href=\"https://www.imdb.com/name/nm3574029/\">Melanie Levy</a>"],
       ["CO DIRECTORS", "<a href=\"https://www.sallyrubinfilms.com/\">Sally Rubin</a> and <a href=\"https://www.imdb.com/name/nm1852285/\">Ashley York</a>"],
       ["DP", "<a href=\"http://www.bryandonnell.com/\">Bryan Donnell</a>"],
@@ -635,7 +635,7 @@ const FILMS = [
     ],
     credits: [
       ["YEAR", "2016"],
-      ["ASSISTANT EDITOR", "Samantha Andre"],
+      ["ASSISTANT EDITOR", "Samantha André"],
       ["PRODUCTION COMPANY", "<a href=\"https://www.vice.com/en_us/topic/vice-world-of-sports\">VICE</a>"],
       ["SHOW RUNNER", "<a href=\"https://www.evanrosenfeld.com/vice-world-of-sports-1\">Evan Rosenfeld</a>"],
       ["SERIES PRODUCER", "<a href=\"https://www.imdb.com/name/nm3750468/\">Jeremy David White</a>"],
@@ -715,7 +715,7 @@ const FILMS = [
     ],
     credits: [
       ["YEAR", "2019"],
-      ["EDITOR", "Samantha Andre"],
+      ["EDITOR", "Samantha André"],
       ["DIRECTOR/ DP", "<a href=\"https://www.gorotoshima.com/\">Goro Toshima</a>"]
     ],
     synopsis: "For the ACLU (American Civil Liberties Union). The first story features Robert Mitchell, who successfully sued the Bakersfield Police Dept. for unlawful arrest. The second video focuses on the ACLU's efforts to mobilize and organize pro-bono attorneys after the U.S. sent thousands of immigrant detainees to federal prison and deprived them of their basic human rights.",
@@ -742,7 +742,7 @@ const FILMS = [
     credits: [
       ["YEAR", "In production"],
       ["DIRECTOR PRODUCERS", "Kristy Guevara-Flanagan and Sally Rubin"],
-      ["CO PRODUCER", "Samantha Andre"],
+      ["CO PRODUCER", "Samantha André"],
       ["CINEMATOGRAPHY", "Bryan Donnell"]
     ],
     synopsis: "TAKING THE REINS is a feature-length documentary set in the American West that explores how historically marginalized Americans – violently cast out of national narratives – are fighting back and reclaiming the iconic “cowboy” identity to demand inclusion in our country’s story.",
@@ -759,7 +759,7 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=oLuUE9QtJTo",
     credits: [
       ["YEAR", "2016"],
-      ["TRAILER EDITOR", "Samantha Andre"]
+      ["TRAILER EDITOR", "Samantha André"]
     ],
     synopsis: "Live Nation TV delivers unprecedented access to touring artists producing an exclusive original documentary series. Featured artists include Garbage, Chris Cornell, Leon Bridges, Heart, and more.",
     note: "— Add Samantha's first-person note on this project here. —",
