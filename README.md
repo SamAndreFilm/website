@@ -197,6 +197,12 @@ Then open `http://localhost:8000`.
 Browsers cache `data.js` and `style.css` aggressively on a plain static
 server; hard-reload if an edit does not appear.
 
+Preview through the server, not by double-clicking an `.html` file: YouTube
+will not play inside a page opened from disk (a `file://` page sends no
+referrer, and YouTube's player requires one). `playVideoIn` detects that case
+and opens YouTube links in a new tab instead of showing a dead frame. Vimeo
+plays either way.
+
 ## Deploying to GitHub Pages
 
 The target repository is `https://github.com/SamAndreFilm/website.git`.

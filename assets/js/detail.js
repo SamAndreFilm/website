@@ -143,10 +143,23 @@ function embedURLFor(pageURL) {
   return null;
 }
 
-/** Replaces the poster in `frame` with the player (or falls back to a link). */
+/**
+ * Replaces the poster in `frame` with the player (or falls back to a link).
+ *
+ * YouTube refuses to play inside a page that was opened straight from disk
+ * (a file:// address sends no referrer, and YouTube's player requires one —
+ * it shows "Video unavailable"). Vimeo has no such rule. So when the site is
+ * being viewed from disk rather than a web server, YouTube links open in a
+ * new tab instead of a dead frame. Preview through a local server (see the
+ * README) and the film plays on the page as it does once published.
+ */
 function playVideoIn(frame, pageURL, label) {
   const src = embedURLFor(pageURL);
-  if (!src) { window.open(pageURL, "_blank", "noopener"); return; }
+  const viewedFromDisk = window.location.protocol === "file:";
+  if (!src || (viewedFromDisk && /youtube/.test(src))) {
+    window.open(pageURL, "_blank", "noopener");
+    return;
+  }
   frame.classList.add("is-playing");
   frame.innerHTML = `
     <iframe src="${src}" title="${label}" frameborder="0"
