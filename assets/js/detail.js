@@ -75,13 +75,16 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker, ad
   strip.innerHTML = item.gallery.map((src, i) => `
     <div class="strip-frame">
       <img data-idx="${i}" src="${src}" alt="${item.title} — ${item.brand}, still ${i + 1}. Samantha André, ${item.role}." loading="lazy" />
-      <span class="frame-num">${String(i + 1).padStart(2, "0")}</span>
     </div>
   `).join("");
 
   strip.querySelectorAll("img").forEach(img => {
     attachImageFallback(img, `${item.title} — ${img.dataset.idx}`, item.slug + "-still-" + img.dataset.idx);
   });
+
+  // Clicking a still opens it full-size in a lightbox; arrows / swipe-free
+  // prev-next buttons step through the rest of the gallery.
+  setupLightbox(strip, item);
 
   // The hero still doubles as the film's poster: pressing play swaps it for
   // the embedded player, so the film is watched here rather than off-site.
@@ -220,4 +223,85 @@ function detailNav({ collection, index, listPage, childPage, kicker, adjacentNav
       <a href="${childPage}?slug=${next.slug}">${next.title} &rarr;</a>
     </div>
   `;
+}
+
+
+/* ---------- Lightbox for gallery stills ---------- */
+
+function setupLightbox(strip, item) {
+  const frames = Array.from(strip.querySelectorAll(".strip-frame"));
+  if (!frames.length) return;
+
+  let box = document.getElementById("lightbox");
+  if (!box) {
+    box = document.createElement("div");
+    box.id = "lightbox";
+    box.className = "lightbox";
+    box.setAttribute("role", "dialog");
+    box.setAttribute("aria-modal", "true");
+    box.setAttribute("aria-label", "Enlarged still");
+    box.innerHTML = `
+      <button class="lb-close" type="button" aria-label="Close">&times;</button>
+      <button class="lb-prev" type="button" aria-label="Previous still">&#8592;</button>
+      <figure class="lb-figure">
+        <img class="lb-img" alt="" />
+        <figcaption class="lb-caption"></figcaption>
+      </figure>
+      <button class="lb-next" type="button" aria-label="Next still">&#8594;</button>
+    `;
+    document.body.appendChild(box);
+  }
+
+  const img = box.querySelector(".lb-img");
+  const cap = box.querySelector(".lb-caption");
+  const prevBtn = box.querySelector(".lb-prev");
+  const nextBtn = box.querySelector(".lb-next");
+  let current = 0;
+  let lastFocus = null;
+
+  const show = (i) => {
+    current = (i + frames.length) % frames.length;
+    const src = frames[current].querySelector("img");
+    img.src = src.currentSrc || src.src;
+    img.alt = src.alt;
+    cap.textContent = item.title;
+    prevBtn.hidden = nextBtn.hidden = frames.length < 2;
+  };
+
+  const open = (i) => {
+    lastFocus = document.activeElement;
+    show(i);
+    box.classList.add("is-open");
+    document.body.classList.add("lb-locked");
+    box.querySelector(".lb-close").focus();
+  };
+
+  const close = () => {
+    box.classList.remove("is-open");
+    document.body.classList.remove("lb-locked");
+    img.removeAttribute("src");
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  };
+
+  frames.forEach((frame, i) => {
+    frame.tabIndex = 0;
+    frame.setAttribute("role", "button");
+    frame.setAttribute("aria-label", `Enlarge still ${i + 1}`);
+    frame.addEventListener("click", () => open(i));
+    frame.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(i); }
+    });
+  });
+
+  box.querySelector(".lb-close").onclick = close;
+  prevBtn.onclick = () => show(current - 1);
+  nextBtn.onclick = () => show(current + 1);
+  box.onclick = (e) => { if (e.target === box) close(); };
+
+  document.addEventListener("keydown", (e) => {
+    if (!box.classList.contains("is-open")) return;
+    if (e.key === "Escape") close();
+    else if (e.key === "ArrowLeft") show(current - 1);
+    else if (e.key === "ArrowRight") show(current + 1);
+  });
 }
