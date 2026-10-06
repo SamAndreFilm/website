@@ -62,11 +62,11 @@ const FILMS = [
       ["YEAR", "2019"],
       ["DIRECTOR", "Samantha André"],
       ["EXECUTIVE PRODUCERS", "Biz Stone, Donna Lamar"],
-      ["PRODUCERS", "Tieneke Pavesic, Matt Lundberg, Madeline Askwith"],
-      ["DP", "Taylor Mcintosh"],
+      ["PRODUCERS", "Tieneke Pavesic, Matt Lundberg, <a href=\"https://imvdb.com/n/madeleine-askwith\">Madeline Askwith</a>"],
+      ["DP", "<a href=\"https://www.taylormcintosh.com/\">Taylor Mcintosh</a>"],
       ["EDITOR", "Dan Duran"],
       ["CREATIVE DIRECTOR", "Jason Yaitanes"],
-      ["CREATIVE", "Tyler Haruta"]
+      ["CREATIVE", "<a href=\"https://www.tylerharuta.com/\">Tyler Haruta</a>"]
     ],
     synopsis: "Being Emily is about the remarkable story of a Gen-Z teen who runs and operates a popular digital zine made by and for disabled youth. VICE created this short film in partnership with Twitter as a pilot for a new studio initiative, with each short film focusing on the communities that use Twitter. Emily created her zine with other disabled teens she met on #DisabilityTwitter. In the film, we spend time with her as she prepares to graduate high school early and experience her first entry into independence at college. She also meets with her zine contributors from across the world to brainstorm new projects and gets to interview her #DisabilityTwitter idol.",
     note: "— Add Samantha's first-person note on this project here. —",
@@ -93,10 +93,10 @@ const FILMS = [
     credits: [
       ["YEAR", "2025"],
       ["DIRECTOR", "Samantha André"],
-      ["CINEMATOGRAPHER", "Ivo Maes"],
+      ["CINEMATOGRAPHER", "<a href=\"https://www.ivomaes.com/about\">Ivo Maes</a>"],
       ["EDITOR", "Taylor Kruse and Samantha André"],
-      ["PRODUCER", "Johannes Mansson and Angus Morton"],
-      ["CREATIVE DIRECTION", "Angus Morton"]
+      ["PRODUCER", "Johannes Mansson and <a href=\"https://www.thereabouts.co/\">Angus Morton</a>"],
+      ["CREATIVE DIRECTION", "<a href=\"https://www.thereabouts.co/\">Angus Morton</a>"]
     ],
     synopsis: "Cédrine Kerbaol’s glittering palmarès do not define her. What makes the French time trial champion and Tour de France stage winner truly special is the way she can win without ever losing her sense of self—and lose without ever being defeated. Cédrine was disappointed with this summer’s Tour de France Femmes. She finished the final stage of the Tour in tears after a crash at the base of the Col du Joux Plane wrecked her plan to attack in the Alps. I watched Cédrine through the camera as Cédrine met with her family and teammates and was soon smiling again through her tears. We followed Cédrine on her camping trip after the race and got to know her—her story, her family, and where she comes from. Cédrine discovered cycling as a teenager when she was bullied at school for refusing to fit in. The sport gave her a way to cope with disappointment and pain and allowed her to spend time in the natural world that she has always loved. On the bike, Cédrine’s free spirit soars. That is why she inspires us. That is why she continues to make us dream.",
     note: "— Add Samantha's first-person note on this project here. —",
@@ -179,8 +179,8 @@ const FILMS = [
       ["DIRECTOR", "Samantha André and Johannes Mansson"],
       ["CINEMATOGRAPHER", "Samantha André and Taylor Kruse"],
       ["EDITOR", "Samantha André"],
-      ["PRODUCER", "Johannes Mansson, Matthew Beaudin, and Angus Morton"],
-      ["CREATIVE DIRECTION", "Angus Morton"]
+      ["PRODUCER", "Johannes Mansson, Matthew Beaudin, and <a href=\"https://www.thereabouts.co/\">Angus Morton</a>"],
+      ["CREATIVE DIRECTION", "<a href=\"https://www.thereabouts.co/\">Angus Morton</a>"]
     ],
     synopsis: "“A family that plays together, stays together.” That was Neilson Powless’ dad’s motto when he was growing up. Every weekend, Neilson’s mom and dad would take him and his older sister Shayna to swim, bike, and run in races around California. Their mom was an Olympic marathoner and their dad was a competitive triathlete in the Air Force, but together they always made sure that sports were fun first. All that play made Neilson and Shayna fast. Now, they are both professional cyclists. Neilson is about to become a father himself; his wife, Frances, is pregnant. Frances is a ballerina. She is his lead. With Frances, Neilson can dance over the ups and downs of life as a professional sportsman. Far away from home, Neilson and Frances are still learning how to keep doing the things that they love. Frances has learned about cycling, as Neilson has learned about ballet. Becoming parents is about to change their lives. What they know is that they will always keep playing together, because they are going to stay together.",
     note: "— Add Samantha's first-person note on this project here. —",
@@ -287,7 +287,7 @@ const FILMS = [
       ["DIRECTOR OF PHOTOGRAPHY", "Samantha André"],
       ["DIRECTOR", "Ted Youngs"],
       ["PRODUCER", "Matt Rogers"],
-      ["EDITOR", "Daniel Palmer and Brian Gersten"]
+      ["EDITOR", "Daniel Palmer and <a href=\"https://videoconsortium.org/members/brian-gersten\">Brian Gersten</a>"]
     ],
     synopsis: "With their superstar \"Rigo\" Urán coming back from a catastrophic injury, the U.S.A's oldest professional cycling team have their eyes on cycling's most coveted prize: a win at the 2020 Tour de France. Through victories and heartbreaks, these young men must come together as they face the sport's biggest and most challenging contest.",
     note: "— Add Samantha's first-person note on this project here. —",
@@ -372,7 +372,7 @@ const FILMS = [
     credits: [
       ["YEAR", "2013"],
       ["DIRECTOR/ DP/EDITOR", "Samantha André"],
-      ["CO DIRECTORS", "<a href=\"https://vimeo.com/carlyberryhill\">Mike Agnew</a> and <a href=\"https://www.margotanne.com/\">Margot Czeropski</a>"],
+      ["CO DIRECTORS", "Mike Agnew and <a href=\"https://www.margotanne.com/\">Margot Czeropski</a>"],
       ["FESTIVALS", "<a href=\"http://www.bigskyfilmfest.org/archives/archived_films-2015/finding_home\">Big Sky Documentary Film Festival</a>, Sebastopol Documentary Film Festival, Africa World Documentary Festival"]
     ],
     synopsis: "The Abdi family, refugees from Somalia, arrived in the United States only a few months ago. Follow the parents and five children as they struggle to find a new home in the USA, and discover that people, even when they are from disparate places, share quite a bit in common.",
@@ -741,9 +741,9 @@ const FILMS = [
     year: "In production",
     credits: [
       ["YEAR", "In production"],
-      ["DIRECTOR PRODUCERS", "Kristy Guevara-Flanagan and Sally Rubin"],
+      ["DIRECTOR PRODUCERS", "<a href=\"https://www.documentaries.org/filmmakers/kristy-guevara-flanagan/\">Kristy Guevara-Flanagan</a> and <a href=\"https://www.sallyrubinfilms.com/\">Sally Rubin</a>"],
       ["CO PRODUCER", "Samantha André"],
-      ["CINEMATOGRAPHY", "Bryan Donnell"]
+      ["CINEMATOGRAPHY", "<a href=\"http://www.bryandonnell.com/\">Bryan Donnell</a>"]
     ],
     synopsis: "TAKING THE REINS is a feature-length documentary set in the American West that explores how historically marginalized Americans – violently cast out of national narratives – are fighting back and reclaiming the iconic “cowboy” identity to demand inclusion in our country’s story.",
     note: "— Add Samantha's first-person note on this project here. —",
