@@ -16,7 +16,6 @@
 
 <main>
   <section class="page-hero">
-    <p class="eyebrow" id="reel-count"></p>
     <h1>Films</h1>
     <p>Documentary features, branded films, and shorts directed, shot, or edited by Samantha André.</p>
   </section>
@@ -37,9 +36,6 @@
       FILMS,
       (item) => `film.html?slug=${item.slug}`
     );
-    // derived from the data so it cannot drift when a film is added
-    document.getElementById("reel-count").textContent =
-      `SELECTED WORK \u00B7 01\u2013${String(FILMS.length).padStart(2, "0")}`;
   });
 </script>
 </body>
