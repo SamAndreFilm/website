@@ -177,10 +177,15 @@ function creditsBlock(credits) {
   return `
     <section class="credits-wrap">
       <dl class="credits">
-        ${credits.map(([label, value]) => `<dt>${label}</dt><dd>${highlightHer(value)}</dd>`).join("")}
+        ${credits.map(([label, value]) => `<dt>${label}</dt><dd>${externalLinks(highlightHer(value))}</dd>`).join("")}
       </dl>
     </section>
   `;
+}
+
+/** Credit links point off-site: open them in a new tab so her site stays put. */
+function externalLinks(html) {
+  return html.replace(/<a\s+href=/g, '<a target="_blank" rel="noopener" href=');
 }
 
 /** Her own name reads in full white; everyone and everything else is dimmed. */
