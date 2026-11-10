@@ -458,8 +458,8 @@ const FILMS = [
   },
   {
     slug: "scotty-and-the-secret-history-of-hollywood",
-    title: "Scotty and the Secret History of Hollywood",
-    brand: "Altimeter Films — Feature Documentary",
+    title: "Altimeter Films",
+    brand: "Feature Documentaries",
     role: "Assistant Editor",
     year: "2017",
     video: "https://www.youtube.com/watch?v=1qn6HxTJp0k",
@@ -475,8 +475,8 @@ const FILMS = [
       ["DIRECTOR", "<a href=\"https://www.imdb.com/name/nm2961289/\">Matt Tyrnauer</a>"],
       ["FESTIVALS", "<a href=\"https://www.tiff.net/the-review/the-town-jane-jacobs-built\">Toronto International Film Festival</a>, <a href=\"https://www.docnyc.net/film/citizen-jane-battle-for-the-city/\">Doc NYC</a>, <a href=\"https://www.idfa.nl/en/film/c4f68ce7-5f3a-4d79-beb1-68eebc2a1ad1/citizen-jane-battle-for-the-city\">IDFA</a>, Rome Int’l Film Festival"]
     ],
-    synopsis: "Scotty and the Secret History of Hollywood is the deliciously scandalous story of Scotty Bowers, a handsome ex-Marine who landed in Hollywood after World War II and became confidante, aide-de-camp and lover to many of Hollywood’s greatest male—and female—stars. In the 1940s and ‘50s, Scotty ran a gas station in the shadow of the studio lots where he would connect his friends with actors and actresses who had to hide their true sexual identities for fear of police raids at gay bars, societal shunning and career suicide.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    synopsis: "Scotty and the Secret History of Hollywood is the deliciously scandalous story of Scotty Bowers, a handsome ex-Marine who landed in Hollywood after World War II and became confidante, aide-de-camp and lover to many of Hollywood’s greatest male—and female—stars. Citizen Jane recounts the battles for New York City, personified by the story of Jane Jacobs and Robert Moses as urbanization moves to the very front of the global agenda. Jean Nouvel: Reflections is a meditative portrait of one of the giants of contemporary architecture and design as he designs the Louvre Abu Dhabi.",
+    note: "Assisting the editors on these films gave me an inside look at the post production and story shaping process for feature films.",
     cover: "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-cover.jpg",
     gallery: [
       "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-01.jpg",
@@ -523,7 +523,6 @@ const FILMS = [
       ["COMPOSERS", "<a href=\"http://www.alulastudios.com/about\">Beth Caucci and John Fee</a>"]
     ],
     synopsis: "Hillbilly examines media stereotypes of Appalachia and rural America, tying an exploration of Appalachian identity and natural resource extraction with the outcome of the 2016 presidential election.",
-    note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/hillbilly/samantha-andre-hillbilly-cover.jpg",
     gallery: [
       "assets/img/films/hillbilly/samantha-andre-hillbilly-still-01.jpg",
@@ -565,7 +564,6 @@ const FILMS = [
       ["EXECUTIVE PRODUCERS", "<a href=\"https://www.imdb.com/name/nm1811321/\">Evan Rosenfeld</a>, <a href=\"https://www.imdb.com/name/nm1679085/\">Selema Masekela</a>, <a href=\"https://www.imdb.com/name/nm1464662/\">Bernardo Loyola</a>, and Will Kiersky"]
     ],
     synopsis: "RIVALS continues to get on the field and into the ring through a series of compelling stories at the fringe of culture and politics. Episodes feature the Calcio Storico, Algerian soccer, and Aussie football, amongst others. The show was Emmy nominated and the first season won a 2017 Producers Guild of America Award for Outstanding Sports Program.",
-    note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-cover.jpg",
     gallery: [
       "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-01.jpg",
@@ -642,7 +640,6 @@ const FILMS = [
       ["DIRECTOR/ DP", "<a href=\"https://www.gorotoshima.com/\">Goro Toshima</a>"]
     ],
     synopsis: "Short films commissioned by the ACLU (American Civil Liberties Union). The first story features Robert Mitchell, who successfully sued the Bakersfield Police Dept. for unlawful arrest. The second story focuses on the ACLU’s efforts to mobilize and organize pro-bono attorneys after the U.S. sent thousands of immigrant detainees to federal prison and deprived them of their basic human rights.",
-    note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/aclu/samantha-andre-aclu-cover.jpg",
     gallery: [
       "assets/img/films/aclu/samantha-andre-aclu-still-01.jpg",
@@ -660,8 +657,8 @@ const FILMS = [
     slug: "taking-the-reins",
     title: "Taking the Reins",
     brand: "Documentary Feature — In Production",
+    status: "In Production",
     role: "Co-Producer",
-    year: "In production",
     credits: [
       ["YEAR", "In production"],
       ["DIRECTOR PRODUCERS", "<a href=\"https://www.documentaries.org/filmmakers/kristy-guevara-flanagan/\">Kristy Guevara-Flanagan</a> and <a href=\"https://www.sallyrubinfilms.com/\">Sally Rubin</a>"],
@@ -685,7 +682,6 @@ const FILMS = [
       ["TRAILER EDITOR AND ASSISTANT EDITOR", "Samantha André"]
     ],
     synopsis: "Live Nation TV delivers unprecedented access to touring artists producing an exclusive original documentary series. Featured artists include Garbage, Chris Cornell, Leon Bridges, Heart, and more.",
-    note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-cover.jpg",
     gallery: [
       "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-01.jpg",
