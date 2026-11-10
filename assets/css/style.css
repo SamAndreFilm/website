@@ -735,13 +735,13 @@ body.lb-locked { overflow: hidden; }
 
 .about-portrait { position: relative; background: var(--bg-raised); min-height: 340px; }
 
-/* The portrait is a 16:9 frame with Samantha and the camera on its right-hand
-   side. A tall column crops it hard, so anchor the crop right of centre —
-   centring it would cut her out of the picture entirely. */
+/* The portrait is a 3:2 frame with Samantha and the camera just right of
+   centre. A tall column crops it hard, so anchor the crop slightly right of
+   centre to keep her and the camera in frame. */
 .about-portrait img {
   width: 100%; height: 100%;
   object-fit: cover;
-  object-position: 90% center;
+  object-position: 45% center;
   position: absolute; inset: 0;
 }
 
