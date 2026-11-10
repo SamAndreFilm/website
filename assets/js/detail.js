@@ -28,6 +28,7 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker, ad
   document.title = `Samantha André — ${item.title}`;
   const docTitleEl = document.getElementById("doc-title");
   if (docTitleEl) docTitleEl.textContent = document.title;
+  updateSeoMeta(item, childPage);
 
   const synopsisBlock = item.synopsis
     ? `<p class="synopsis">${item.synopsis}</p>`
@@ -313,4 +314,67 @@ function setupLightbox(strip, item) {
     else if (e.key === "ArrowLeft") show(current - 1);
     else if (e.key === "ArrowRight") show(current + 1);
   });
+}
+
+/* ---------- SEO: per-item meta tags + structured data ----------
+ * The static <head> carries generic tags with ids; once we know which film or
+ * photo set is being shown we overwrite them so each URL has its own title,
+ * description, canonical, social-share card, and schema.org JSON-LD.
+ */
+const SITE_ORIGIN = "https://samandre.com";
+
+function updateSeoMeta(item, childPage) {
+  const url = `${SITE_ORIGIN}/${childPage}?slug=${encodeURIComponent(item.slug)}`;
+  const plain = (html) => String(html || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  const roleBits = [item.role, item.brand, item.year].filter(Boolean).join(", ");
+  const desc = plain(item.synopsis) || `${item.title} — ${roleBits}. Work by Samantha André, documentary director, DP, and editor.`;
+  const shortDesc = desc.length > 160 ? desc.slice(0, 157).replace(/\s+\S*$/, "") + "…" : desc;
+  const image = item.cover ? `${SITE_ORIGIN}/${item.cover}` : `${SITE_ORIGIN}/assets/img/about/samantha-andre-director-dp-portrait.jpg`;
+  const title = `${item.title} — Samantha André, ${item.role}`;
+
+  const set = (id, attr, value) => { const el = document.getElementById(id); if (el) el.setAttribute(attr, value); };
+  set("meta-description", "content", shortDesc);
+  set("link-canonical", "href", url);
+  set("og-url", "content", url);
+  set("og-title", "content", title);
+  set("og-description", "content", shortDesc);
+  set("og-image", "content", image);
+  set("tw-title", "content", title);
+  set("tw-description", "content", shortDesc);
+  set("tw-image", "content", image);
+
+  const isFilm = childPage === "film.html";
+  const person = { "@type": "Person", "name": "Samantha André", "url": SITE_ORIGIN };
+  const ld = isFilm ? {
+    "@context": "https://schema.org",
+    "@type": "Movie",
+    "name": item.title,
+    "url": url,
+    "image": image,
+    "description": desc,
+    "datePublished": item.year || undefined,
+    "productionCompany": item.brand ? { "@type": "Organization", "name": item.brand } : undefined,
+    "director": /director/i.test(item.role || "") ? person : undefined,
+    "editor": /editor/i.test(item.role || "") ? person : undefined,
+    "contributor": person,
+    "genre": "Documentary"
+  } : {
+    "@context": "https://schema.org",
+    "@type": "ImageGallery",
+    "name": item.title,
+    "url": url,
+    "image": image,
+    "description": desc,
+    "author": person,
+    "creator": person
+  };
+  Object.keys(ld).forEach((k) => ld[k] === undefined && delete ld[k]);
+  let script = document.getElementById("ld-json-item");
+  if (!script) {
+    script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = "ld-json-item";
+    document.head.appendChild(script);
+  }
+  script.textContent = JSON.stringify(ld);
 }
