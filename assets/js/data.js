@@ -33,14 +33,18 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=BohwgBqAwJc&t=3s",
     credits: [
       ["YEAR", "2021"],
+      ["PRODUCTION COMPANY", "Patagonia / Roan Films"],
       ["CO CINEMATOGRAPHY/ FIELD PRODUCER", "Samantha André"],
       ["DIRECTORS", "<a href=\"https://www.andrewburtonphoto.com/\">Andrew Burton</a> and <a href=\"https://michaelkirbysmith.com/\">Michael Kirby Smith</a>"],
       ["PRODUCER", "<a href=\"https://www.alaskawomenshalloffame.org/alumnae/marie-meade/\">Marie Meade</a>"],
       ["EDITORS", "<a href=\"https://www.imdb.com/name/nm2420356/\">Davis Coombe</a> and <a href=\"https://www.imdb.com/name/nm5740594/\">Tessa Malsam</a>"],
-      ["CINEMATOGRAPHY", "<a href=\"https://keenan.film/\">Keenan Newman</a>, <a href=\"https://cargocollective.com/colinarchdeacon/9629274\">Colin Archdeacon</a>, and <a href=\"https://www.noraballard.com/\">Nora Ballard</a>"]
+      ["CINEMATOGRAPHY", "<a href=\"https://keenan.film/\">Keenan Newman</a>, <a href=\"https://cargocollective.com/colinarchdeacon/9629274\">Colin Archdeacon</a>, and <a href=\"https://www.noraballard.com/\">Nora Ballard</a>"],
+      ["FESTIVALS", "Winner, Big Sky Award — Big Sky Documentary Film Festival (2022)<br>World Premiere — DOC NYC, U.S. Competition (2021)"],
+      ["PRESS", "“One of the best documentaries of the year” — Esquire"],
+      ["SUPPORT", "Supported by Sundance Institute"]
     ],
-    synopsis: "The Yup'ik village of Newtok, Alaska is crumbling into the water. Climate change has flooded the local homes and eroded the way of life for this small community, where the once nomadic indigenous people were forced to settle in 1949 by the Bureau of Indian Affairs. For more than two decades, the residents of Newtok have fought to secure federal funding needed to move their village to a safer location 10 miles away. With footage from four years living in the town, directors Andrew Burton and Michael Kirby Smith offer a window into this tight-knit community, and the challenges of a climate disaster. With long shots of melting ice, and intimate portraits of the people facing the threat of global warming every day, Newtok makes clear the impact climate change has on this country right now.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    synopsis: "Water will erase Newtok, Alaska. Built on a delta at the edge of the Bering Sea, the tiny Yup’ik village has been dealing with melting permafrost, river erosion and decaying infrastructure for decades. To keep their culture and community intact, the 360 Yup’ik residents must relocate their entire village to stable ground upriver while facing a federal government that has failed to take appropriate action to combat climate change. In moving their village, they will become some of America’s first climate change refugees.",
+    note: "I really enjoyed the immersive style of filmmaking directors Andrew Burton and Michael Kirby Smith established on this beautiful film.",
     cover: "assets/img/films/newtok/samantha-andre-newtok-cover.jpg",
     gallery: [
       "assets/img/films/newtok/samantha-andre-newtok-still-01.jpg",
