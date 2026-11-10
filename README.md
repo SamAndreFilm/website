@@ -11,7 +11,7 @@ Abbreviations used in this project:
 
 | Page | File | Notes |
 |---|---|---|
-| Films (home) | `films.html` | 2-column grid of 22 films, hover reveals role + title, click opens a film page |
+| Films (home) | `films.html` | 2-column grid of 23 films, hover reveals role + title, click opens a film page |
 | Site root | `index.html` | Redirects to `films.html` — GitHub Pages serves `index.html` for `/`, so the root URL has to keep working |
 | Film detail | `film.html?slug=...` | One template, reads content from `assets/js/data.js`. No prev/next links — back to the grid only |
 | Photography | `photography.html` | Same grid architecture as Films |
@@ -99,7 +99,7 @@ launch.
 ### Images
 
 All imagery is already in place, sourced from the WordPress export of the
-previous samandre.com site. **479 images** across 22 films and 8 photo sets,
+previous samandre.com site. **479 images** across 23 films and 8 photo sets,
 plus the About portrait.
 
 Naming convention (chosen for search visibility and for finding a file later):

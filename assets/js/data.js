@@ -223,6 +223,29 @@ const FILMS = [
     ]
   },
   {
+    slug: "out-in-front",
+    title: "Out in Front: The Return of the Tour de France Femmes",
+    brand: "Canyon — Branded Documentary Short",
+    role: "Director",
+    year: "2022",
+    video: "https://www.youtube.com/watch?v=nW_4azazuMU&t=1s",
+    credits: [
+      ["YEAR", "2022"],
+      ["DIRECTOR", "Samantha André"],
+      ["DIRECTOR OF PHOTOGRAPHY", "Marco Freudenreich"],
+      ["EDITOR", "<a href=\"https://www.lucylelievre.com/\">Lucy Le Lievre</a>"],
+      ["PRODUCER", "Florencia Ojeda"],
+      ["CLIENT", "Canyon Bicycles"]
+    ],
+    synopsis: "Behind the scenes of the long-awaited return of the women’s Tour de France in 2022, the first official race after a hiatus of more than 30 years and a seminal moment for gender equality in cycling. Narrated by Emily Chappell, the film weaves together former competitors Denise Kelly and Marilyn Trout (Team Canada), two-time winner Maria Canins (Team Italy), and CANYON//SRAM Racing’s Elise Chabbey, Kasia Niewiadoma, Pauliena Rooijakkers and Ronny Lauke. Through CANYON//SRAM’s success at the 2022 Tour de France Femmes — topping the Teams Classification and placing Niewiadoma third overall — and the recollections of women who raced in the 1980s, it becomes clear that ‘where women belong’ in cycling has changed for good.",
+    note: "",
+    cover: "assets/img/films/out-in-front/samantha-andre-out-in-front-cover.jpg",
+    gallery: [
+      "assets/img/films/out-in-front/samantha-andre-out-in-front-still-01.jpg",
+      "assets/img/films/out-in-front/samantha-andre-out-in-front-still-02.jpg"
+    ]
+  },
+  {
     slug: "daughters-of-emmonak",
     title: "Daughters of Emmonak",
     brand: "Short Documentary",
