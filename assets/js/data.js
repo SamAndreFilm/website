@@ -34,7 +34,7 @@ const FILMS = [
     credits: [
       ["YEAR", "2021"],
       ["PRODUCTION COMPANY", "Patagonia / Roan Films"],
-      ["CO CINEMATOGRAPHY/ FIELD PRODUCER", "Samantha André"],
+      ["CO-CINEMATOGRAPHER / FIELD PRODUCER", "Samantha André"],
       ["DIRECTORS", "<a href=\"https://www.andrewburtonphoto.com/\">Andrew Burton</a> and <a href=\"https://michaelkirbysmith.com/\">Michael Kirby Smith</a>"],
       ["PRODUCER", "<a href=\"https://www.alaskawomenshalloffame.org/alumnae/marie-meade/\">Marie Meade</a>"],
       ["EDITORS", "<a href=\"https://www.imdb.com/name/nm2420356/\">Davis Coombe</a> and <a href=\"https://www.imdb.com/name/nm5740594/\">Tessa Malsam</a>"],
@@ -66,8 +66,8 @@ const FILMS = [
       ["YEAR", "2019"],
       ["DIRECTOR", "Samantha André"],
       ["EXECUTIVE PRODUCERS", "Biz Stone, Donna Lamar"],
-      ["PRODUCERS", "Tieneke Pavesic, Matt Lundberg, <a href=\"https://imvdb.com/n/madeleine-askwith\">Madeline Askwith</a>"],
-      ["DP", "<a href=\"https://www.taylormcintosh.com/\">Taylor Mcintosh</a>"],
+      ["PRODUCERS", "Tieneke Pavesic, Matt Lundberg, <a href=\"https://imvdb.com/n/madeleine-askwith\">Madeleine Askwith</a>"],
+      ["DP", "<a href=\"https://www.taylormcintosh.com/\">Taylor McIntosh</a>"],
       ["EDITOR", "Dan Duran"],
       ["CREATIVE DIRECTOR", "Jason Yaitanes"],
       ["CREATIVE", "<a href=\"https://www.tylerharuta.com/\">Tyler Haruta</a>"]
@@ -116,15 +116,15 @@ const FILMS = [
     year: "2019",
     video: "https://vimeo.com/1217457081?share=copy&fl=sv&fe=ci",
     credits: [
-      ["YEAR Released", "2019"],
+      ["YEAR RELEASED", "2019"],
       ["DIRECTOR, DP", "Samantha André"],
-      ["Series Executive Producers", "<a href=\"https://www.thaliamavros.com\">Thalia Mavros and Muriel Soenens</a>"],
-      ["Editor", "<a href=\"http://www.martinadealba.com\">Martina De Alba</a>"],
-      ["Color", "<a href=\"https://chrisramey.com\">Chris Ramey</a>"],
-      ["Sound Mix/Design", "<a href=\"https://m.imdb.com/name/nm0250593/filmotype/sound_department?ref_=m_nmfm_1\">Tom Effinger</a>"]
+      ["SERIES EXECUTIVE PRODUCERS", "<a href=\"https://www.thaliamavros.com\">Thalia Mavros and Muriel Soenens</a>"],
+      ["EDITOR", "<a href=\"http://www.martinadealba.com\">Martina De Alba</a>"],
+      ["COLOR", "<a href=\"https://chrisramey.com\">Chris Ramey</a>"],
+      ["SOUND MIX / DESIGN", "<a href=\"https://m.imdb.com/name/nm0250593/filmotype/sound_department?ref_=m_nmfm_1\">Tom Effinger</a>"]
     ],
-    synopsis: "Here : Maasai Land provides an intimate look into a new generation of Maasai girls caught in between traditions and their fight for education and freedom. The film highlights a Maasai teacher and the girls she’s saved from female genital mutilation or child marriage in Kajiado, Kenya.",
-    note: "The short film is part of an upcoming feature documentary following the lives of one of the young girls in this initial project. The short screened in New York for the International Day of Zero Tolerance to FGM in partnership with UN Representatives and local, anti-FGM activists.",
+    synopsis: "Here Maasai Land provides an intimate look into a new generation of Maasai girls caught in between traditions and their fight for education and freedom. The film highlights a Maasai teacher and the girls she’s saved from female genital mutilation or child marriage in Kajiado, Kenya.",
+    note: "The short film is part of an upcoming feature documentary following the lives of one of the young girls in this initial project. The short screened in New York for the International Day of Zero Tolerance to FGM in partnership with UN Representatives and local anti-FGM activists.",
     cover: "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-cover.jpg",
     gallery: [
       "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-01.jpg",
@@ -153,7 +153,7 @@ const FILMS = [
     video: "https://vimeo.com/257232247",
     credits: [
       ["YEARS WORKED ON", "2015-2026"],
-      ["DIRECTOR/ DP/ PRODUCER", "Samantha André"]
+      ["DIRECTOR / DP / PRODUCER", "Samantha André"]
     ],
     synopsis: "At the crossroads of tradition and change, what will one Maasai girl risk to pursue her education? A film five years in the making, Mary’s Way provides an intimate glimpse into the world of a Maasai girl and her teacher who risk their lives to challenge their culture and empower a new generation.",
     cover: "assets/img/films/marys-way/samantha-andre-marys-way-cover.jpg",
@@ -188,7 +188,7 @@ const FILMS = [
       ["CREATIVE DIRECTION", "<a href=\"https://www.thereabouts.co/\">Angus Morton</a>"]
     ],
     synopsis: "To Neilson Powless, family is everything. It’s what motivates him most in his athletic career and something he does not take for granted. Far away from home, Neilson and his wife Frances are still learning how to keep doing the things that they love while maintaining a strong marriage. And soon, they’ll be raising a family together.",
-    note: "Getting to know Neilson Powless while filming Into the Slipstream during his first Tour de France, I was interested to show more of who he is through his professional athlete parents, unique upbringing, and talented ballerina wife. I worked as a solo team to shoot and direct the scenes and intimate interviews in California with Neilson’s family and edited the film and cutdowns.",
+    note: "Getting to know Neilson Powless while filming Enter the Slipstream during his first Tour de France, I was interested to show more of who he is through his professional athlete parents, unique upbringing, and talented ballerina wife. I worked as a solo team to shoot and direct the scenes and intimate interviews in California with Neilson’s family and edited the film and cutdowns.",
     cover: "assets/img/films/my-family-is-my-tribe/samantha-andre-my-family-is-my-tribe-cover.png",
     gallery: [
       "assets/img/films/my-family-is-my-tribe/samantha-andre-my-family-is-my-tribe-still-01.jpg",
@@ -212,8 +212,8 @@ const FILMS = [
       ["EDITOR", "<a href=\"https://www.lucylelievre.com/\">Lucy Le Lievre</a>"],
       ["CLIENT", "<a href=\"https://www.canyon.com/en-ca/blog-content/gravel-bike-news/my-body-at-its-best-emily-chappell-jenny-tough/b25082022.html\">Canyon Bicycles</a>"]
     ],
-    synopsis: "Despite their careers as athletes, Emily Chappell and Jenny Tough bonded over their lifelong struggles with their body images. ‘Fixing’ their bodies have led both women through unhealthy paths in eating behaviors, self-esteem, and affected most aspects of their lives. Through their friendship, the two commit to encouraging each other to stay on the path of health, and understand that they already know that their bodies are at their best.",
-    note: "It was important to me that Emily and Jenny’s fantastic sense of humor, love of life, and true friendship come through in this short film and provide a real counter balance to the heavier themes of the film. We decided to frame their three part conversation about body image through their bike packing adventure into the Slovenian Alps together.",
+    synopsis: "Despite their careers as athletes, Emily Chappell and Jenny Tough bonded over their lifelong struggles with their body image. ‘Fixing’ their bodies has led both women through unhealthy paths in eating behaviors, self-esteem, and affected most aspects of their lives. Through their friendship, the two commit to encouraging each other to stay on the path of health, and understand that they already know that their bodies are at their best.",
+    note: "It was important to me that Emily and Jenny’s fantastic sense of humor, love of life, and true friendship come through in this short film and provide a real counterbalance to the heavier themes of the film. We decided to frame their three-part conversation about body image through their bikepacking adventure into the Slovenian Alps together.",
     cover: "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-cover.jpg",
     gallery: [
       "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-still-01.jpg",
@@ -255,7 +255,7 @@ const FILMS = [
     credits: [
       ["YEAR", "2013"],
       ["DIRECTOR", "Samantha André"],
-      ["CO-DIRECTORS", "<a href=\"https://www.graemeaegerter.com/\">Graeme Agerter</a> and <a href=\"http://www.bobby-moser.com/\">Bobby Mosier</a>"],
+      ["CO-DIRECTORS", "<a href=\"https://www.graemeaegerter.com/\">Graeme Aegerter</a> and <a href=\"http://www.bobby-moser.com/\">Bobby Moser</a>"],
       ["FESTIVALS", "<a href=\"http://www.bigskyfilmfest.org/archives/archived_films-2015/daugthers_of_emmonak/2015\">Big Sky Film Festival</a> (Premiere), <a href=\"http://anchorage.festivalgenius.com/2014/films/daughtersofemmonak_samanthaandre_anchorage2014\">Anchorage Film Festival</a>, <a href=\"https://durangoherald.com/articles/873074\">Durango Film Festival</a>"],
       ["IMPACT", "Used by the U.S. Department of Justice for trainings on sexual violence"]
     ],
@@ -317,7 +317,7 @@ const FILMS = [
       ["PRODUCER", "Matt Rogers"],
       ["EDITOR", "Daniel Palmer and <a href=\"https://videoconsortium.org/members/brian-gersten\">Brian Gersten</a>"]
     ],
-    synopsis: "U.S.A.’s oldest professional cycling team have their eyes on cycling’s most coveted prize: a win at the Tour de France. Through victories and heartbreaks, these young men must come together as they face the sport’s most challenging contest. Along the journey, we discover why the Tour de France is not so much a race as a cultural institution and take inspiration from seeing teamwork in its purest form.",
+    synopsis: "U.S.A.’s oldest professional cycling team has its eyes on cycling’s most coveted prize: a win at the Tour de France. Through victories and heartbreaks, these young men must come together as they face the sport’s most challenging contest. Along the journey, we discover why the Tour de France is not so much a race as a cultural institution and take inspiration from seeing teamwork in its purest form.",
     note: "Embedding within the EF Pro Cycling team during the Tour de France was an experience I’ll never forget. The team welcomed me in during their toughest race as I worked as a shooter in the field during the 2020 Tour de France.",
     cover: "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-cover.jpg",
     gallery: [
@@ -367,8 +367,8 @@ const FILMS = [
     video: "https://vimeo.com/66356967",
     credits: [
       ["YEAR", "2013"],
-      ["DIRECTOR/ DP/EDITOR", "Samantha André"],
-      ["CO DIRECTORS", "Mike Agnew and <a href=\"https://www.margotanne.com/\">Margot Czeropski</a>"],
+      ["DIRECTOR / DP / EDITOR", "Samantha André"],
+      ["CO-DIRECTORS", "Mike Agnew and <a href=\"https://www.margotanne.com/\">Margot Czeropski</a>"],
       ["FESTIVALS", "<a href=\"http://www.bigskyfilmfest.org/archives/archived_films-2015/finding_home\">Big Sky Documentary Film Festival</a>, Sebastopol Documentary Film Festival, Africa World Documentary Festival"]
     ],
     synopsis: "The Abdi family, refugees from Somalia, arrived in the United States only a few months ago. Follow the parents and their five children as they work to find a new home in the USA, and discover that people, even when they are from disparate places, share quite a bit in common.",
@@ -391,7 +391,7 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=q94KmfQuCk4&list=PLQuKgGVBJ6iBe1xPcw7hdxdN-oZ_j6nk2",
     credits: [
       ["YEAR", "2016"],
-      ["DIRECTOR/ DP", "Samantha André"],
+      ["DIRECTOR / DP", "Samantha André"],
       ["MUSIC", "<a href=\"https://www.youtube.com/channel/UC9DAY2JD9zy9zKA5OtwpNtw\">Kyan</a>"]
     ],
     synopsis: "Nothing Beyond by Kyan. Shot entirely on 8mm film on location in Death Valley, Salton Sea and Joshua Tree.",
@@ -416,7 +416,7 @@ const FILMS = [
       ["YEAR RELEASED", "June 2020"],
       ["ASSOCIATE PRODUCER", "Samantha André"],
       ["EXECUTIVE PRODUCER", "<a href=\"https://www.imdb.com/name/nm0191712/\">RJ Cutler</a>"],
-      ["CO PRODUCERS", "<a href=\"http://matadorcontent.com/\">Matador Content</a> and Cutler Productions"]
+      ["CO-PRODUCERS", "<a href=\"http://matadorcontent.com/\">Matador Content</a> and Cutler Productions"]
     ],
     synopsis: "Inspired by Apple’s groundbreaking “Dear Apple” spots, “Dear…” takes an inventive and cinematic approach to biographies of the most iconic figures in society today by using letters written by those whose lives have been changed through their work. The 10-episode series will profile internationally recognized leaders including Oprah Winfrey, Gloria Steinem, Spike Lee, Lin-Manuel Miranda, Yara Shahidi, Stevie Wonder, Aly Raisman, Misty Copeland, Jane Goodall and more.",
     cover: "assets/img/films/dear/samantha-andre-dear-cover.jpg",
@@ -448,8 +448,8 @@ const FILMS = [
     ],
     credits: [
       ["YEAR", "2013-2014"],
-      ["DIRECTOR/ DP", "Samantha André"],
-      ["CO DIRECTORS/ DP", "<a href=\"https://vimeo.com/carlyberryhill\">Carly Beryhill</a>, <a href=\"http://ryanwestra.com/\">Ryan Westra</a> and <a href=\"http://www.barthfilm.com/\">Michael Barth</a>"]
+      ["DIRECTOR / DP", "Samantha André"],
+      ["CO-DIRECTORS / DP", "<a href=\"https://vimeo.com/carlyberryhill\">Carly Berryhill</a>, <a href=\"http://ryanwestra.com/\">Ryan Westra</a> and <a href=\"http://www.barthfilm.com/\">Michael Barth</a>"]
     ],
     synopsis: "Three short films commissioned by the Sikh Lens Film Festival. The Lions of London recounts the history of Sikh contributions to the World Wars. When a Tree Falls shares the history of the Sikh massacres of 1984. The Lone Guru is a portrait of the last Sikh Guru at Pasupathi Temple in Nepal.",
     note: "The Sikh Lens series brought me from London to Nepal and India to document stories within the Sikh communities around the world.",
@@ -541,7 +541,7 @@ const FILMS = [
       ["YEAR", "2019"],
       ["FINISHING EDITOR", "Samantha André"],
       ["EDITORS", "<a href=\"https://www.imdb.com/name/nm2047157/\">Stacy Goldate</a> and <a href=\"https://www.imdb.com/name/nm3574029/\">Melanie Levy</a>"],
-      ["CO DIRECTORS", "<a href=\"https://www.sallyrubinfilms.com/\">Sally Rubin</a> and <a href=\"https://www.imdb.com/name/nm1852285/\">Ashley York</a>"],
+      ["CO-DIRECTORS", "<a href=\"https://www.sallyrubinfilms.com/\">Sally Rubin</a> and <a href=\"https://www.imdb.com/name/nm1852285/\">Ashley York</a>"],
       ["DP", "<a href=\"http://www.bryandonnell.com/\">Bryan Donnell</a>"],
       ["COMPOSERS", "<a href=\"http://www.alulastudios.com/about\">Beth Caucci and John Fee</a>"]
     ],
@@ -660,7 +660,7 @@ const FILMS = [
     credits: [
       ["YEAR", "2019"],
       ["EDITOR", "Samantha André"],
-      ["DIRECTOR/ DP", "<a href=\"https://www.gorotoshima.com/\">Goro Toshima</a>"]
+      ["DIRECTOR / DP", "<a href=\"https://www.gorotoshima.com/\">Goro Toshima</a>"]
     ],
     synopsis: "Short films commissioned by the ACLU (American Civil Liberties Union). The first story features Robert Mitchell, who successfully sued the Bakersfield Police Dept. for unlawful arrest. The second story focuses on the ACLU’s efforts to mobilize and organize pro-bono attorneys after the U.S. sent thousands of immigrant detainees to federal prison and deprived them of their basic human rights.",
     cover: "assets/img/films/aclu/samantha-andre-aclu-cover.jpg",
@@ -684,8 +684,8 @@ const FILMS = [
     role: "Co-Producer",
     credits: [
       ["YEAR", "In production"],
-      ["DIRECTOR PRODUCERS", "<a href=\"https://www.documentaries.org/filmmakers/kristy-guevara-flanagan/\">Kristy Guevara-Flanagan</a> and <a href=\"https://www.sallyrubinfilms.com/\">Sally Rubin</a>"],
-      ["CO PRODUCER", "Samantha André"],
+      ["DIRECTORS / PRODUCERS", "<a href=\"https://www.documentaries.org/filmmakers/kristy-guevara-flanagan/\">Kristy Guevara-Flanagan</a> and <a href=\"https://www.sallyrubinfilms.com/\">Sally Rubin</a>"],
+      ["CO-PRODUCER", "Samantha André"],
       ["CINEMATOGRAPHY", "<a href=\"http://www.bryandonnell.com/\">Bryan Donnell</a>"]
     ],
     synopsis: "TAKING THE REINS is a feature-length documentary set in the American West that explores how historically marginalized Americans – violently cast out of national narratives – are fighting back and reclaiming the iconic “cowboy” identity to demand inclusion in our country’s story.",
@@ -704,7 +704,7 @@ const FILMS = [
       ["YEAR", "2016"],
       ["TRAILER EDITOR AND ASSISTANT EDITOR", "Samantha André"]
     ],
-    synopsis: "Live Nation TV delivers unprecedented access to touring artists producing an exclusive original documentary series. Featured artists include Garbage, Chris Cornell, Leon Bridges, Heart, and more.",
+    synopsis: "Live Nation TV delivers unprecedented access to touring artists, producing an exclusive original documentary series. Featured artists include Garbage, Chris Cornell, Leon Bridges, Heart, and more.",
     cover: "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-cover.jpg",
     gallery: [
       "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-01.jpg",
@@ -875,7 +875,7 @@ const PHOTO_SETS = [
   {
     slug: "travel-120mm",
     title: "Travel Photographs",
-    brand: "120mm",
+    brand: "120 Film",
     role: "Photographer",
     note: "Pictures shot around California and the world on my little plastic camera.",
     cover: "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-cover.jpg",
