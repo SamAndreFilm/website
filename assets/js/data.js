@@ -72,8 +72,8 @@ const FILMS = [
       ["CREATIVE DIRECTOR", "Jason Yaitanes"],
       ["CREATIVE", "<a href=\"https://www.tylerharuta.com/\">Tyler Haruta</a>"]
     ],
-    synopsis: "Being Emily is about the remarkable story of a Gen-Z teen who runs and operates a popular digital zine made by and for disabled youth. VICE created this short film in partnership with Twitter as a pilot for a new studio initiative, with each short film focusing on the communities that use Twitter. Emily created her zine with other disabled teens she met on #DisabilityTwitter. In the film, we spend time with her as she prepares to graduate high school early and experience her first entry into independence at college. She also meets with her zine contributors from across the world to brainstorm new projects and gets to interview her #DisabilityTwitter idol.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    synopsis: "Being Emily is the story of a Gen-Z teen who runs and operates a popular digital zine made by and for disabled youth. VICE created this short film in partnership with Twitter as a pilot for a new studio initiative, with each short film focusing on communities that use Twitter. In the film, we spend time with Emily as she prepares to graduate high school and experience her first entry into independence at college.",
+    note: "For this short, I decided to structure the short film around one of Emily’s poems. It was a privilege to learn so much from Emily during pre-production and production together and watch her feature on Disney’s series “Growing Up”.",
     cover: "assets/img/films/being-emily/samantha-andre-being-emily-cover.jpg",
     gallery: [
       "assets/img/films/being-emily/samantha-andre-being-emily-still-01.jpg",
