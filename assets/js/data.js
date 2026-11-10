@@ -702,7 +702,7 @@ const PHOTO_SETS = [
     title: "Adrienne",
     brand: "Artist Portraits",
     role: "Photographer",
-    note: "— Add Samantha's first-person note on this shoot here. —",
+    note: "Portraits of my friend and singer-songwriter, Adrienne Ackerman.",
     cover: "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-cover.jpg",
     gallery: [
       "assets/img/photography/adrienne-artist-portraits/samantha-andre-adrienne-artist-portraits-photo-01.jpg",
@@ -722,7 +722,7 @@ const PHOTO_SETS = [
     title: "Earthling",
     brand: "Fashion",
     role: "Photographer",
-    note: "— Add Samantha's first-person note on this shoot here. —",
+    note: "Shots for my friend Rachel Becker’s Earthling.",
     cover: "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-cover.jpg",
     gallery: [
       "assets/img/photography/earthling-fashion/samantha-andre-earthling-fashion-photo-01.jpg",
@@ -765,7 +765,7 @@ const PHOTO_SETS = [
     title: "Levitation",
     brand: "Festival Photographs",
     role: "Photographer",
-    note: "— Add Samantha's first-person note on this shoot here. —",
+    note: "Commissioned medium format photographs shot with my Holga camera for the psych festival Levitation in Austin, Texas.",
     cover: "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-cover.jpg",
     gallery: [
       "assets/img/photography/levitation-festival/samantha-andre-levitation-festival-photo-01.jpg",
@@ -797,33 +797,11 @@ const PHOTO_SETS = [
     ]
   },
   {
-    slug: "gray-artist-portraits",
-    title: "Gray",
-    brand: "Artist Portraits",
-    role: "Photographer",
-    note: "— Add Samantha's first-person note on this shoot here. —",
-    cover: "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-cover.jpg",
-    gallery: [
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-01.jpg",
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-02.jpg",
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-03.jpg",
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-04.jpg",
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-05.jpg",
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-06.jpg",
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-07.jpg",
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-08.jpg",
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-09.jpg",
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-10.jpg",
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-11.jpg",
-      "assets/img/photography/gray-artist-portraits/samantha-andre-gray-artist-portraits-photo-12.jpg"
-    ]
-  },
-  {
     slug: "kyan-artist-portraits",
     title: "Kyan",
     brand: "Artist Portraits",
     role: "Photographer",
-    note: "— Add Samantha's first-person note on this shoot here. —",
+    note: "Music video behind the scenes and portraits for musician Kyan.",
     cover: "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-cover.jpg",
     gallery: [
       "assets/img/photography/kyan-artist-portraits/samantha-andre-kyan-artist-portraits-photo-01.jpg",
@@ -848,7 +826,7 @@ const PHOTO_SETS = [
     title: "Rachel",
     brand: "Artist Portraits",
     role: "Photographer",
-    note: "— Add Samantha's first-person note on this shoot here. —",
+    note: "Portrait shoot in the Redwoods for my friend and talented artist Rachel Becker.",
     cover: "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-cover.jpg",
     gallery: [
       "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-01.jpg",
@@ -876,7 +854,7 @@ const PHOTO_SETS = [
     title: "Travel Photographs",
     brand: "120mm",
     role: "Photographer",
-    note: "— Add Samantha's first-person note on this shoot here. —",
+    note: "Pictures shot around California and the world on my little plastic camera.",
     cover: "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-cover.jpg",
     gallery: [
       "assets/img/photography/travel-120mm/samantha-andre-travel-120mm-photo-01.jpg",

@@ -7,7 +7,7 @@ function getSlugFromURL() {
   return new URLSearchParams(window.location.search).get("slug");
 }
 
-function renderDetailPage({ collection, listPage, childPage, mountId, kicker, adjacentNav = true }) {
+function renderDetailPage({ collection, listPage, childPage, mountId, kicker, adjacentNav = true, galleryGrid = false }) {
   const slug = getSlugFromURL();
   const index = collection.findIndex(item => item.slug === slug);
   const mount = document.getElementById(mountId);
@@ -66,9 +66,9 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker, ad
     ${creditsBlock(item.credits)}
     ${moreVideosBlock(item)}
 
-    <div class="filmstrip-wrap">
-      <div class="filmstrip" id="filmstrip"></div>
-    </div>
+    ${galleryGrid
+      ? `<div class="grid-pad photo-grid-wrap"><div class="photo-grid" id="filmstrip"></div></div>`
+      : `<div class="filmstrip-wrap"><div class="filmstrip" id="filmstrip"></div></div>`}
 
     ${detailNav({ collection, index, listPage, childPage, kicker, adjacentNav })}
   `;

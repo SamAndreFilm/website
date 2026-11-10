@@ -631,6 +631,29 @@ a { color: inherit; text-decoration: none; }
 .strip-frame:focus-visible img { transform: scale(1.06); filter: brightness(1.08); }
 .strip-frame:focus-visible { outline: 1px solid var(--brass); outline-offset: 2px; }
 
+/* Photo-set gallery: the same 2-column grid as the Photography overview,
+   in place of the horizontal filmstrip the film pages use. Frames keep the
+   .strip-frame class so the lightbox behaves identically. */
+.photo-grid-wrap { margin: 56px 0 90px; }
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gutter);
+  background: var(--line);
+  border-top: 1px solid var(--line);
+}
+
+.photo-grid .strip-frame {
+  width: auto;
+  aspect-ratio: 4 / 3;
+  border: 0;
+}
+
+@media (max-width: 720px) {
+  .photo-grid { grid-template-columns: 1fr; }
+}
+
 /* Lightbox */
 
 .lightbox {
