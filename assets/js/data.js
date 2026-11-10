@@ -58,7 +58,7 @@ const FILMS = [
   {
     slug: "being-emily",
     title: "Being Emily",
-    brand: "Twitter Studios x VICE",
+    brand: "Twitter Studios x VICE — Branded Documentary",
     role: "Director",
     year: "2019",
     video: "https://vimeo.com/465477429/9b4a9c98f0",
@@ -100,10 +100,11 @@ const FILMS = [
       ["CINEMATOGRAPHER", "<a href=\"https://www.ivomaes.com/about\">Ivo Maes</a>"],
       ["EDITOR", "Taylor Kruse and Samantha André"],
       ["PRODUCER", "Johannes Mansson and <a href=\"https://www.thereabouts.co/\">Angus Morton</a>"],
-      ["CREATIVE DIRECTION", "<a href=\"https://www.thereabouts.co/\">Angus Morton</a>"]
+      ["CREATIVE DIRECTION", "<a href=\"https://www.thereabouts.co/\">Angus Morton</a>"],
+      ["FESTIVALS", "<a href=\"https://bicyclefilmfestival.com/\" target=\"_blank\" rel=\"noopener\">Bicycle Film Festival</a> (2026)"]
     ],
-    synopsis: "Cédrine Kerbaol’s glittering palmarès do not define her. What makes the French time trial champion and Tour de France stage winner truly special is the way she can win without ever losing her sense of self—and lose without ever being defeated. Cédrine was disappointed with this summer’s Tour de France Femmes. She finished the final stage of the Tour in tears after a crash at the base of the Col du Joux Plane wrecked her plan to attack in the Alps. I watched Cédrine through the camera as Cédrine met with her family and teammates and was soon smiling again through her tears. We followed Cédrine on her camping trip after the race and got to know her—her story, her family, and where she comes from. Cédrine discovered cycling as a teenager when she was bullied at school for refusing to fit in. The sport gave her a way to cope with disappointment and pain and allowed her to spend time in the natural world that she has always loved. On the bike, Cédrine’s free spirit soars. That is why she inspires us. That is why she continues to make us dream.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    synopsis: "Cédrine Kerbaol’s glittering palmarès do not define her. What makes the French time trial champion and Tour de France stage winner truly special is the way she can win without ever losing her sense of self and lose without ever being defeated.",
+    note: "I was intrigued by the opportunity to make a short doc following a professional cyclist immediately after a grand tour. Being let into Cédrine’s inner circle and watching her comeback from disappointment opened up an avenue to intimately get to know the cycling champion.",
     cover: "assets/img/films/faire-rever/samantha-andre-faire-rever-cover.jpg",
     gallery: []
   },
@@ -122,8 +123,8 @@ const FILMS = [
       ["Color", "<a href=\"https://chrisramey.com\">Chris Ramey</a>"],
       ["Sound Mix/Design", "<a href=\"https://m.imdb.com/name/nm0250593/filmotype/sound_department?ref_=m_nmfm_1\">Tom Effinger</a>"]
     ],
-    synopsis: "Here : Maasai Land provides an intimate look into a new generation of Maasai girls caught in between traditions and their fight for education and freedom.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    synopsis: "Here : Maasai Land provides an intimate look into a new generation of Maasai girls caught in between traditions and their fight for education and freedom. The film highlights a Maasai teacher and the girls she’s saved from female genital mutilation or child marriage in Kajiado, Kenya.",
+    note: "The short film is part of an upcoming feature documentary following the lives of one of the young girls in this initial project. The short screened in New York for the International Day of Zero Tolerance to FGM in partnership with UN Representatives and local, anti-FGM activists.",
     cover: "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-cover.jpg",
     gallery: [
       "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-01.jpg",
@@ -186,8 +187,8 @@ const FILMS = [
       ["PRODUCER", "Johannes Mansson, Matthew Beaudin, and <a href=\"https://www.thereabouts.co/\">Angus Morton</a>"],
       ["CREATIVE DIRECTION", "<a href=\"https://www.thereabouts.co/\">Angus Morton</a>"]
     ],
-    synopsis: "“A family that plays together, stays together.” That was Neilson Powless’ dad’s motto when he was growing up. Every weekend, Neilson’s mom and dad would take him and his older sister Shayna to swim, bike, and run in races around California. Their mom was an Olympic marathoner and their dad was a competitive triathlete in the Air Force, but together they always made sure that sports were fun first. All that play made Neilson and Shayna fast. Now, they are both professional cyclists. Neilson is about to become a father himself; his wife, Frances, is pregnant. Frances is a ballerina. She is his lead. With Frances, Neilson can dance over the ups and downs of life as a professional sportsman. Far away from home, Neilson and Frances are still learning how to keep doing the things that they love. Frances has learned about cycling, as Neilson has learned about ballet. Becoming parents is about to change their lives. What they know is that they will always keep playing together, because they are going to stay together.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    synopsis: "To Neilson Powless, family is everything. It’s what motivates him most in his athletic career and something he does not take for granted. Far away from home, Neilson and his wife Frances are still learning how to keep doing the things that they love while maintaining a strong marriage. And soon, they’ll be raising a family together.",
+    note: "Getting to know Neilson Powless while filming Into the Slipstream during his first Tour de France, I was interested to show more of who he is through his professional athlete parents, unique upbringing, and talented ballerina wife. I worked as a solo team to shoot and direct the scenes and intimate interviews in California with Neilson’s family and edited the film and cutdowns.",
     cover: "assets/img/films/my-family-is-my-tribe/samantha-andre-my-family-is-my-tribe-cover.png",
     gallery: [
       "assets/img/films/my-family-is-my-tribe/samantha-andre-my-family-is-my-tribe-still-01.jpg",
@@ -211,8 +212,8 @@ const FILMS = [
       ["EDITOR", "<a href=\"https://www.lucylelievre.com/\">Lucy Le Lievre</a>"],
       ["CLIENT", "<a href=\"https://www.canyon.com/en-ca/blog-content/gravel-bike-news/my-body-at-its-best-emily-chappell-jenny-tough/b25082022.html\">Canyon Bicycles</a>"]
     ],
-    synopsis: "Despite their objective success on the bike and careers as athletes, Emily Chappell and Jenny Tough bonded over their deep and lifelong struggles with their body images. Even while reaching the highest levels of physical health and performance, neither can shake the concern that their body types do not feature frequently in the sports industry. ‘Fixing’ their bodies have led both women through unhealthy paths in eating behaviors, self-esteem, and affected most aspects of their lives. Through their friendship, the two commit to encouraging each other to stay on the path of health, and understand that they already know that their bodies are at their best - the mileage they each clock up in a year in the saddle and respective race wins should speak for themselves.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    synopsis: "Despite their careers as athletes, Emily Chappell and Jenny Tough bonded over their lifelong struggles with their body images. ‘Fixing’ their bodies have led both women through unhealthy paths in eating behaviors, self-esteem, and affected most aspects of their lives. Through their friendship, the two commit to encouraging each other to stay on the path of health, and understand that they already know that their bodies are at their best.",
+    note: "It was important to me that Emily and Jenny’s fantastic sense of humor, love of life, and true friendship come through in this short film and provide a real counter balance to the heavier themes of the film. We decided to frame their three part conversation about body image through their bike packing adventure into the Slovenian Alps together.",
     cover: "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-cover.jpg",
     gallery: [
       "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-still-01.jpg",
@@ -232,10 +233,11 @@ const FILMS = [
       ["YEAR", "2013"],
       ["DIRECTOR", "Samantha André"],
       ["CO-DIRECTORS", "<a href=\"https://www.graemeaegerter.com/\">Graeme Agerter</a> and <a href=\"http://www.bobby-moser.com/\">Bobby Mosier</a>"],
-      ["FESTIVALS", "<a href=\"http://www.bigskyfilmfest.org/archives/archived_films-2015/daugthers_of_emmonak/2015\">Big Sky Film Festival</a>, <a href=\"http://anchorage.festivalgenius.com/2014/films/daughtersofemmonak_samanthaandre_anchorage2014\">Anchorage Film Festival</a>, <a href=\"https://durangoherald.com/articles/873074\">Durango Film Festival</a>"]
+      ["FESTIVALS", "<a href=\"http://www.bigskyfilmfest.org/archives/archived_films-2015/daugthers_of_emmonak/2015\">Big Sky Film Festival</a> (Premiere), <a href=\"http://anchorage.festivalgenius.com/2014/films/daughtersofemmonak_samanthaandre_anchorage2014\">Anchorage Film Festival</a>, <a href=\"https://durangoherald.com/articles/873074\">Durango Film Festival</a>"],
+      ["IMPACT", "Used by the U.S. Department of Justice for trainings on sexual violence"]
     ],
-    synopsis: "Daughters of Emmonak is a documentary film about a Yup’ik Eskimo woman, Lenora “Lynn” Hootch, working to bring an end to domestic abuse in her rural village of Emmonak, Alaska. In 1982, Lynn opened the Emmonak Women’s Shelter to provide a safe place for women and children from surrounding villages. Lynn has dedicated her life to reclaiming her people’s culture and traditional values as alcohol, drugs, and violence have torn through her community. Daughters of Emmonak brings these powerful stories to the fore, highlighting Lynn’s dream of a future where her grandchildren will walk the streets without fear.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    synopsis: "This short film follows Yup’ik woman Lenora “Lynn” Hootch as she works to bring an end to domestic abuse in her rural village of Emmonak, Alaska. Lynn has dedicated her life to reclaiming her people’s culture and traditional values as alcohol, drugs, and violence have torn through her community. She dreams of a future where her grandchildren will walk the streets without fear.",
+    note: "When I read about Lynn and her fight to keep the women’s shelter running, I knew I wanted to make a film about her. I reached out and was the first film crew invited to come help share her story.",
     cover: "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-cover.jpg",
     gallery: [
       "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-01.jpg",
