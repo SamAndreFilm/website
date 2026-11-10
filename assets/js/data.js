@@ -147,15 +147,15 @@ const FILMS = [
     slug: "marys-way",
     title: "Mary's Way",
     brand: "Feature Documentary — In Production",
+    status: "In Production",
     role: "Director / DP / Producer",
-    year: "2015–2020",
+    year: "2015–2026",
     video: "https://vimeo.com/257232247",
     credits: [
-      ["YEARS WORKED ON", "2015-2020"],
+      ["YEARS WORKED ON", "2015-2026"],
       ["DIRECTOR/ DP/ PRODUCER", "Samantha André"]
     ],
     synopsis: "At the crossroads of tradition and change, what will one Maasai girl risk to pursue her education? A film five years in the making, Mary’s Way provides an intimate glimpse into the world of a Maasai girl and her teacher who risk their lives to challenge their culture and empower a new generation.",
-    note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/marys-way/samantha-andre-marys-way-cover.jpg",
     gallery: [
       "assets/img/films/marys-way/samantha-andre-marys-way-still-01.gif",
@@ -270,7 +270,6 @@ const FILMS = [
       ["CLIENT", "<a href=\"https://www.rapha.cc/\">RAPHA</a>"]
     ],
     synopsis: "Opening up a crucial conversation usually held behind closed doors, Maghalie Rochette’s educational new ‘Menstrual Health Series’ is helping to shift perspectives on periods: from a setback to superpower. Part of her Fever Talk podcast, the series educates and encourages riders to harness the power of their period, and improve their performance in doing so. She’ll be sitting down with a different expert each episode to share stories and advice, tackling the stigma surrounding menstruation head-on. Discussing the whole spectrum of the cycle, from those who have periods to those that do not, the podcast breaks down any shame or uncertainty that usually surrounds the subject.",
-    note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/keep-riding/samantha-andre-keep-riding-cover.jpg",
     gallery: [
       "assets/img/films/keep-riding/samantha-andre-keep-riding-still-01.jpg",
@@ -285,18 +284,18 @@ const FILMS = [
     slug: "enter-the-slipstream",
     title: "Enter the Slipstream",
     brand: "Peacock — Documentary Feature",
-    role: "DP",
+    role: "DP / Field Producer",
     year: "2023",
     video: "https://www.youtube.com/watch?v=y7UAJbeEzR8",
     credits: [
       ["YEAR", "2023"],
-      ["DIRECTOR OF PHOTOGRAPHY", "Samantha André"],
+      ["DIRECTOR OF PHOTOGRAPHY AND FIELD PRODUCER", "Samantha André"],
       ["DIRECTOR", "Ted Youngs"],
       ["PRODUCER", "Matt Rogers"],
       ["EDITOR", "Daniel Palmer and <a href=\"https://videoconsortium.org/members/brian-gersten\">Brian Gersten</a>"]
     ],
-    synopsis: "With their superstar \"Rigo\" Urán coming back from a catastrophic injury, the U.S.A's oldest professional cycling team have their eyes on cycling's most coveted prize: a win at the 2020 Tour de France. Through victories and heartbreaks, these young men must come together as they face the sport's biggest and most challenging contest.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    synopsis: "U.S.A.’s oldest professional cycling team have their eyes on cycling’s most coveted prize: a win at the Tour de France. Through victories and heartbreaks, these young men must come together as they face the sport’s most challenging contest. Along the journey, we discover why the Tour de France is not so much a race as a cultural institution and take inspiration from seeing teamwork in its purest form.",
+    note: "Embedding within the EF Pro Cycling team during the Tour de France was an experience I’ll never forget. The team welcomed me in during their toughest race as I worked as a shooter in the field during the 2020 Tour de France.",
     cover: "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-cover.jpg",
     gallery: [
       "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-01.jpg",
@@ -337,38 +336,6 @@ const FILMS = [
     ]
   },
   {
-    slug: "no-refuge",
-    title: "No Refuge",
-    brand: "International Women's Media Foundation — Documentary",
-    role: "Cinematographer",
-    year: "2019",
-    video: "https://vimeo.com/426925697/2979be1703",
-    credits: [
-      ["YEAR", "2019"],
-      ["CINEMATOGRAPHER", "Samantha André"],
-      ["DIRECTOR", "Saher Shakir"],
-      ["EDITOR", "<a href=\"https://vimeo.com/tonychen\">Tony Chen</a>"],
-      ["HOST", "<a href=\"http://taniarashid.com/\">Tania Rashid</a>"]
-    ],
-    synopsis: "A film about LGBT refugees and their opposition on the far right. We cover the first LGBT safe house for refugees seeking asylum in Germany as well as protests and anti immigration movements in Austria. The film was funded through a grant by International Women's Media Foundation.",
-    note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/no-refuge/samantha-andre-no-refuge-cover.jpg",
-    gallery: [
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-01.jpg",
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-02.jpg",
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-03.jpg",
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-04.jpg",
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-05.jpg",
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-06.jpg",
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-07.jpg",
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-08.jpg",
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-09.gif",
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-10.gif",
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-11.gif",
-      "assets/img/films/no-refuge/samantha-andre-no-refuge-still-12.gif"
-    ]
-  },
-  {
     slug: "finding-home",
     title: "Finding Home",
     brand: "Short Documentary",
@@ -381,8 +348,8 @@ const FILMS = [
       ["CO DIRECTORS", "Mike Agnew and <a href=\"https://www.margotanne.com/\">Margot Czeropski</a>"],
       ["FESTIVALS", "<a href=\"http://www.bigskyfilmfest.org/archives/archived_films-2015/finding_home\">Big Sky Documentary Film Festival</a>, Sebastopol Documentary Film Festival, Africa World Documentary Festival"]
     ],
-    synopsis: "The Abdi family, refugees from Somalia, arrived in the United States only a few months ago. Follow the parents and five children as they struggle to find a new home in the USA, and discover that people, even when they are from disparate places, share quite a bit in common.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    synopsis: "The Abdi family, refugees from Somalia, arrived in the United States only a few months ago. Follow the parents and their five children as they work to find a new home in the USA, and discover that people, even when they are from disparate places, share quite a bit in common.",
+    note: "I was fortunate to create this film as part of Chapman University’s Community Voices program. For this film, our team partnered with a local NGO that helped connect us with the Abdi family. I was interested in getting an inside look at how refugee children and parents transition into their new lives.",
     cover: "assets/img/films/finding-home/samantha-andre-finding-home-cover.jpg",
     gallery: [
       "assets/img/films/finding-home/samantha-andre-finding-home-still-01.jpg",
@@ -405,7 +372,6 @@ const FILMS = [
       ["MUSIC", "<a href=\"https://www.youtube.com/channel/UC9DAY2JD9zy9zKA5OtwpNtw\">Kyan</a>"]
     ],
     synopsis: "Nothing Beyond by Kyan. Shot entirely on 8mm film on location in Death Valley, Salton Sea and Joshua Tree.",
-    note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-cover.jpg",
     gallery: [
       "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-still-01.jpg",
@@ -430,7 +396,6 @@ const FILMS = [
       ["CO PRODUCERS", "<a href=\"http://matadorcontent.com/\">Matador Content</a> and Cutler Productions"]
     ],
     synopsis: "Inspired by Apple’s groundbreaking “Dear Apple” spots, “Dear…” takes an inventive and cinematic approach to biographies of the most iconic figures in society today by using letters written by those whose lives have been changed through their work. The 10-episode series will profile internationally recognized leaders including Oprah Winfrey, Gloria Steinem, Spike Lee, Lin-Manuel Miranda, Yara Shahidi, Stevie Wonder, Aly Raisman, Misty Copeland, Jane Goodall and more.",
-    note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/dear/samantha-andre-dear-cover.jpg",
     gallery: [
       "assets/img/films/dear/samantha-andre-dear-still-01.jpg",
@@ -463,8 +428,8 @@ const FILMS = [
       ["DIRECTOR/ DP", "Samantha André"],
       ["CO DIRECTORS/ DP", "<a href=\"https://vimeo.com/carlyberryhill\">Carly Beryhill</a>, <a href=\"http://ryanwestra.com/\">Ryan Westra</a> and <a href=\"http://www.barthfilm.com/\">Michael Barth</a>"]
     ],
-    synopsis: "Films commissioned by the Sikh Lens Film Festival. Lions of London recounts the history of Sikh contributions to the World Wars. When a Tree Falls shares the history of the Sikh massacres of 1984. Through eyewitness accounts and historians it becomes clear that the killings of 1984 are not an isolated event but rather a devastating reoccurring trend in Indian politics. The Lone Guru is a portrait of the last Sikh Guru at Pasupathi Temple in Nepal. He claims to have predicted the earthquake in Nepal and be one of the last Sikh Gurus in Nepal.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    synopsis: "Three short films commissioned by the Sikh Lens Film Festival. The Lions of London recounts the history of Sikh contributions to the World Wars. When a Tree Falls shares the history of the Sikh massacres of 1984. The Lone Guru is a portrait of the last Sikh Guru at Pasupathi Temple in Nepal.",
+    note: "The Sikh Lens series brought me from London to Nepal and India to document stories within the Sikh communities around the world.",
     cover: "assets/img/films/sikh-lens/samantha-andre-sikh-lens-cover.jpg",
     gallery: [
       "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-01.gif",
@@ -489,54 +454,6 @@ const FILMS = [
       "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-20.jpg",
       "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-21.jpg",
       "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-22.gif"
-    ]
-  },
-  {
-    slug: "agua-leva-agua-da",
-    title: "Agua Leva, Agua Da",
-    brand: "Documentary Short",
-    role: "Co-Director",
-    year: "2013",
-    video: "https://vimeo.com/414699999/ea29016188",
-    credits: [
-      ["YEAR", "2013"],
-      ["CO DIRECTOR", "Samantha André"],
-      ["CO DIRECTORS", "<a href=\"http://www.pasqualgutierrez.com/\">Pasqual Gutierrez</a>, <a href=\"http://www.barthfilm.com/\">Michael Barth</a> and <a href=\"http://www.spencercreigh.com/rapala\">Spencer Creigh</a>"]
-    ],
-    synopsis: "Water Gives, Water Takes Away. In the fishing village of Vilanculos, Mozambique, the ocean is both a lifeline and a torment. Samuel works day in and day out in the shallow waters of Vilanculos, Mozambique to feed his family. Rui was one of a few fortunate fishermen to receive aid from the government to support his fishing business. Dauto, the son of a fisherman, has watched his loved ones struggle to survive in the ever-changing fishing industry of Vilanculos. Agua Da Agua Leva tells the story of these three men and the struggles they must face as they combat the harsh realities of overfishing.",
-    note: "— Add Samantha's first-person note on this project here. —",
-    cover: "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-cover.jpg",
-    gallery: [
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-01.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-02.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-03.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-04.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-05.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-06.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-07.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-08.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-09.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-10.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-11.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-12.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-13.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-14.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-15.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-16.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-17.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-18.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-19.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-20.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-21.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-22.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-23.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-24.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-25.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-26.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-27.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-28.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-29.jpg",
-      "assets/img/films/agua-leva-agua-da/samantha-andre-agua-leva-agua-da-still-30.gif"
     ]
   },
   {
@@ -605,7 +522,7 @@ const FILMS = [
       ["DP", "<a href=\"http://www.bryandonnell.com/\">Bryan Donnell</a>"],
       ["COMPOSERS", "<a href=\"http://www.alulastudios.com/about\">Beth Caucci and John Fee</a>"]
     ],
-    synopsis: "Since the presidential election, the cultural divide in America has expanded. Stereotyping and slurs are rampant, finger-pointing and name-calling abound. hillbilly goes on a personal and political journey into the heart of the Appalachian coalfields, exploring the role of media representation in the creation of the iconic American \"hillbilly,\" and examining the social, cultural, and political underpinnings of this infamous stereotype. Featuring bell hooks, Ronny Cox, Billy Redden, Michael Apted, Frank X Walker, Crystal Good, Silas House, Sam Gleaves, Amythyst Kiah.",
+    synopsis: "Hillbilly examines media stereotypes of Appalachia and rural America, tying an exploration of Appalachian identity and natural resource extraction with the outcome of the 2016 presidential election.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/hillbilly/samantha-andre-hillbilly-cover.jpg",
     gallery: [
@@ -647,7 +564,7 @@ const FILMS = [
       ["SERIES PRODUCER", "<a href=\"https://www.imdb.com/name/nm3750468/\">Jeremy David White</a>"],
       ["EXECUTIVE PRODUCERS", "<a href=\"https://www.imdb.com/name/nm1811321/\">Evan Rosenfeld</a>, <a href=\"https://www.imdb.com/name/nm1679085/\">Selema Masekela</a>, <a href=\"https://www.imdb.com/name/nm1464662/\">Bernardo Loyola</a>, and Will Kiersky"]
     ],
-    synopsis: "RIVALS continues to get on the field and into the ring through a series of compelling stories at the fringe of culture and politics.",
+    synopsis: "RIVALS continues to get on the field and into the ring through a series of compelling stories at the fringe of culture and politics. Episodes feature the Calcio Storico, Algerian soccer, and Aussie football, amongst others. The show was Emmy nominated and the first season won a 2017 Producers Guild of America Award for Outstanding Sports Program.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-cover.jpg",
     gallery: [
@@ -724,7 +641,7 @@ const FILMS = [
       ["EDITOR", "Samantha André"],
       ["DIRECTOR/ DP", "<a href=\"https://www.gorotoshima.com/\">Goro Toshima</a>"]
     ],
-    synopsis: "For the ACLU (American Civil Liberties Union). The first story features Robert Mitchell, who successfully sued the Bakersfield Police Dept. for unlawful arrest. The second video focuses on the ACLU's efforts to mobilize and organize pro-bono attorneys after the U.S. sent thousands of immigrant detainees to federal prison and deprived them of their basic human rights.",
+    synopsis: "Short films commissioned by the ACLU (American Civil Liberties Union). The first story features Robert Mitchell, who successfully sued the Bakersfield Police Dept. for unlawful arrest. The second story focuses on the ACLU’s efforts to mobilize and organize pro-bono attorneys after the U.S. sent thousands of immigrant detainees to federal prison and deprived them of their basic human rights.",
     note: "— Add Samantha's first-person note on this project here. —",
     cover: "assets/img/films/aclu/samantha-andre-aclu-cover.jpg",
     gallery: [
@@ -752,7 +669,7 @@ const FILMS = [
       ["CINEMATOGRAPHY", "<a href=\"http://www.bryandonnell.com/\">Bryan Donnell</a>"]
     ],
     synopsis: "TAKING THE REINS is a feature-length documentary set in the American West that explores how historically marginalized Americans – violently cast out of national narratives – are fighting back and reclaiming the iconic “cowboy” identity to demand inclusion in our country’s story.",
-    note: "— Add Samantha's first-person note on this project here. —",
+    note: "Getting the chance to work on this project by researching, casting and planning shoots across the US was a really rewarding journey.",
     cover: "assets/img/films/taking-the-reins/samantha-andre-taking-the-reins-cover.jpg",
     gallery: []
   },
@@ -765,7 +682,7 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=oLuUE9QtJTo",
     credits: [
       ["YEAR", "2016"],
-      ["TRAILER EDITOR", "Samantha André"]
+      ["TRAILER EDITOR AND ASSISTANT EDITOR", "Samantha André"]
     ],
     synopsis: "Live Nation TV delivers unprecedented access to touring artists producing an exclusive original documentary series. Featured artists include Garbage, Chris Cornell, Leon Bridges, Heart, and more.",
     note: "— Add Samantha's first-person note on this project here. —",
@@ -956,25 +873,6 @@ const PHOTO_SETS = [
       "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-16.jpg",
       "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-17.jpg",
       "assets/img/photography/rachel-artist-portraits/samantha-andre-rachel-artist-portraits-photo-18.jpg"
-    ]
-  },
-  {
-    slug: "taylor-andrew-portraits",
-    title: "Taylor & Andrew",
-    brand: "Artist Portraits",
-    role: "Photographer",
-    note: "— Add Samantha's first-person note on this shoot here. —",
-    cover: "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-cover.jpg",
-    gallery: [
-      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-01.jpg",
-      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-02.jpg",
-      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-03.jpg",
-      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-04.jpg",
-      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-05.jpg",
-      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-06.jpg",
-      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-07.jpg",
-      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-08.jpg",
-      "assets/img/photography/taylor-andrew-portraits/samantha-andre-taylor-andrew-portraits-photo-09.jpg"
     ]
   },
   {

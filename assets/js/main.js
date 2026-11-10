@@ -158,6 +158,7 @@ function renderReelGrid(mountEl, items, hrefBuilder) {
         <div class="cell-media">
           <img src="${item.cover}" alt="${item.title} — ${item.brand}. Samantha André, ${item.role}." loading="lazy" />
         </div>
+        ${item.status ? `<span class="cell-status">${item.status}</span>` : ""}
         <span class="cell-caption">
           <span class="role">${item.role}</span>
           <span class="title">${item.title}</span>

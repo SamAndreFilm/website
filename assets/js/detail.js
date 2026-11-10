@@ -33,6 +33,13 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker, ad
     ? `<p class="synopsis">${item.synopsis}</p>`
     : "";
 
+  const noteBlock = item.note
+    ? `<blockquote class="her-note">
+         ${item.note}
+         <cite>Samantha André &mdash; ${item.role}</cite>
+       </blockquote>`
+    : "";
+
   const playButton = item.video
     ? `<button class="play-btn" type="button" id="hero-play" aria-label="Play ${item.title}">
          ${PLAY_GLYPH}<span>Play film</span>
@@ -53,10 +60,7 @@ function renderDetailPage({ collection, listPage, childPage, mountId, kicker, ad
 
     <div class="detail-body">
       ${synopsisBlock}
-      <blockquote class="her-note">
-        ${item.note}
-        <cite>Samantha André &mdash; ${item.role}</cite>
-      </blockquote>
+      ${noteBlock}
     </div>
 
     ${creditsBlock(item.credits)}

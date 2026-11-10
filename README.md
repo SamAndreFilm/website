@@ -160,7 +160,8 @@ listed. Concretely:
   list — **Mary's Way**, **No Refuge**, **Sikh Lens**, and **Agua Leva, Agua
   Da**. That looked like drift in the old site rather than a decision (Mary's
   Way is the feature her own bio is about, and No Refuge was even tagged
-  `home-page`), so they were added. Mary's Way sits directly after *Here:
+  `home-page`), so they were added (No Refuge and Agua Leva, Agua Da were later removed from
+  the site at Samantha's request). Mary's Way sits directly after *Here:
   Maasai Land*, which its own page calls it a continuation of. To reorder the
   grid, reorder the `FILMS` array — nothing else reads position.
 - The **Photos page** (id 5216) pulls the `photos` portfolio category
