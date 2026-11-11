@@ -34,7 +34,7 @@ const FILMS = [
     credits: [
       ["YEAR", "2021"],
       ["PRODUCTION COMPANY", "Patagonia / Roan Films"],
-      ["CO-CINEMATOGRAPHER / FIELD PRODUCER", "Samantha André"],
+      ["CINEMATOGRAPHER & FIELD PRODUCER", "Samantha André"],
       ["DIRECTORS", "<a href=\"https://www.andrewburtonphoto.com/\">Andrew Burton</a> and <a href=\"https://michaelkirbysmith.com/\">Michael Kirby Smith</a>"],
       ["PRODUCER", "<a href=\"https://www.alaskawomenshalloffame.org/alumnae/marie-meade/\">Marie Meade</a>"],
       ["EDITORS", "<a href=\"https://www.imdb.com/name/nm2420356/\">Davis Coombe</a> and <a href=\"https://www.imdb.com/name/nm5740594/\">Tessa Malsam</a>"],
@@ -48,7 +48,6 @@ const FILMS = [
     cover: "assets/img/films/newtok/samantha-andre-newtok-cover.jpg",
     gallery: [
       "assets/img/films/newtok/samantha-andre-newtok-still-01.jpg",
-      "assets/img/films/newtok/samantha-andre-newtok-still-02.jpg",
       "assets/img/films/newtok/samantha-andre-newtok-still-03.jpg",
       "assets/img/films/newtok/samantha-andre-newtok-still-04.jpg",
       "assets/img/films/newtok/samantha-andre-newtok-still-05.jpg",
@@ -117,7 +116,7 @@ const FILMS = [
     video: "https://vimeo.com/1217457081?share=copy&fl=sv&fe=ci",
     credits: [
       ["YEAR RELEASED", "2019"],
-      ["DIRECTOR, DP", "Samantha André"],
+      ["DIRECTOR & DP", "Samantha André"],
       ["SERIES EXECUTIVE PRODUCERS", "<a href=\"https://www.thaliamavros.com\">Thalia Mavros and Muriel Soenens</a>"],
       ["EDITOR", "<a href=\"http://www.martinadealba.com\">Martina De Alba</a>"],
       ["COLOR", "<a href=\"https://chrisramey.com\">Chris Ramey</a>"],
@@ -264,17 +263,8 @@ const FILMS = [
     cover: "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-cover.jpg",
     gallery: [
       "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-01.jpg",
-      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-02.jpg",
-      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-03.jpg",
-      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-04.jpg",
-      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-05.jpg",
-      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-06.jpg",
       "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-07.jpg",
-      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-08.gif",
-      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-09.gif",
-      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-10.gif",
-      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-11.gif",
-      "assets/img/films/daughters-of-emmonak/samantha-andre-daughters-of-emmonak-still-12.gif"
+      "assets/img/films/daughters-of-emmonak/Sign_DOE.jpg"
     ]
   },
   {
@@ -367,7 +357,7 @@ const FILMS = [
     video: "https://vimeo.com/66356967",
     credits: [
       ["YEAR", "2013"],
-      ["DIRECTOR / DP / EDITOR", "Samantha André"],
+      ["DIRECTOR & DP & EDITOR", "Samantha André"],
       ["CO-DIRECTORS", "Mike Agnew and <a href=\"https://www.margotanne.com/\">Margot Czeropski</a>"],
       ["FESTIVALS", "<a href=\"http://www.bigskyfilmfest.org/archives/archived_films-2015/finding_home\">Big Sky Documentary Film Festival</a>, Sebastopol Documentary Film Festival, Africa World Documentary Festival"]
     ],
@@ -391,7 +381,7 @@ const FILMS = [
     video: "https://www.youtube.com/watch?v=q94KmfQuCk4&list=PLQuKgGVBJ6iBe1xPcw7hdxdN-oZ_j6nk2",
     credits: [
       ["YEAR", "2016"],
-      ["DIRECTOR / DP", "Samantha André"],
+      ["DIRECTOR & DP", "Samantha André"],
       ["MUSIC", "<a href=\"https://www.youtube.com/channel/UC9DAY2JD9zy9zKA5OtwpNtw\">Kyan</a>"]
     ],
     synopsis: "Nothing Beyond by Kyan. Shot entirely on 8mm film on location in Death Valley, Salton Sea and Joshua Tree.",
@@ -448,8 +438,8 @@ const FILMS = [
     ],
     credits: [
       ["YEAR", "2013-2014"],
-      ["DIRECTOR / DP", "Samantha André"],
-      ["CO-DIRECTORS / DP", "<a href=\"https://vimeo.com/carlyberryhill\">Carly Berryhill</a>, <a href=\"http://ryanwestra.com/\">Ryan Westra</a> and <a href=\"http://www.barthfilm.com/\">Michael Barth</a>"]
+      ["DIRECTOR & DP", "Samantha André"],
+      ["CO-DIRECTORS & DP", "<a href=\"https://vimeo.com/carlyberryhill\">Carly Berryhill</a>, <a href=\"http://ryanwestra.com/\">Ryan Westra</a> and <a href=\"http://www.barthfilm.com/\">Michael Barth</a>"]
     ],
     synopsis: "Three short films commissioned by the Sikh Lens Film Festival. The Lions of London recounts the history of Sikh contributions to the World Wars. When a Tree Falls shares the history of the Sikh massacres of 1984. The Lone Guru is a portrait of the last Sikh Guru at Pasupathi Temple in Nepal.",
     note: "The Sikh Lens series brought me from London to Nepal and India to document stories within the Sikh communities around the world.",
@@ -660,7 +650,7 @@ const FILMS = [
     credits: [
       ["YEAR", "2019"],
       ["EDITOR", "Samantha André"],
-      ["DIRECTOR / DP", "<a href=\"https://www.gorotoshima.com/\">Goro Toshima</a>"]
+      ["DIRECTOR & DP", "<a href=\"https://www.gorotoshima.com/\">Goro Toshima</a>"]
     ],
     synopsis: "Short films commissioned by the ACLU (American Civil Liberties Union). The first story features Robert Mitchell, who successfully sued the Bakersfield Police Dept. for unlawful arrest. The second story focuses on the ACLU’s efforts to mobilize and organize pro-bono attorneys after the U.S. sent thousands of immigrant detainees to federal prison and deprived them of their basic human rights.",
     cover: "assets/img/films/aclu/samantha-andre-aclu-cover.jpg",
@@ -684,7 +674,7 @@ const FILMS = [
     role: "Co-Producer",
     credits: [
       ["YEAR", "In production"],
-      ["DIRECTORS / PRODUCERS", "<a href=\"https://www.documentaries.org/filmmakers/kristy-guevara-flanagan/\">Kristy Guevara-Flanagan</a> and <a href=\"https://www.sallyrubinfilms.com/\">Sally Rubin</a>"],
+      ["DIRECTORS & PRODUCERS", "<a href=\"https://www.documentaries.org/filmmakers/kristy-guevara-flanagan/\">Kristy Guevara-Flanagan</a> and <a href=\"https://www.sallyrubinfilms.com/\">Sally Rubin</a>"],
       ["CO-PRODUCER", "Samantha André"],
       ["CINEMATOGRAPHY", "<a href=\"http://www.bryandonnell.com/\">Bryan Donnell</a>"]
     ],
