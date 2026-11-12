@@ -127,19 +127,9 @@ const FILMS = [
     cover: "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-cover.jpg",
     gallery: [
       "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-01.jpg",
-      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-02.jpg",
       "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-03.jpg",
-      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-04.jpg",
       "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-05.jpg",
-      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-06.jpg",
-      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-07.jpg",
-      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-08.jpg",
-      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-09.jpg",
       "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-10.jpg",
-      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-11.gif",
-      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-12.gif",
-      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-13.gif",
-      "assets/img/films/here-maasai-land/samantha-andre-here-maasai-land-still-14.gif"
     ]
   },
   {
@@ -157,18 +147,9 @@ const FILMS = [
     synopsis: "At the crossroads of tradition and change, what will one Maasai girl risk to pursue her education? A film five years in the making, Mary’s Way provides an intimate glimpse into the world of a Maasai girl and her teacher who risk their lives to challenge their culture and empower a new generation.",
     cover: "assets/img/films/marys-way/samantha-andre-marys-way-cover.jpg",
     gallery: [
-      "assets/img/films/marys-way/samantha-andre-marys-way-still-01.gif",
-      "assets/img/films/marys-way/samantha-andre-marys-way-still-02.jpg",
       "assets/img/films/marys-way/samantha-andre-marys-way-still-03.jpg",
       "assets/img/films/marys-way/samantha-andre-marys-way-still-04.jpg",
-      "assets/img/films/marys-way/samantha-andre-marys-way-still-05.jpg",
-      "assets/img/films/marys-way/samantha-andre-marys-way-still-06.jpg",
-      "assets/img/films/marys-way/samantha-andre-marys-way-still-07.jpg",
       "assets/img/films/marys-way/samantha-andre-marys-way-still-08.jpg",
-      "assets/img/films/marys-way/samantha-andre-marys-way-still-09.jpg",
-      "assets/img/films/marys-way/samantha-andre-marys-way-still-10.jpg",
-      "assets/img/films/marys-way/samantha-andre-marys-way-still-11.jpg",
-      "assets/img/films/marys-way/samantha-andre-marys-way-still-12.jpg"
     ]
   },
   {
@@ -217,7 +198,6 @@ const FILMS = [
     gallery: [
       "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-still-01.jpg",
       "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-still-02.jpg",
-      "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-still-03.jpg",
       "assets/img/films/my-body-at-its-best/samantha-andre-my-body-at-its-best-still-04.jpg"
     ]
   },
@@ -316,7 +296,6 @@ const FILMS = [
       "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-04.jpg",
       "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-06.jpg",
       "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-32.jpg",
-      "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-33.jpg",
       "assets/img/films/enter-the-slipstream/samantha-andre-enter-the-slipstream-still-29.jpg",
     ]
 
@@ -338,11 +317,7 @@ const FILMS = [
     note: "I was fortunate to create this film as part of Chapman University’s Community Voices program. For this film, our team partnered with a local NGO that helped connect us with the Abdi family. I was interested in getting an inside look at how refugee children and parents transition into their new lives.",
     cover: "assets/img/films/finding-home/samantha-andre-finding-home-cover.jpg",
     gallery: [
-      "assets/img/films/finding-home/samantha-andre-finding-home-still-01.jpg",
-      "assets/img/films/finding-home/samantha-andre-finding-home-still-02.jpg",
-      "assets/img/films/finding-home/samantha-andre-finding-home-still-03.jpg",
       "assets/img/films/finding-home/samantha-andre-finding-home-still-04.jpg",
-      "assets/img/films/finding-home/samantha-andre-finding-home-still-05.gif"
     ]
   },
   {
@@ -361,10 +336,7 @@ const FILMS = [
     cover: "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-cover.jpg",
     gallery: [
       "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-still-01.jpg",
-      "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-still-02.jpg",
       "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-still-03.jpg",
-      "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-still-04.gif",
-      "assets/img/films/nothing-beyond/samantha-andre-nothing-beyond-still-05.gif"
     ]
   },
   {
@@ -385,15 +357,7 @@ const FILMS = [
     cover: "assets/img/films/dear/samantha-andre-dear-cover.jpg",
     gallery: [
       "assets/img/films/dear/samantha-andre-dear-still-01.jpg",
-      "assets/img/films/dear/samantha-andre-dear-still-02.jpg",
-      "assets/img/films/dear/samantha-andre-dear-still-03.jpg",
-      "assets/img/films/dear/samantha-andre-dear-still-04.jpg",
-      "assets/img/films/dear/samantha-andre-dear-still-05.jpg",
-      "assets/img/films/dear/samantha-andre-dear-still-06.gif",
-      "assets/img/films/dear/samantha-andre-dear-still-07.gif",
-      "assets/img/films/dear/samantha-andre-dear-still-08.gif",
       "assets/img/films/dear/samantha-andre-dear-still-09.jpg",
-      "assets/img/films/dear/samantha-andre-dear-still-10.jpg",
       "assets/img/films/dear/samantha-andre-dear-still-11.jpg",
       "assets/img/films/dear/samantha-andre-dear-still-12.jpg"
     ]
@@ -418,28 +382,6 @@ const FILMS = [
     note: "The Sikh Lens series brought me from London to Nepal and India to document stories within the Sikh communities around the world.",
     cover: "assets/img/films/sikh-lens/samantha-andre-sikh-lens-cover.jpg",
     gallery: [
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-01.gif",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-02.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-03.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-04.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-05.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-06.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-07.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-08.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-09.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-10.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-11.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-12.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-13.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-14.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-15.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-16.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-17.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-18.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-19.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-20.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-21.jpg",
-      "assets/img/films/sikh-lens/samantha-andre-sikh-lens-still-22.gif"
     ]
   },
   {
@@ -465,32 +407,6 @@ const FILMS = [
     note: "Assisting the editors on these films gave me an inside look at the post production and story shaping process for feature films.",
     cover: "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-cover.jpg",
     gallery: [
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-01.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-02.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-03.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-04.png",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-05.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-06.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-07.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-08.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-09.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-10.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-11.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-12.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-13.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-14.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-15.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-16.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-17.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-18.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-19.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-20.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-21.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-22.jpg",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-23.gif",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-24.gif",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-25.gif",
-      "assets/img/films/scotty-and-the-secret-history-of-hollywood/samantha-andre-scotty-and-the-secret-history-of-hollywood-still-26.gif"
     ]
   },
   {
@@ -511,18 +427,7 @@ const FILMS = [
     synopsis: "Hillbilly examines media stereotypes of Appalachia and rural America, tying an exploration of Appalachian identity and natural resource extraction with the outcome of the 2016 presidential election.",
     cover: "assets/img/films/hillbilly/samantha-andre-hillbilly-cover.jpg",
     gallery: [
-      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-01.jpg",
-      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-02.jpg",
       "assets/img/films/hillbilly/samantha-andre-hillbilly-still-03.jpg",
-      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-04.jpg",
-      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-05.jpg",
-      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-06.jpg",
-      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-07.jpg",
-      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-08.jpg",
-      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-09.jpg",
-      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-10.jpg",
-      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-11.jpg",
-      "assets/img/films/hillbilly/samantha-andre-hillbilly-still-12.gif"
     ]
   },
   {
@@ -535,10 +440,6 @@ const FILMS = [
     moreVideos: [
       { url: "https://www.youtube.com/watch?v=63kjNSkk1pw&t=38s", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-01.jpg" },
       { url: "https://www.youtube.com/watch?v=NFBvlFqXkOA", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-02.jpg" },
-      { url: "https://www.youtube.com/watch?v=FPFWL1QFLdQ", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-03.jpg" },
-      { url: "https://www.youtube.com/watch?v=MzF3EsxqNac", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-04.jpg" },
-      { url: "https://www.youtube.com/watch?v=Wqv1bmHGijE", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-05.jpg" },
-      { url: "https://www.youtube.com/watch?v=Dth2Tm9apDw", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-06.jpg" },
       { url: "https://www.youtube.com/watch?v=b24GVsz-4qE&list=PLyh2_4YA_K7kdRDKnYiuQHwsamzZNkWLD&index=7&t=0s", poster: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-video-07.jpg" }
     ],
     credits: [
@@ -552,62 +453,6 @@ const FILMS = [
     synopsis: "RIVALS continues to get on the field and into the ring through a series of compelling stories at the fringe of culture and politics. Episodes feature the Calcio Storico, Algerian soccer, and Aussie football, amongst others. The show was Emmy nominated and the first season won a 2017 Producers Guild of America Award for Outstanding Sports Program.",
     cover: "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-cover.jpg",
     gallery: [
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-01.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-02.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-03.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-04.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-05.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-06.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-07.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-08.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-09.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-10.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-11.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-12.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-13.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-14.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-15.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-16.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-17.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-18.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-19.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-20.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-21.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-22.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-23.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-24.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-25.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-26.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-27.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-28.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-29.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-30.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-31.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-32.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-33.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-34.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-35.gif",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-36.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-37.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-38.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-39.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-40.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-41.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-42.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-43.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-44.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-45.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-46.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-47.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-48.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-49.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-50.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-51.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-52.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-53.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-54.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-55.jpg",
-      "assets/img/films/vice-world-of-sports-rivals/samantha-andre-vice-world-of-sports-rivals-still-56.gif"
     ]
   },
   {
@@ -628,15 +473,6 @@ const FILMS = [
     synopsis: "Short films commissioned by the ACLU (American Civil Liberties Union). The first story features Robert Mitchell, who successfully sued the Bakersfield Police Dept. for unlawful arrest. The second story focuses on the ACLU’s efforts to mobilize and organize pro-bono attorneys after the U.S. sent thousands of immigrant detainees to federal prison and deprived them of their basic human rights.",
     cover: "assets/img/films/aclu/samantha-andre-aclu-cover.jpg",
     gallery: [
-      "assets/img/films/aclu/samantha-andre-aclu-still-01.jpg",
-      "assets/img/films/aclu/samantha-andre-aclu-still-02.jpg",
-      "assets/img/films/aclu/samantha-andre-aclu-still-03.jpg",
-      "assets/img/films/aclu/samantha-andre-aclu-still-04.jpg",
-      "assets/img/films/aclu/samantha-andre-aclu-still-05.jpg",
-      "assets/img/films/aclu/samantha-andre-aclu-still-06.jpg",
-      "assets/img/films/aclu/samantha-andre-aclu-still-07.png",
-      "assets/img/films/aclu/samantha-andre-aclu-still-08.jpg",
-      "assets/img/films/aclu/samantha-andre-aclu-still-09.gif"
     ]
   },
   {
@@ -670,14 +506,7 @@ const FILMS = [
     synopsis: "Live Nation TV delivers unprecedented access to touring artists, producing an exclusive original documentary series. Featured artists include Garbage, Chris Cornell, Leon Bridges, Heart, and more.",
     cover: "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-cover.jpg",
     gallery: [
-      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-01.jpg",
-      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-02.jpg",
-      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-03.jpg",
-      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-04.jpg",
       "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-05.jpg",
-      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-06.gif",
-      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-07.gif",
-      "assets/img/films/vice-x-live-nation/samantha-andre-vice-x-live-nation-still-08.gif"
     ]
   }
 ];
